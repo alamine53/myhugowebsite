@@ -36,7 +36,7 @@ disqusShortname = "yourdiscussshortname"
 
   [[menu.main]]
     name = "CV"
-    url = "/files/AlAmine_CV.pdf"
+    url = "/files/alamine_cv.pdf"
     weight = 4
 
 
