@@ -44,7 +44,7 @@ disqusShortname = "yourdiscussshortname"
 [params]
     since = 2019
     author = "Ramzy Al-Amine"               # Author's name
-    subtitle = "Economic Analyst, Music Producer, Ex-national Basketball Player for Team Lebanon"       # Subtitle
+    subtitle = "Analyst @ IMF. I also make beats and do research about basketball."       # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
 
