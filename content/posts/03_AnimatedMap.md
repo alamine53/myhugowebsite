@@ -12,7 +12,7 @@ series:
 - Hugo 101
 ---
 
-The 2018-19 NBA off-season was home to blockbuster trades and big time free agent signings that reshaped the balance of power in the league. I decided to depict all this frenzy by building an animated map in R. Besides simply showing the movement of players from one team to another, my goal was to also give a sense of the amount of statistical production that was reallocated.
+Major reshuffling happened in the NBA over the summer. Superstars were being moved around in succession, shifting the balance of power almost overnight. Pundits even dubbed it "one of the greatest off-season in recent history." I decided to depict all of the frenzy by building an animated map in R. Besides simply showing the movement of players, my goal was to also give a sense of the amount of statistical production that was reallocated.
 
 ![Animated map] (/images/posts/animation.gif)
 
