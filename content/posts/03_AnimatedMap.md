@@ -2,11 +2,11 @@
 author:
   name: "Ramzy Al-Amine"
 date: 2019-08-14
-linktitle: "[Basketball] An Animated Map of NBA Player Transactions"
+linktitle: "[Basketball] Animated Map of NBA Player Transactions"
 type:
 - post 
 - posts
-title: An Animated Map of NBA Player Transactions
+title: Animated Map of NBA Player Transactions
 weight: 10
 series:
 - Hugo 101

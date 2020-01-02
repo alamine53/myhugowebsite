@@ -2,11 +2,11 @@
 author:
   name: "Ramzy Al-Amine"
 date: 2019-06-01
-linktitle: Counting Team Gains from a Trip to the Playoffs
+linktitle: Returns on NBA Playoff Experience using Regression Discontinuity
 type:
 - post 
 - posts
-title: Counting Team Gains from a Trip to the Playoffs
+title: Returns on NBA Playoff Experience using Regression Discontinuity
 weight: 10
 series:
 - Hugo 101
