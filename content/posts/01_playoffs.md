@@ -2,11 +2,11 @@
 author:
   name: "Ramzy Al-Amine"
 date: 2019-06-01
-linktitle: Returns on NBA Playoff Experience using Regression Discontinuity
+linktitle: Returns on Playoff Experience using Regression Discontinuity
 type:
 - post 
 - posts
-title: Returns on NBA Playoff Experience using Regression Discontinuity
+title: Returns on Playoff Experience (using Regression Discontinuity)
 weight: 10
 series:
 - Hugo 101
