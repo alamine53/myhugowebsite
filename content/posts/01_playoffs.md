@@ -15,31 +15,45 @@ series:
 
 ![Image from the web] (/images/posts/post1_webimage.jpg)
 
-Most NBA teams follow the championship-or-bust model. If you don't have what it takes to compete for a championship, you are probably better off tanking. In this post, I use the concept of regression discontinuity to analyze the returns for teams who barely make the playoffs versus those who just miss it.
+Despite a positive showing in Game 1, the Brooklyn Nets were eliminated just five games into their 2018-19 playoff campaign. Given their rather unimpressive roster, some might argue that they were better off tanking. Instead, they marked their first playoff appearance since 2013 and looked to be on the verge of turning a corner as an organization. 
 
-# Introduction
+Just below them in the rankings, the Charlotte Hornets witnessed a very different fate going into the next season. While the Nets added superstars Kyrie and Kevin Durant, the Hornets lost their primary scorer and all-star Kemba Walker in the off-season. Despite finishing only 2 wins apart from each other, these teams witnessed diverging paths as a result .
 
-Despite a positive showing in Game 1 against the Sixers, the Brooklyn Nets were eliminated just five games into their 2018-19 playoff campaign. Given their mostly unimpressive roster, some might argue the Nets were better off tanking. Instead, they defied the odds by fininshing 8th in the East and marking their first playoff appearance since 2013. Just below the Nets, the Charlotte Hornets fell just two games short. Although their records were fairly close, each team saw a very different progression into the following season.
+The NBA tends to follow the championship-or-bust model: If a team doesn't have what it takes to compete for a chip, they're probably better off tanking for a higher draft pick. It might seem like a trivial choice for those at the bottom but should those who are middle-of-the-pack compete or give in to the power of the ping pong balls? In this post, I use the concept of regression discontinuity to see whether those around the playoff admission threshold have more to gain from making the playoffs or missing it.
 
-It’s not entirely clear why weaker teams in the NBA should compete for a playoff ticket. Perhaps a stroke of luck in the lottery would provide more bang-on-the-buck than a hopeless playoff run. But as I will demonstrate in this post, the playoffs provide a tremendous return on investment even for those who exit early. 
+Regression discontinuity consists of focusing on observations around a certain admission threshold. The idea is that, over a large enough sample, those observations would be identical in every way other than whether or not they were admitted. This method is used to numerically measure the returns of a certain *treatment* effect whose assignment is based on a continuous variable.
 
-# Data
+Applying this to the NBA, a trip to the playoffs can be viewed as a $treatment$ for which we are interested in measuring the returns. In other words, what is the true effect of making the playoffs in a given year? For that, we would need to focus our analysis on those just around the playoff admission threshold ~ i.e. 8-seeds and 9-seeds, rather than the whole sample. The reason is that those at the top are systematically better than those at the bottom, therefore they cannot be compared against each other. 
 
-Let us consider teams around the playoff admission threshold - i.e. 8 seeds and 9 seeds. Although they are close in ability level, they receive very different outcomes: 9-seeds earn a lottery seat and no post-season exposure, while 8-seeds earn a chance to compete for a championship. 
+Given that they are close in end-of-season seeding, we can infer that teams around the cutoff point are *very* close in ability levels. The only thing that separates them is that some (8th seeds) *happened* to make the playoffs. Otherwise, they are basically identical. As a result, any difference in outcome can be attributed to the treatment effect ~ i.e. making the playoffs. 
 
-Now, historically, 8-seeds have fared miserably in the post-season. Only 5 times in the past 35 years has an 8-seed been able to overthrow their first round opponent. Neither of those of 5 times materialized in hardware. For the 9-seeds, however, the luck may swing in their favor. meanwhile, have had incredible luck in the lottery. [provide example]
+The dependent variable is performance in the following season. In other words, the *treatment effect* is measured in terms of the difference in win percentage (in season *t+1*) for those who barely make the playoffs versus those who barely miss it. 
 
+Note that peformance *during* the playoffs is completely irrelevenat. Whether a team witnesses a first round sweep or makes it all the way to the finals is the same for the sake of the analysis. Either way, 8-seeds typically fare miserably in the post-season. Only 5 times in the last 35 years has an 8-seed been able to get past the first round, and neither of those has lead to a championship. 
 
-# Results
+Those who finish 9th don’t participate in the post-season at all. Instead, they earn a spot in the lottery which gives them a first-hand shot at improving their long-term future throught the draft. Although it’s rare than a 9-seed wins the first overall pick (it happened once in 1993), a top-5 position is not out of the picture. In the last X years, they have earned a top-6 pick X times and a top-10 pick X+5 times. 
 
-It could be said that the benefits balance each other out, but the data suggests otherwise. Looking at following season performance, 8-seeds fare remarkably better. On average, their winning record jumps by 6 percent whereas 9-seeds see a 2 percent reduction.
+So, one could argue that 9-seeds have at least *something* to gain from missing the playoffs. As such, there is no reason to believe than 8-seeds are in a better position going forward, unless a few playoff games can make a difference. But what does the data say? How do 8-seeds perform, on average, relative to 9-seeds in the following season?
+
+This is an interesting question because, given their ranking, both teams are fairly close in ability level, so unless the playoff provides some sort of benefit, one should expect them to progress uniformly.
+
+However, the data suggests that 8th seeds are much more likely to improve in the following season than 9th seeds. In fact, 9th seeds are more likely to regress. On average, 8th seeds experience a 2.1 percent improvement while 9th seeds experience a 5.9 percent drop. The difference between the average outcomes – which is 8.0 percent – can be thought of as the average treatment effect, or the returns from playoff experience. 
+
 
 ![RD Chart] (/images/posts/post1_chart1.png)
 
-The question then becomes: where is this improvement coming from? Well, there is no greater test to a team’s potential than a playoff series. Tankers can accumulate as much talent as they like, but if this talent is not put to test then it will vanish. Eventually, the good players are likely to leave for bigger opportunities. One example is the Phoenix Suns who have gathered an impressive collection of talents, yet have struggled to make anything out of it. Soon, Booker and X, their primary talents, will opt out once they see hope for a ring elsewhere. 
+The question then becomes, where is this difference in future performance coming from? 
 
-Post-season appearance can also help a team’s visibility on the free agent market. Star players are much more likely to choose destinations where they are promised a chance at the playoffs. A few weeks after their first round exit, the Nets were able to sign Durant and Irving, gaining the edge over their next-door rival, the New York Knicks. The Knicks, who have found refuge at the bottom of the standings, have struggled to attract free agents despite being considered the “Mecca of Basketball.”
+The benefits from being in a playoff series are many, especially for teams with promising but unpolished players. For one, the incredibly competitive environment is are great for learning and provides tremendous growth opportunities for players at their start of their careers. The 2017-18 season witnessed the come-up of Jayson Tatum who put the short-handed Celtics team on his back during the playoffs. Tatum now looks to be the centerpiece for the Celtics’ future as the team looks to build around them.
 
-# Conclusion
+Most playoff games are nationally-televised, providing a chance for players to make a name for themselves at the biggest stage. This year was the turn for players like Jamal Murray, D’Angelo Russell, and Derrick White – whose names seemed to echo in every Sports Center highlight. With such wide recognition, these players are more likely to become stars and earn interest from the big teams around the league. Russell is a proof of that as the Golden State Warrior sought him in return for losing their primary scorer – Kevin Durant. Before his brief stunt with the Nets, which was solidified in the playoffs, Russell was a loosely traded commodity around the league.
 
-Next time you think a certain team should be tanking, know that they would miss out on something valuable. Perhaps the momentum will carry them into unprecedented success. Perhaps a star is born in those few games. Perhaps a struggling Point Guard gains confidence from shining on the biggest stage. Perhaps they trade for that missing piece. How ever long it may last, make no mistake that being in the playoffs is better than out of it. 
+The playoffs also makes teams more attractive as a destination for good coaches and star players around the league. Teams competing in the playoffs give signs of seriousness when it comes to the desire to win. It sends a signal that they will do what it takes to get closer to a championship. Indeed, a perfect illustration of this is the Brooklyn Nets who had an incredible off-season attracting two of the league’s biggest names versus the New York Knicks who failed to make any meaningful signing despite their desparate needs for that. Both teams had both the cap space and the intent to bring-in Durant and Irving, yet the Brooklyn side was a clear favorite for the star duo.
+
+The playoffs also does wonders to team chemistry. There’s no question that a first-round exit from the 2017-18 playoffs has brought the Milwaukee Bucks closer to being a contender in the East. They are now a couple of games away from their first Finals appearance since 1974. It would be no surprise to see the Brooklyn Nets take a similar leap next year.
+
+All of these factors provide tangible benefits team more attractive as a destination for good coaches and free agents during the off-season. When exploring the market, more talented players are likely to choose teams where they are certain to play at the big stage, so having recently been in the post-season improves a team’s chances of landing big names.
+
+Even with little chance of going all the way, teams who make the playoffs are in for a treat. 8th seeds typically exit from the first round because they face the top seed, yet despite this, we see a significant difference in their future performance relative to the 9th seed. This can be traced to the “playoffs effect.”
+
+This is an important finding because it shows that teams can build on their roster without needing to go through the lottery. The playoffs provide a valuable stepping stone for that. Sure, the lottery may have something out there, but only by going through the trials and tribulations does a team eventually become a serious contender.
