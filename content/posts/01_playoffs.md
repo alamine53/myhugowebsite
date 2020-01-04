@@ -12,14 +12,11 @@ series:
 - Hugo 101
 ---
 
-
-![Image from the web] (/images/posts/post1_webimage.jpg)
-
 Despite a positive showing in Game 1, the Brooklyn Nets were eliminated just five games into their 2018-19 playoff campaign. Given their rather unimpressive roster, some might argue that they were better off tanking. Instead, they marked their first playoff appearance since 2013 and looked to be on the verge of turning a corner as an organization. 
 
-Just below them in the rankings, the Charlotte Hornets witnessed a very different fate going into the next season. While the Nets added superstars Kyrie and Kevin Durant, the Hornets lost their primary scorer and all-star Kemba Walker in the off-season. Despite finishing only 2 wins apart from each other, these teams witnessed diverging paths as a result .
+Just below them in the rankings, the Charlotte Hornets witnessed a very different fate going into the next season. While the Nets added superstars Kyrie Irving and Kevin Durant, the Hornets lost their primary scorer and all-star Kemba Walker. Despite finishing only 2 wins apart from each other, these teams witnessed diverging paths.
 
-The NBA tends to follow the championship-or-bust model: If a team doesn't have what it takes to compete for a chip, they're probably better off tanking for a higher draft pick. It might seem like a trivial choice for those at the bottom but should those who are middle-of-the-pack compete or give in to the power of the ping pong balls? In this post, I use the concept of regression discontinuity to see whether those around the playoff admission threshold have more to gain from making the playoffs or missing it.
+The NBA tends to follow the championship-or-bust model: If a team doesn't have what it takes to compete for a chip, they're probably better off tanking for a higher draft pick. It might seem like a trivial choice for those at the bottom but should those who are middle-of-the-pack also give in to the power of the ping pong balls? In this post, I use the concept of regression discontinuity to see whether those around the playoff admission threshold have more to gain from making the playoffs or missing it.
 
 Regression discontinuity consists of focusing on observations around a certain admission threshold. The idea is that, over a large enough sample, those observations would be identical in every way other than whether or not they were admitted. This method is used to numerically measure the returns of a certain *treatment* effect whose assignment is based on a continuous variable.
 
