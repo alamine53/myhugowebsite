@@ -1,4 +1,4 @@
-baseURL = "https://ramzyalamine.com"
+baseURL = "https://ralamine.com"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "Ramzy Al-Amine"
@@ -23,6 +23,7 @@ disqusShortname = "yourdiscussshortname"
 [Permalinks]
  posts = "/:year/:filename/"
  research = "/:year/:filename/"
+ blog = "https://courtsidecoder.home.blog"
 
 [menu]
   [[menu.main]]
