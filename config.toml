@@ -28,7 +28,7 @@ disqusShortname = "yourdiscussshortname"
 [menu]
   [[menu.main]]
     name = "Blog"
-    url = "/posts/"
+    url = "https://courtsidecoder.home.blog"
     weight = 1
 
   [[menu.main]]
@@ -64,7 +64,7 @@ disqusShortname = "yourdiscussshortname"
     license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
 [params.gravatar]
-    #email = "ramzyalamine@gmail.com"   #uncomment and insert your email address to use gravatar
+    email = "ramzyalamine@gmail.com"   #uncomment and insert your email address to use gravatar
 
 
 [params.social]
