@@ -23,11 +23,16 @@ disqusShortname = "yourdiscussshortname"
 [Permalinks]
  posts = "/:year/:filename/"
  research = "/:year/:filename/"
- blog = "https://courtsidecoder.home.blog"
+ blog = "/:year/:filename/"
 
 [menu]
   [[menu.main]]
     name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+ [[menu.main]]
+    name = "Basketball Analytics"
     url = "https://courtsidecoder.home.blog"
     weight = 1
 
@@ -45,7 +50,7 @@ disqusShortname = "yourdiscussshortname"
 [params]
     since = 2019
     author = "Ramzy Al-Amine"               # Author's name
-    subtitle = "Analyst @ IMF"       # Subtitle
+    subtitle = "Machine Learning @ IMF"       # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
 
@@ -55,7 +60,7 @@ disqusShortname = "yourdiscussshortname"
     pinterest_verification = ""
     baidu_verification = ""
 
-    #avatar = "/images/me/180pixels.png" #comment it to use gravatar
+    avatar = "/images/me/180pixels.png" #comment it to use gravatar
     socialShare = true
 
     description = "Ramzy's personal website / portfolio" # site description
@@ -64,7 +69,7 @@ disqusShortname = "yourdiscussshortname"
     license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
 [params.gravatar]
-    email = "ramzyalamine@gmail.com"   #uncomment and insert your email address to use gravatar
+    #email = "ramzyalamine@gmail.com"   #uncomment and insert your email address to use gravatar
 
 
 [params.social]
@@ -119,7 +124,7 @@ disqusShortname = "yourdiscussshortname"
     #Deviantart = "xxxx"
     #Behance = "xxxx"
     #Dribble = "xxxx"
-    #Wordpress = "xxxx"
+    #Wordpress = "courtsidecoder"
     #Vine = "xxxx"
     #Googlescholar = "xxxx"
     #Researchgate = "xxxx"
