@@ -32,7 +32,7 @@ disqusShortname = "yourdiscussshortname"
     weight = 1
 
  [[menu.main]]
-    name = "Basketball Analytics"
+    name = "B-ball Analytics Site"
     url = "https://courtsidecoder.home.blog"
     weight = 1
 
