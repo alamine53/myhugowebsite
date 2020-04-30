@@ -2,11 +2,11 @@
 author:
   name: "Ramzy Al-Amine"
 date: 2019-06-01
-linktitle: Returns on Playoff Experience using Regression Discontinuity
+linktitle: Getting out of stress
 type:
 - post 
 - posts
-title: Returns on Playoff Experience (using Regression Discontinuity)
+title: Getting out of stress
 weight: 10
 series:
 - Hugo 101
