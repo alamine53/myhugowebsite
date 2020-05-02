@@ -23,8 +23,8 @@ disqusShortname = "yourdiscussshortname"
 [Permalinks]
  posts = "/:year/:filename/"
  about = "/:year/:filename/"
- pubs = "/:year/:filename/"
- #publications = "/:year/:filename/"
+ #pubs = "/:year/:filename/"
+ publications = "/:year/:filename/"
  #blog = "/:year/:filename/"
 
 [menu]

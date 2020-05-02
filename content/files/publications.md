@@ -1,12 +1,12 @@
 ---
 title: "Publications"
 date: 2020-04-30T11:53:42-04:00
-draft: true
-description:
+draft: false
+description: list of academic and non-academic publications. 
 categories:
  -
 featured_image:
-author: ""
+author: "RAlAmine"
 ---
 
 # Academic Papers
