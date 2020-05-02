@@ -23,6 +23,7 @@ disqusShortname = "yourdiscussshortname"
 [Permalinks]
  posts = "/:year/:filename/"
  about = "/:year/:filename/"
+ pubs = "/:year/:filename/"
  #publications = "/:year/:filename/"
  #blog = "/:year/:filename/"
 
@@ -35,7 +36,7 @@ disqusShortname = "yourdiscussshortname"
 
   [[menu.main]]
     name = "Publications"
-    url = "/research/list"
+    url = "/files/publications"
     weight = 2
 
   #[[menu.main]]
@@ -149,10 +150,10 @@ Linkedin = true
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 
 [author]
-  name = "Fastbyte01"
+  name = "RAlAmine"
 
   [params.publisher]
-    name = "Fastbyte01"
+    name = "RAlAmine53"
 
     [params.publisher.logo]
       url = "logo.png"
