@@ -38,10 +38,20 @@
     }
 
     .post-content {
+        font-family: 'Helvetica';
+        font-weight: 300;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 2 em;
         padding-top: 2rem;
 
-        h2,
-        h3,
+        h2, {
+        font-family: 'JetBrainsMono'
+        }
+
+        h3, {
+        font-family: 'JetBrainsMono'
+        }
         h4,
         h5,
         h6 {
