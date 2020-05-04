@@ -45,16 +45,25 @@
         line-height: 2 em;
         padding-top: 2rem;
 
-        h2, {
+        h1 {
+        font-family: 'JetBrainsMono';
+        font-size: 24px;
+        }
+        h2 {
         font-family: 'JetBrainsMono'
         }
 
-        h3, {
+        h3 {
         font-family: 'JetBrainsMono'
         }
-        h4,
-        h5,
+        h4 {
+        font-family: 'JetBrainsMono'
+        }
+        h5 {
+        font-family: 'JetBrainsMono'
+        }  
         h6 {
+            font-family: 'JetBrainsMono';
             padding-top: .8em;
             padding-bottom: .3em;
         }
