@@ -1,6 +1,6 @@
 baseURL = "https://ramzyalamine.com"
 languageCode = "en"
-defaultContentLanguage = "ar"
+defaultContentLanguage = "en"
 title = "Ramzy Al-Amine"
 theme = "KeepIt"
 
@@ -25,7 +25,7 @@ disqusShortname = "yourdiscussshortname"
  about = "/:year/:filename/"
  #pubs = "/:year/:filename/"
  publications = "/:year/:filename/"
- #blog = "/:year/:filename/"
+ blog = "/:year/:filename/"
 
 [menu]
 
@@ -38,6 +38,11 @@ disqusShortname = "yourdiscussshortname"
     name = "Publications"
     url = "/files/publications"
     weight = 2
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts"
+    weight = 3
 
   #[[menu.main]]
    # name = "CV"

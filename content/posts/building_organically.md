@@ -8,6 +8,7 @@ type:
 - posts
 title: Why More Talent Can be Detrimental for NBA Teams
 weight: 10
+draft: true
 series:
 - Hugo 101
 ---

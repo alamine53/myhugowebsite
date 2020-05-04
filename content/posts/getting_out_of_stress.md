@@ -8,6 +8,7 @@ type:
 - posts
 title: Getting out of stress
 weight: 10
+draft: true
 series:
 - Hugo 101
 ---

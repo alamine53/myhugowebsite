@@ -7,6 +7,7 @@ type:
 - post 
 - posts
 title: Measuring the Contribution of Coaches in the NBA
+draft: true
 weight: 10
 series:
 - Hugo 101
