@@ -2,12 +2,13 @@
 author:
   name: "Ramzy Al-Amine"
 date: 2019-06-01
-linktitle: Returns on Playoff Experience using Regression Discontinuity
+linktitle: My Favorite Music Albums
 type:
 - post 
 - posts
-title: Returns on Playoff Experience (using Regression Discontinuity)
+title: The Top 10 Albums That Have Influenced My Taste in Music
 weight: 10
+draft: false
 series:
 - Hugo 101
 ---

@@ -25,7 +25,7 @@ disqusShortname = "yourdiscussshortname"
  about = "/:year/:filename/"
  #pubs = "/:year/:filename/"
  publications = "/:year/:filename/"
- blog = "/:year/:filename/"
+ #blog = "/:year/:filename/"
 
 [menu]
 
