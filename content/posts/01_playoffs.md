@@ -2,22 +2,33 @@
 author:
   name: "Ramzy Al-Amine"
 date: 2019-06-01
-linktitle: My Favorite Music Albums
+linktitle: The Value of Playoff Experience (Using Regression Discontinuity)
 type:
 - post 
 - posts
-title: The Top 10 Albums That Have Influenced My Taste in Music
+title: The Value of Playoff Experience
+subtitle: in this article ... 
 weight: 10
 draft: false
 series:
 - Hugo 101
 ---
 
-Despite a positive showing in Game 1, the Brooklyn Nets were eliminated just five games into their 2018-19 playoff campaign. Given their rather unimpressive roster, some might argue that they were better off tanking. Instead, they marked their first playoff appearance since 2013 and looked to be on the verge of turning a corner as an organization. 
+### Summary
 
-Just below them in the rankings, the Charlotte Hornets witnessed a very different fate going into the next season. While the Nets added superstars Kyrie Irving and Kevin Durant, the Hornets lost their primary scorer and all-star Kemba Walker. Despite finishing only 2 wins apart from each other, these teams witnessed diverging paths.
+In this post, I apply the concept of regression discontinuity to estimate the value of playoff experience in terms of gains in team performance over the following season. I find that, on average, 8th seeds (those who barely make the playoffs) gain 8 percent additional wins relative to 9th seeds (those who barely miss it). These results are subject to vary given the small sample size.
 
-The NBA tends to follow the championship-or-bust model: If a team doesn't have what it takes to compete for a chip, they're probably better off tanking for a higher draft pick. It might seem like a trivial choice for those at the bottom but should those who are middle-of-the-pack also give in to the power of the ping pong balls? In this post, I use the concept of regression discontinuity to see whether those around the playoff admission threshold have more to gain from making the playoffs or missing it.
+### Background
+
+Despite a positive showing in Game 1, the Brooklyn Nets were eliminated just five games into their 2018-19 playoff campaign. Given their rather unimpressive roster, some might argue that they were better off tanking. Over the next few weeks, however, they added all-stars Kyrie Irving and Kevin Durant as they seemed to turn a corner as a franchise. 
+
+Just below them in the rankings, the Charlotte Hornets finished only 2 wins short of playoff birth. Over the next few weeks, the Hornets lost their captain Kemba Walker. Those two teams were close in ability, as indicated by their winning records, yet their progression couldn't be different.
+
+I am interested in the question of how much does a trip to the playoffs matter for a team going to next season. At face value, it seems like those who do make the playoffs, even as an 8th seed, gain in the following season. Whether it is that the players gain confidence, or that the team gains attractability in the free agency market, it seems like playoff birth does signal good things. 
+
+### Method 
+
+Given that playoff admission is determined by ranking, this question can be viewed through the lens of regression discontinuity. 
 
 Regression discontinuity consists of focusing on observations around a certain admission threshold. The idea is that, over a large enough sample, those observations would be identical in every way other than whether or not they were admitted. This method is used to numerically measure the returns of a certain *treatment* effect whose assignment is based on a continuous variable.
 

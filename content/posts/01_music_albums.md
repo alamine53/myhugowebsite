@@ -12,7 +12,7 @@ draft: false
 series:
 - Hugo 101
 ---
-A Facebook game is circulating where, if nominated, you are asked to post covers of music albums that were most influential to you. For whatever reason, I feel intrusive inundating people's feeds, but I do find the premise of the game enjoyable. Some albums mark personal milestones and going through the exercise of recalling them can give perspective about our musical journey (whatever this means, you get the point). 
+A Facebook game is circulating where, if nominated, you are asked to post covers of music albums that were most influential to you. For whatever reason, I feel intrusive inundating people's feeds, but I do find the premise of the game enjoyable. Some albums mark personal milestones and going through the exercise of recalling them can give a sense of perspective.
 
 I'm blogging about my 'favorite' albums here - if not for you (the reader) then for me. I like having a list I can add onto in the future. So without further ado, here are the top 10 albums that have influenced my taste in music (no particular order).
 
