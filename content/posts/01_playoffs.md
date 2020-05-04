@@ -16,23 +16,32 @@ series:
 
 ### Summary
 
-In this post, I apply the concept of regression discontinuity to estimate the value of playoff experience in terms of gains in team performance over the following season. I find that, on average, 8th seeds (those who barely make the playoffs) gain 8 percent additional wins relative to 9th seeds (those who barely miss it). These results are subject to vary given the small sample size.
+In this post, I apply the concept of regression discontinuity to estimate the value of playoff experience in the NBA. I find that, on average, 8th seeds (those who barely make the playoffs) gain 8 percent additional wins relative to 9th seeds (those who barely miss it) going into the next season. These results are subject to vary given the small sample size.
 
 ### Background
 
-Despite a positive showing in Game 1, the Brooklyn Nets were eliminated just five games into their 2018-19 playoff campaign. Given their rather unimpressive roster, some might argue that they were better off tanking. Over the next few weeks, however, they added all-stars Kyrie Irving and Kevin Durant as they seemed to turn a corner as a franchise. 
+Despite a positive showing in Game 1, the Brooklyn Nets were eliminated just five games into their 2018-19 playoff campaign. Some might argue that they were better off tanking given their star-less roster. But over the next few weeks, they added all-stars Kyrie Irving and Kevin Durant as they seemed to turn a corner as a franchise. 
 
-Just below them in the rankings, the Charlotte Hornets finished only 2 wins short of playoff birth. Over the next few weeks, the Hornets lost their captain Kemba Walker. Those two teams were close in ability, as indicated by their winning records, yet their progression couldn't be different.
+The Charlotte Hornets finished only 2 wins short of the Nets. In the ensuing off-season, they lost their captain Kemba Walker and seemed to have taken a step backwards. Does a trip to the playoffs have anything to do with these teams' progression?
 
 I am interested in the question of how much does a trip to the playoffs matter for a team going to next season. At face value, it seems like those who do make the playoffs, even as an 8th seed, gain in the following season. Whether it is that the players gain confidence, or that the team gains attractability in the free agency market, it seems like playoff birth does signal good things. 
 
 ### Method 
 
-Given that playoff admission is determined by ranking, this question can be viewed through the lens of regression discontinuity. 
+Given that playoff admission is determined by regular season ranking, this question lends itself well to the concept of regression discontinuity. 
 
-Regression discontinuity consists of focusing on observations around a certain admission threshold. The idea is that, over a large enough sample, those observations would be identical in every way other than whether or not they were admitted. This method is used to numerically measure the returns of a certain *treatment* effect whose assignment is based on a continuous variable.
+Regression discontinuity consists of estimating a 'treatment effect' for interventions assigned based on a cutoff point. In other words, when a 'treatment' is assigned to observations that fall above or below a certain threshold (e.g. test scores, height, winning record... etc), it is possible to estimate the impact of this treatment by looking at observations just around that threshold. 
 
-Applying this to the NBA, a trip to the playoffs can be viewed as a $treatment$ for which we are interested in measuring the returns. In other words, what is the true effect of making the playoffs in a given year? For that, we would need to focus our analysis on those just around the playoff admission threshold ~ i.e. 8-seeds and 9-seeds, rather than the whole sample. The reason is that those at the top are systematically better than those at the bottom, therefore they cannot be compared against each other. 
+The idea is that observations around threshold are much more likely to be similar than those far from it. would be identical in every way other than whether or not they were admitted. This method is used to numerically measure the returns of a certain *treatment* effect whose assignment is based on a continuous variable.
+
+### Analysis
+
+In the NBA, playoff admission is based on end-of-season ranking. Those figuring in the top 8 of their conference advance to the post-season while all others are sent home. We can think of this as a **regression discontinuity design** where a trip to the playoffs can be considered a treatment. There is a clear admission threshold between 8th and 9th seeds. 
+
+I am interestied in estimating the 'treatment effect', i.e. the returns from a trip to the playoffs. In this case, the y-variable will be the difference in wins from season t to season t + 1. 
+
+
+ Applying this to the NBA, a trip to the playoffs can be viewed as a $treatment$ for which we are interested in measuring the returns. In other words, what is the true effect of making the playoffs in a given year? For that, we would need to focus our analysis on those just around the playoff admission threshold ~ i.e. 8-seeds and 9-seeds, rather than the whole sample. The reason is that those at the top are systematically better than those at the bottom, therefore they cannot be compared against each other. 
 
 Given that they are close in end-of-season seeding, we can infer that teams around the cutoff point are *very* close in ability levels. The only thing that separates them is that some (8th seeds) *happened* to make the playoffs. Otherwise, they are basically identical. As a result, any difference in outcome can be attributed to the treatment effect ~ i.e. making the playoffs. 
 
