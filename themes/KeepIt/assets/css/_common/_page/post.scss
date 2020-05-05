@@ -40,13 +40,13 @@
     .post-content {
         font-family: 'Helvetica';
         font-weight: 300;
-        font-size: 16px;
+        font-size: 14px;
         font-style: normal;
         line-height: 2 em;
         padding-top: 2rem;
         color: $light-font-secondary-color;
         .dark-theme & {
-                color: $dark-font-secondary-color;
+                color: $dark-navbar-active-color;
             }
 
         h1 {
@@ -67,23 +67,33 @@
 
         h3 {
         font-family: 'JetBrainsMono';
+        color: $light-font-secondary-color;
         .dark-theme & {
                 color: $dark-font-color;
             }
         }
         h4 {
         font-family: 'JetBrainsMono';
+        color: $light-font-secondary-color;
         .dark-theme & {
                 color: $dark-font-color;
             }
         }
         h5 {
-        font-family: 'JetBrainsMono'
+        font-family: 'JetBrainsMono';
+        color: $light-font-secondary-color;
+        .dark-theme & {
+                color: $dark-font-color;
+            }
         }  
         h6 {
             font-family: 'JetBrainsMono';
             padding-top: .8em;
             padding-bottom: .3em;
+            color: $light-font-secondary-color;
+        .dark-theme & {
+                color: $dark-font-color;
+            }
         }
         h2::before {
             content: "#";
