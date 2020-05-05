@@ -16,7 +16,7 @@ series:
 
 ### Summary
 
-In this post, I apply the concept of regression discontinuity to estimate the value of playoff experience in the NBA. I find that, on average, 8th seeds (those who barely make the playoffs) gain 8 percent additional wins relative to 9th seeds (those who barely miss it) going into the next season. These results are subject to vary given the small sample size.
+I apply the concept of regression discontinuity to estimate the value of playoff experience in the NBA. I find that, on average, 8th seeds (those who barely make the playoffs) gain 8 percent additional wins relative to 9th seeds (those who barely miss it) going into the next season. These results are subject to vary given the small sample size.
 
 ### Background
 

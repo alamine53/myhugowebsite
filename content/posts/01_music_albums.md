@@ -3,12 +3,13 @@ author:
   name: "Ramzy Al-Amine"
 date: 2020-04-01
 linktitle: Top 10 Albums That Have Influenced My Taste In Music
+category: Music
 type:
 - post 
 - posts
 title: Top 10 Albums That Have Influenced My Taste In Music
 weight: 10
-draft: false
+draft: true
 series:
 - Hugo 101
 ---
