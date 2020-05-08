@@ -9,7 +9,6 @@
 	/* Roboto */
 	@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900);
 
-  
   html {
     &::-webkit-scrollbar {
       width: 8px;
@@ -40,8 +39,13 @@
     url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf') format('truetype');
   font-weight: 200;
   line-height: 2 em;
-  
-}
+  }
+
+  @font-face{
+  font-family: 'Barlow', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Barlow+Semi+Condensed&family=Oswald&display=swap');
+  }
+
   body {
     font-family: 'JetBrainsMono';
     src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
@@ -71,6 +75,11 @@
       filter: grayscale(100%);
       filter: gray;
     }
+
+  body {
+    font-family: 'Barlow', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Barlow+Semi+Condensed&family=Oswald&display=swap');
+  }
 
      &.dark-theme {
         background-color: $dark-background-color;
