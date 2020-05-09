@@ -12,9 +12,8 @@ series:
 - Hugo 101
 ---
 
-Some major reshuffling occurred over the summer in the NBA. Pundits called it one of the greatest off-season in recent history as the league witnessed a shift in the balance of powers almost overnight. It's not all surprising given the quality of the players that were shipped around. 
+The 2018-19 summer might've the greatest off-season in NBA history. Here's why.
 
-I decided to test my R skills by trying to depict all of the frenzy in an animated map. Besides simply showing the movement of players, my goal was to also give a sense of the amount of statistical production that was reallocated.
 
-![Animated map] (/images/posts/animation.gif)
+![Animated map] (/images/posts/animation_plain.gif)
 

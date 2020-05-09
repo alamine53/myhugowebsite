@@ -6,7 +6,7 @@ linktitle: The Value of Playoff Experience (Using Regression Discontinuity)
 type:
 - post 
 - posts
-title: The Value of Playoff Experience
+title: The Value of Playoff Experience (Using Regression Discontinuity)
 subtitle: in this article ... 
 weight: 10
 draft: false
