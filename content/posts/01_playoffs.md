@@ -10,6 +10,7 @@ title: The Value of Playoff Experience (Using Regression Discontinuity)
 subtitle: in this article ... 
 weight: 10
 draft: false
+featured_image: "/images/posts/post1_chart1.png"
 series:
 - Hugo 101
 ---

@@ -7,6 +7,8 @@
 
     {{ range .Pages }}
     <article class="archive-item">
+        {{ with .Params.featured_image }}
+        <img src="{{ . }}"alt="{{ $.Title }}" width="150" height="">{{ end }}
         <a href="{{ .RelPermalink }}" class="archive-item-link">{{ .Title }}</a>
         <span class="archive-item-date">
             {{ .Date.Format "2 January 2006" }}
