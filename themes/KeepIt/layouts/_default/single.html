@@ -3,7 +3,7 @@
 <article class="post-warp">
     <header class="post-header">
         <h1 class="post-title">{{ .Title }}</h1>
-        <div class="post-meta">
+<!--         <div class="post-meta">
             {{ i18n "Written" }} {{ i18n "by" }} <a href="{{.Site.BaseURL }}" rel="author">{{ if isset .Params "author" }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }}</a> {{ i18n "with" }} ♥ 
                 <span class="post-time">
                     {{ i18n "on" }} <time datetime={{.Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }} >{{ .Date.Format (.Site.Params.dateFormatToUse | default "2 January 2006") }}</time>
@@ -22,7 +22,7 @@
                 {{- end }}
                 <i class="iconfont icon-timer"></i>
                 {{.ReadingTime }} min
-        </div>
+        </div> -->
     </header>
     <div class="post-content">
         <!--featured_image-->
@@ -49,7 +49,7 @@
           {{ $finalContent }}
     </div>
 
-    <div class="post-copyright">
+<!--     <div class="post-copyright">
             {{ with .Site.Params.author }} 
             <p class="copyright-item">
                 <span>{{ i18n "Author" }}:</span>
@@ -75,7 +75,7 @@
             </p>
             {{ end }}
     </div>
-
+ -->
   
     <div class="post-tags">
         {{ with .Params.tags }}

@@ -40,7 +40,7 @@ disqusShortname = "yourdiscussshortname"
     weight = 2
 
   [[menu.main]]
-    name = "Blog"
+    name = "Projects"
     url = "/posts"
     weight = 3
 
@@ -49,10 +49,10 @@ disqusShortname = "yourdiscussshortname"
    # url = "/files/alamine_cv.pdf"
    # weight = 3
 
- [[menu.main]]
-    name = "Wordpress Site (Basketball Analytics)"
-    url = "https://courtsidecoder.home.blog"
-    weight = 4
+ #[[menu.main]]
+    #name = "Wordpress Site (Basketball Analytics)"
+    #url = "https://courtsidecoder.home.blog"
+    #weight = 4
 
 [params]
     since = 2019
