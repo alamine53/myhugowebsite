@@ -21,7 +21,7 @@ disqusShortname = "yourdiscussshortname"
   noreferrerLinks = true
 
 [Permalinks]
- posts = "/:year/:filename/"
+ projects = "/:year/:filename/"
  about = "/:year/:filename/"
  #pubs = "/:year/:filename/"
  publications = "/:year/:filename/"
@@ -41,7 +41,7 @@ disqusShortname = "yourdiscussshortname"
 
   [[menu.main]]
     name = "Projects"
-    url = "/posts"
+    url = "/projects"
     weight = 3
 
   #[[menu.main]]
