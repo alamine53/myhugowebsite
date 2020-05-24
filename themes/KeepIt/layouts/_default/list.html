@@ -2,7 +2,7 @@
 {{ $data := .Data }}
 <div class="post-warp archive">
     <h2 class="post-title" style="text-align:right;padding-bottom:4em">&nbsp;{{ humanize .Title }}&nbsp;</h2>
-    {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
+    {{ range (.Paginate (.Pages.GroupByParam "type")).PageGroups }}
     <h3>{{ .Key }}</h3>
 
     {{ range .Pages }}
@@ -10,9 +10,9 @@
     {{ if isset .Params "affiliatelink" }}
         <article class="archive-item">
         <a href="{{ .Params.affiliatelink }}" target="_blank">{{ .Title }}</a><span>&#8599;</span>
-<!--         <span class="archive-item-date">
-            {{ .Date.Format "January 2006" }}
-        </span> -->
+        <span class="archive-item-date">
+            {{ .Date.Format "2006" }}
+        </span>
     <!-- Else show internal post page -->
     {{else}}
         <article class="archive-item">
