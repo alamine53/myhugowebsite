@@ -1,16 +1,9 @@
 ---
-author:
-  name: "Ramzy Al-Amine"
 date: 2019-03-01
-linktitle: Measuring the Contribution of Coaches in the NBA
-type:
-- post 
-- posts
+type: Sports Economics
 title: Measuring the Contribution of Coaches in the NBA
 draft: true
 weight: 10
-series:
-- Hugo 101
 ---
 
 

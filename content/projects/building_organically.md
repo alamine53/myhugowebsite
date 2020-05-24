@@ -1,16 +1,10 @@
 ---
-author:
-  name: "Ramzy Al-Amine"
 date: 2019-03-01
-linktitle: Why More Talent Can be Detrimental for NBA Teams
-type:
-- post 
-- posts
+type: Sports Economics
 title: Why More Talent Can be Detrimental for NBA Teams
 weight: 10
 draft: true
-series:
-- Hugo 101
+
 ---
 
 

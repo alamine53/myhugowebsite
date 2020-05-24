@@ -1,17 +1,10 @@
 ---
-author:
-  name: "Ramzy Al-Amine"
 date: 2020-04-01
-linktitle: Top 10 Albums That Have Influenced My Taste In Music
-category: Music
-type:
-- post 
-- posts
+type: Blog Post
 title: Top 10 Albums That Have Influenced My Taste In Music
 weight: 10
 draft: true
-series:
-- Hugo 101
+
 ---
 A Facebook game is circulating where, if nominated, you are asked to post covers of music albums that were most influential to you. For whatever reason, I feel intrusive inundating people's feeds, but I do find the premise of the game enjoyable. Some albums mark personal milestones and going through the exercise of recalling them can give a sense of perspective.
 

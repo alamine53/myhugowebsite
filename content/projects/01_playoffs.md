@@ -1,16 +1,12 @@
 ---
-author:
-  name: "Ramzy Al-Amine"
 date: 2019-06-01
-linktitle: The Value of Playoff Experience (Using Regression Discontinuity)
-type: Economics
+type: Sports Economics
 title: The Value of Playoff Experience (Using Regression Discontinuity)
-subtitle: in this article ... 
+subtitle: in this article 
 weight: 10
 draft: false
 featured_image: "/images/posts/post1_chart1.png"
-series:
-- Hugo 101
+
 ---
 
 ### Summary
