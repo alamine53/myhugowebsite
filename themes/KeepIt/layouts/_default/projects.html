@@ -10,15 +10,18 @@
     <br>
     <article class="archive-item">
         {{ with .Params.featured_image }}
-            <img src="{{ . }}"alt="{{ $.Title }}" width="400" height=""> {{ end }}
-        <br>
-        <a href="{{ .RelPermalink }}" class="archive-item-link">{{ .Title }}</a>
+            <img src="{{ . }}"alt="{{ $.Title }}" width="250" height="200"> {{ end }}
+            <span>
+                <a align=left href="{{ .RelPermalink }}" class="archive-item-link" style="font-size:1.5em">{{ .Title }} </a>
+                <br>
+                <a href="{{ .RelPermalink }}" class="archive-item-link">{{ .Type }}</a>
+                <br>
+                <a href="{{ .RelPermalink }}" class="archive-item-link">{{ .Date.Format "April 2006" }}</a>            
+            </span>
 
-<!--         <a href="{{ .RelPermalink }}" class="archive-item-link">{{ .Type }}</a>
-        <a href="{{ .RelPermalink }}" class="archive-item-link">{{ .Date }}</a> -->
-        <span class="archive-item-date">
+<!--         <span class="archive-item-date">
             {{ .Date.Format "2006" }}
-        </span>
+        </span> -->
     </article>
     <br>
     {{ end }} {{ end }}
