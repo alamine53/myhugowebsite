@@ -8,4 +8,4 @@ I'm an Analyst at the IMF's Strategy Policy and Review department, where I do ma
 
 <!-- I've represented the Lebanese U18 national basketball team at the 2010 FIBA Asia tournament in Yemen.
  -->
-You can find my resume [here] (/files/alamine_resume.pdf)
+You can find my resume [here] (/files/alamine_resume.pdf).

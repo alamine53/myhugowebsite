@@ -9,6 +9,9 @@
 	/* Roboto */
 	@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900);
 
+  /* from Rachael Dottle website */
+  @import url(https://fonts.googleapis.com/css?family=Chivo|Staatliches&display=swap);
+
   html {
     &::-webkit-scrollbar {
       width: 8px;
@@ -45,6 +48,12 @@
   font-family: 'Barlow', sans-serif;
   src: url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Barlow+Semi+Condensed&family=Oswald&display=swap');
   }
+
+  @font-face{
+  font-family: 'Rachael', sans-serif;
+  src: url(https://fonts.googleapis.com/css?family=Chivo|Staatliches&display=swap);
+  }
+
 
   body {
     font-family: 'JetBrainsMono';

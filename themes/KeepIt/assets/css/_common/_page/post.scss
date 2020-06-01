@@ -40,7 +40,7 @@
     .post-content {
         font-family: 'Barlow Semi Condensed', sans-serif;
         font-weight: 300;
-        font-size: 14px;
+        font-size: 16px;
         font-style: normal;
         line-height: 2 em;
         padding-top: 2rem;
@@ -67,7 +67,7 @@
         }
 
         h3 {
-            font-family: 'JetBrainsMono';
+            font-family: 'Barlow Semi Condensed', sans-serif;
             color: $light-font-color;
             .dark-theme & {
                 color: $dark-font-color;
