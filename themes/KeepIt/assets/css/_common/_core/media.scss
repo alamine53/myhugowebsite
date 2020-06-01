@@ -100,7 +100,7 @@
 
                 .dark-theme & {
                     background: $dark-background-color;
-                    border-top: 2px solid $dark-background-color;
+                    border-top: $dark-background-color;
                 }
             }
             .dark-theme & {

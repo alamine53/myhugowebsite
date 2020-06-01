@@ -8,9 +8,10 @@
 
     {{ range .Pages }}
     <br>
+    <div class="container">
     <article class="archive-item">
         {{ with .Params.featured_image }}
-            <img src="{{ . }}"alt="{{ $.Title }}" width="250" height="200"> {{ end }}
+            <img style = "vertical-align:middle" src="{{ . }}"alt="{{ $.Title }}" width="250" height="200"> {{ end }}
             <span>
                 <a align=left href="{{ .RelPermalink }}" class="archive-item-link" style="font-size:1.5em">{{ .Title }} </a>
                 <br>
@@ -23,6 +24,7 @@
             {{ .Date.Format "2006" }}
         </span> -->
     </article>
+    </div>
     <br>
     {{ end }} {{ end }}
     {{ partial "paginator.html" . }}
