@@ -51,7 +51,11 @@ $light-font-secondary-color: #3a3a3a;
   html {
     font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft Yahei", "WenQuanYi Micro Hei", Verdana, sans-serif;
   }
-  
+
+// =================
+// Add new fonts here 
+// =================
+
   @font-face{
   font-family: 'JetBrainsMono';
   src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
@@ -61,13 +65,26 @@ $light-font-secondary-color: #3a3a3a;
   font-style: normal;
 }
 
+  @font-face{
+  font-family: 'Rachael', sans-serif;
+  src: url(https://fonts.googleapis.com/css?family=Chivo|Staatliches&display=swap);
+  }
+
+  @font-face{
+  font-family: 'Barlow', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Barlow+Semi+Condensed&family=Oswald&display=swap');
+  }
+
+// =================
+// change font by replace font-family & src
+// =================
+
   body {
-    font-family: 'JetBrainsMono';
-    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
-      url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff'),
-      url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+  font-family: 'Rachael', sans-serif;
+  src: url(https://fonts.googleapis.com/css?family=Chivo|Staatliches&display=swap);
     font-weight: 300;
     font-size: 14px;
+
     font-style: normal;
     line-height: 2.2em;
     background-color: $light-background-color;
