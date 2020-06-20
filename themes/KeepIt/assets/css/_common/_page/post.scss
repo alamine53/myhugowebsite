@@ -51,7 +51,9 @@
 
         h1 {
             font-family: 'JetBrainsMono';
-            font-size: 24px;
+            font-weight: 500;
+            font-size: 20px;
+            font-style: normal;            
             color: $light-font-color;
             .dark-theme & {
                 color: $dark-font-color;
@@ -68,19 +70,30 @@
 
         h3 {
             font-family: 'Barlow Semi Condensed', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            font-style: normal;
+            line-height: 2 em;
+            padding-top: 2rem;
             color: $light-font-color;
             .dark-theme & {
-                color: $dark-font-color;
+                    color: $dark-navbar-active-color;
             }
         }
 
         h4 {
-        font-family: 'JetBrainsMono';
-        color: $light-font-secondary-color;
-        .dark-theme & {
-                color: $dark-font-color;
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            font-style: normal;
+            line-height: 2 em;
+            padding-top: 2rem;
+            color: $light-font-color;
+            .dark-theme & {
+                    color: $dark-navbar-active-color;
             }
         }
+
         h5 {
         font-family: 'JetBrainsMono';
         color: $light-font-secondary-color;

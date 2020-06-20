@@ -1,17 +1,5 @@
 /** Font **/
 
-	/* Lato */
-	@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
-	
-	/* Montserrat */
-	@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800);
-	
-	/* Roboto */
-	@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900);
-
-  /* from Rachael Dottle website */
-  @import url(https://fonts.googleapis.com/css?family=Chivo|Staatliches&display=swap);
-
   html {
     &::-webkit-scrollbar {
       width: 8px;
@@ -34,9 +22,6 @@
   html {
     font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft Yahei", "WenQuanYi Micro Hei", Verdana, sans-serif;
   }
-
-
-
 
   body {
     font-family: 'JetBrainsMono';
