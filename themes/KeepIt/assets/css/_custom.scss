@@ -128,9 +128,10 @@ $light-global-link-hover-color: #1DA1F2;
   }
   
   a {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 550;
+    font-size: 1rem;
     color: $light-global-link-color;
     text-decoration: none;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
@@ -153,32 +154,6 @@ $light-global-link-hover-color: #1DA1F2;
     }
   }
   
-    a2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 1000;
-    font-style: bold;
-    line-height: 2.2em;
-    color: $light-font-color;
-    text-decoration: none;
-    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-    &:hover {
-      color: $light-global-link-hover-color;
-      text-decoration: none;
-      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-    }
-
-     .dark-theme & {
-      color: $dark-font-color;
-      text-decoration: none;
-      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-
-      &:hover{
-        color: $dark-global-link-hover-color;
-        text-decoration: none;
-        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-      }
-    }
-  }
   blockquote {
     font-size: 1rem;
     display: block;
