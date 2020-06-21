@@ -2,6 +2,7 @@
 date: 2019-03-01
 type: Sports Economics
 title: Why More Talent Can be Detrimental for NBA Teams
+description: Teams are eager to add players, not know that their biggest assets are already there. 
 weight: 10
 draft: true
 

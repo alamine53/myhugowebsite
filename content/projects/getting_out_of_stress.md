@@ -2,6 +2,7 @@
 date: 2019-06-01
 type: Blog Post
 title: Getting out of stress
+description: this is a draft.
 weight: 10
 draft: true
 

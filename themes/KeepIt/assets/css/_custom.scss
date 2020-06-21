@@ -7,17 +7,15 @@ $dark-background-color: #141d26;
 $dark-border-color: #141d26;
 $dark-font-color: #ffffff;
 $dark-font-color: #89ffc4;
-
 $dark-font-secondary-color: #c1c1c1;
 $dark-font-secondary-color: #ababab;
-
 $dark-font-post-color: #ffffff;
 
 $light-background-color: #FFFFFF;
-$light-font-color: #000000;
+$light-font-color: #14171A;
 $light-font-secondary-color: #1DA1F2;
 
-$light-global-link-color: #ababab;
+$light-global-link-color: #657786;
 $light-global-link-hover-color: #1DA1F2;
 
 
@@ -33,7 +31,7 @@ $light-global-link-hover-color: #1DA1F2;
 	@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900);
   
   /* Poppins */ 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
   html {
     &::-webkit-scrollbar {
@@ -98,7 +96,7 @@ $light-global-link-hover-color: #1DA1F2;
 // =================
 
   body {
-  font-family: 'JetBrainsMono', sans-serif;
+  font-family: 'Poppins', sans-serif;
     font-weight: 1000;
     font-style: bold;
     line-height: 2.2em;
@@ -130,10 +128,9 @@ $light-global-link-hover-color: #1DA1F2;
   }
   
   a {
-    font-family: 'Barlow', sans-serif;
-    src: url(https://fonts.googleapis.com/css?family=Chivo|Staatliches&display=swap);
+    font-family: 'Helvetica', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     color: $light-global-link-color;
     text-decoration: none;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
@@ -156,6 +153,32 @@ $light-global-link-hover-color: #1DA1F2;
     }
   }
   
+    a2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    font-style: bold;
+    line-height: 2.2em;
+    color: $light-font-color;
+    text-decoration: none;
+    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+    &:hover {
+      color: $light-global-link-hover-color;
+      text-decoration: none;
+      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+    }
+
+     .dark-theme & {
+      color: $dark-font-color;
+      text-decoration: none;
+      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+
+      &:hover{
+        color: $dark-global-link-hover-color;
+        text-decoration: none;
+        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+      }
+    }
+  }
   blockquote {
     font-size: 1rem;
     display: block;

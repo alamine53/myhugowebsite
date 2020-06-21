@@ -2,6 +2,8 @@
 date: 2019-03-01
 type: Sports Economics
 title: Measuring the Contribution of Coaches in the NBA
+description: Employing fixed effects to estimate the contribution of head coaches in light of roster characteristics. 
+
 draft: true
 weight: 10
 ---

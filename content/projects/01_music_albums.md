@@ -2,6 +2,7 @@
 date: 2020-04-01
 type: Blog Post
 title: Top 10 Albums That Have Influenced My Taste In Music
+description: lsajldkjaslkdj
 weight: 10
 draft: true
 
