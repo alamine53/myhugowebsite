@@ -124,6 +124,10 @@ $light-font-secondary-color: #3a3a3a;
   }
   
   a {
+    font-family: 'Rachael', sans-serif;
+    src: url(https://fonts.googleapis.com/css?family=Chivo|Staatliches&display=swap);
+    font-style: normal;
+    font-weight: 400;
     color: $light-global-link-color;
     text-decoration: none;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;

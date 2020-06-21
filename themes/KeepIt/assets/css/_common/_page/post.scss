@@ -49,8 +49,8 @@
                 color: $dark-navbar-active-color;
         }
 
-        h1 {
-            font-family: 'JetBrainsMono';
+        h1 {     
+            font-family: 'Barlow Semi Condensed', sans-serif;
             font-weight: 500;
             font-size: 20px;
             font-style: normal;            
@@ -61,7 +61,7 @@
         }
 
         h2 {
-            font-family: 'JetBrainsMono';
+            font-family: 'Barlow Semi Condensed', sans-serif;
             color: $light-font-color;
             .dark-theme & {
                 color: $dark-font-color;
@@ -95,14 +95,14 @@
         }
 
         h5 {
-        font-family: 'JetBrainsMono';
-        color: $light-font-secondary-color;
-        .dark-theme & {
-                color: $dark-font-color;
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            color: $light-font-secondary-color;
+            .dark-theme & {
+                    color: $dark-font-color;
             }
         }  
         h6 {
-            font-family: 'JetBrainsMono';
+            font-family: 'Barlow Semi Condensed', sans-serif;
             padding-top: .8em;
             padding-bottom: .3em;
             color: $light-font-secondary-color;
@@ -223,6 +223,8 @@
             max-width: 100% !important;
             height: auto !important;
             margin: 0 !important;
+            align: center;
+
         }
     }
 
