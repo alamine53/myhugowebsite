@@ -8,11 +8,11 @@
     padding-top: 1rem;
 
     .post-header h1 {
-        margin: 0 !important;
+        margin: 1 !important;
     }
 
     .post-title {
-        font-size: 2.0em;
+        font-size: 1.5em;
         line-height: 1.5em;
     }
 
@@ -230,7 +230,8 @@
 
     p {
         font-size: 1em;
-        margin: 1.5em 2em 2.5em .5em;
+        font-color: $dark-font-color;
+        margin: 1.1em 2em 2.5em .2em;
     }
 
     .post-copyright {
