@@ -6,7 +6,7 @@ description: in this article, i bla bla bla
 weight: 10
 draft: false
 featured_image: "/images/posts/post1_chart1.png"
-
+Summary: Using the concept of regression discontinuity, I find thatteams who barely make the playoffs gain 8 percent additional wins next season, on average, relative to those who barely miss it. 
 ---
 
 ### Summary

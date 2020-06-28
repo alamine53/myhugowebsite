@@ -6,7 +6,6 @@
 $dark-background-color: #141d26;
 $dark-border-color: #141d26;
 $dark-font-color: #64ffda;
-$dark-font-secondary-color: #e6f1ff;
 $dark-font-post-color: #a8b2d1;
 $dark-global-link-hover-color: #64ffda;
 
@@ -118,7 +117,10 @@ $job-title-font: 'SFMono-Medium';
   font-style: normal;
   src: url(../font/Calibre/Calibre-Regular.woff2?#iefix) format('woff2'), url(../font/Calibre/Calibre-regular.woff) format('woff'), url(../font/Calibre/Calibre-regular.ttf) format('truetype');
 }
-
+  @font-face {
+  font-family: Calibre-Semibold;
+  src: url(../font/Calibre/Calibre-Semibold.woff2?#iefix) format('woff2'), url(../font/Calibre/Calibre-Semibold.woff) format('woff'), url(../font/Calibre/Calibre-Semibold.ttf) format('truetype');
+}
 
 // =================
 // change font by replacing font-family & src
@@ -128,7 +130,7 @@ $job-title-font: 'SFMono-Medium';
   font-family: 'SFMono-Regular', sans-serif;
     font-weight: 100;
     font-style: normal;
-    line-height: 2.2em;
+    line-height: 2em;
     background-color: $light-background-color;
     color: $light-font-color;
     &:before {
@@ -184,6 +186,86 @@ $job-title-font: 'SFMono-Medium';
     }
   }
   
+  p {
+    font-family: 'Barlow-Semi-Condensed', sans-serif;
+    font-style: normal;
+    margin-top: -20px;
+    margin: 0.01em;
+    font-weight: 100;
+    font-size: 1em;
+    letter-spacing: 0.4 rem;
+    color: $light-global-link-color;
+    text-decoration: none;
+    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+
+
+     .dark-theme & {
+      color: $dark-font-secondary-color;
+      text-decoration: none;
+      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+    }
+  }  
+  
+  h2 {
+    font-family: 'Calibre-Semibold', sans-serif;
+    letter-spacing: 1 rem;
+    color: $light-font-secondary-color;
+    text-decoration: none;
+    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+
+
+     .dark-theme & {
+      color: $dark-font-secondary-color;
+      text-decoration: none;
+      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+    }
+  }  
+
+  h4 {
+    font-family: 'SFMono-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1em;
+    letter-spacing: 0.1 rem;
+    color: $light-font-color;
+    text-decoration: none;
+    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+
+
+     .dark-theme & {
+      color: $dark-font-color;
+      text-decoration: none;
+      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+    }
+  }  
+
+  h5 {
+    font-family: 'SFMono-Regular';
+    font-weight: 400;
+    font-size: 8px;
+    letter-spacing: 0.001 rem;
+    line-height: 0.001rem;
+    color: $light-font-color;
+    text-decoration: none;
+    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+    &:hover {
+      color: $light-global-link-hover-color;
+      text-decoration: none;
+      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+    }
+
+     .dark-theme & {
+      color: $dark-font-color;
+      text-decoration: none;
+      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+      &:hover{
+        color: $dark-global-link-hover-color;
+        text-decoration: none;
+        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+      }
+    }
+  }  
+
   blockquote {
     font-size: 1rem;
     display: block;
