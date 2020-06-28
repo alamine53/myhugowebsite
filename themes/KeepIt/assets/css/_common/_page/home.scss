@@ -5,7 +5,7 @@
     transform: translateY(25vh);
     text-align: center;
     .avatar {
-      padding: 10px;
+      padding: 6px;
       img {
         width: 128px;
         height: auto;
@@ -34,18 +34,12 @@
   }
   
   h2.description {
-    font-family: 'SFMono';
+    font-family: SFMono-Regular;
     font-size: 1.1em;
     font-weight: 200;
     padding: 1px;
   }
 
-  h3.description {
-    font-family: 'SFMono';
-    font-size: 1.4em;
-    font-weight: 400;
-    padding: 2px;
-  }
   
   .social-links {
     a {

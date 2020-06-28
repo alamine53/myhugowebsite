@@ -11,12 +11,11 @@
   
   
  .navbar .menu a {
-   
     padding: 0.5em;
   }
 
   .navbar .menu .active{
-      font-weight: 00;
+      font-weight: 100;
       color: $light-navbar-active-color;
 
       .dark-theme &{

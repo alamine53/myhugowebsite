@@ -90,7 +90,7 @@
             padding-top: 2rem;
             color: $light-font-color;
             .dark-theme & {
-                    color: $dark-navbar-active-color;
+                    color: $dark-global-link-color;
             }
         }
 
@@ -106,9 +106,9 @@
             padding-top: .8em;
             padding-bottom: .3em;
             color: $light-font-secondary-color;
-        .dark-theme & {
-                color: $dark-font-color;
-            }
+            .dark-theme & {
+                    color: $dark-font-color;
+                }
         }
         h2::before {
             content: "#";
@@ -267,8 +267,8 @@
 
         & a.prev,
         & a.next {
-            font-weight: 600;
-            font-size: 16px;
+            font-weight: 100;
+            font-size: 12px;
 
             transition-property: transform;
             transition-timing-function: ease-out;
