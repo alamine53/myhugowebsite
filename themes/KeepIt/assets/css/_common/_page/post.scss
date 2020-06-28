@@ -40,17 +40,17 @@
     .post-content {
         font-family: 'Barlow Semi Condensed', sans-serif;
         font-weight: 300;
-        font-size: 16px;
+        font-size: 14px;
         font-style: normal;
         line-height: 2 em;
         padding-top: 2rem;
         color: $light-font-color;
         .dark-theme & {
-                color: $dark-navbar-active-color;
+                color: $dark-font-color;
         }
 
         h1 {     
-            font-family: 'Barlow Semi Condensed', sans-serif;
+            font-family: 'Calibre', sans-serif;
             font-weight: 500;
             font-size: 20px;
             font-style: normal;            
@@ -61,7 +61,7 @@
         }
 
         h2 {
-            font-family: 'Barlow Semi Condensed', sans-serif;
+            font-family: 'Calibre', sans-serif;
             color: $light-font-color;
             .dark-theme & {
                 color: $dark-font-color;
@@ -69,7 +69,7 @@
         }
 
         h3 {
-            font-family: 'Barlow Semi Condensed', sans-serif;
+            font-family: 'Calibre', sans-serif;
             font-weight: 500;
             font-size: 20px;
             font-style: normal;

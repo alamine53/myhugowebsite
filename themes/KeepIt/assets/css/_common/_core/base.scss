@@ -53,11 +53,6 @@
       filter: gray;
     }
 
-  body {
-    font-family: 'Barlow', sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Barlow+Semi+Condensed&family=Oswald&display=swap');
-  }
-
      &.dark-theme {
         background-color: $dark-background-color;
         color: $dark-font-color;

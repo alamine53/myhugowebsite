@@ -91,12 +91,28 @@ $light-global-link-hover-color: #1DA1F2;
   @font-face {
   font-family: 'Poppins';  }
 
+
+  @font-face {
+  font-family: SFMono;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../font/SFMono/SFMono-Medium.woff2?#iefix) format('woff2'), url(../font/SFMono/SFMono-medium.woff) format('woff'), url(../font/SFMono/SFMono-medium.ttf) format('truetype');
+} 
+
+  @font-face {
+  font-family: Calibre;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../font/Calibre/Calibre-Regular.woff2?#iefix) format('woff2'), url(../font/Calibre/Calibre-regular.woff) format('woff'), url(../font/Calibre/Calibre-regular.ttf) format('truetype');
+}
+
+
 // =================
 // change font by replacing font-family & src
 // =================
 
   body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'SFMono', sans-serif;
     font-weight: 1000;
     font-style: bold;
     line-height: 2.2em;
@@ -128,10 +144,10 @@ $light-global-link-hover-color: #1DA1F2;
   }
   
   a {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     font-style: normal;
-    font-weight: 550;
-    font-size: 1rem;
+    font-weight: 300;
+    font-size: 1 rem;
     color: $light-global-link-color;
     text-decoration: none;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
