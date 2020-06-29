@@ -43,7 +43,7 @@
                         transition: .25s margin .25s, .25s transform;
 
                         .dark-theme & {
-                            background: $dark-background-color;
+                            background: $dark-font-color;
                         }
                     }
 
@@ -100,7 +100,7 @@
 
                 .dark-theme & {
                     background: $dark-background-color;
-                    border-top: $dark-background-color;
+                    border-top: 2px solid $dark-font-secondary-color;
                 }
             }
             .dark-theme & {
