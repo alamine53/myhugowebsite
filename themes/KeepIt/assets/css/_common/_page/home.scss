@@ -35,8 +35,8 @@
   
   h2.description {
     font-family: SFMono-Regular;
-    font-size: 1.1em;
-    font-weight: 200;
+    font-size: 1em;
+    font-weight: 100;
     padding: 1px;
   }
 
@@ -54,3 +54,23 @@
       font-size: 1.4em;
     }
   }
+
+  p {
+    font-family: 'Barlow-Semi-Condensed', sans-serif;
+    font-size: 4px;
+    font-style: normal;
+    margin-top: -40px;
+    margin: 0.01em;
+    font-weight: 100;
+    letter-spacing: 0.4 rem;
+    color: $light-global-link-color;
+    text-decoration: none;
+    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+
+
+     .dark-theme & {
+      color: $dark-font-secondary-color;
+      text-decoration: none;
+      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+    }
+  }   
