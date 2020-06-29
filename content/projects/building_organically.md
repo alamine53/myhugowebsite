@@ -9,7 +9,7 @@ draft: true
 ---
 
 
-# Introduction
+#### Introduction
 
 When the talent-loaded Celtics added all-stars Kyrie Irving and Gordon Hayward, they seemed to be on the verge of dominating the league for years to come. What transpired is the complete opposite. It was only a matter of weeks before the Boston dream shattered and their locker room turned into a frenzy. 
 

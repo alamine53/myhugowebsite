@@ -8,8 +8,6 @@ weight: 10
 Summary: The 2018-19 summer might've the greatest off-season in NBA history. Here's why.
 ---
 
-The 2018-19 summer might've the greatest off-season in NBA history. Here's why.
-
 
 ![Animated map] (/images/posts/animation_plain.gif)
 

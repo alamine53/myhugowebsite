@@ -35,9 +35,9 @@
   
   h2.description {
     font-family: SFMono-Semibold;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 10;
-    padding: 15px;
+    padding: 16px;
     color:$dark-lightest-navy;
     .dark-theme & {
       font-family: SFMono-Regular;
@@ -56,7 +56,7 @@
       }
     }
     .iconfont {
-      font-size: 1.4em;
+      font-size: 1.5em;
     }
   }
 
