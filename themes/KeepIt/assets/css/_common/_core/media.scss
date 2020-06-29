@@ -16,9 +16,6 @@
             line-height: 5.5em;
             background: $light-background-color;
 
-            .dark-theme & {
-                background: $dark-background-color;
-            }
 
             .navbar-header {
                 display: flex;
