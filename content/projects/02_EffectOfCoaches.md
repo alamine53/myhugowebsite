@@ -10,7 +10,7 @@ weight: 10
 
 
 
-# Introduction
+#### Introduction
 
 ![Popovich spurs] (/images/posts/post2_webimage2_popovich.png)
 
@@ -39,7 +39,7 @@ The resulting estimates allow for identifying excellent coaches, including those
 
 More importantly, this quantification exercise allows to investigate observable characteristics that shape excellent coaches. For example, the notion that ex-players make for good coaches is debunked in the data. On the contrary, coaches with more diverse backgrounds seem to be better-suited to lead an NBA franchise. Moreover, playoff-seasoned coaches display better results on average.
 
-# Data Analysis
+#### Data Analysis
 
 The main estimation strategy follows from the literature on managerial contribution in organizational settings. It consists in a coach-fixed effect regression model that is tweaked to fit the context of the NBA. The model is supplemented by performance-based metrics that capture players' relative ability level at the start of the season. It can be represented by the following equation. 
 
@@ -54,7 +54,7 @@ where the dependent variable is the number of wins for team $i$ in season $t$ = 
 The research provided in this paper sheds light on an aspect of team play that is under-emphasized. In addition to setting strategy, coaches motivate, inspire, and establish a culture. Identifying the right head coach is crucial to maximizing on a team's potential and accentuating its players' relative strengths. The sports world has seen many memorable figures, including the likes Pep Guardiola, Bill Belichik, Phil Jackson, and Greg Popovich. Motivated by their success, this paper views coaching as source of value rather than just a seat to fill. 
 
 
-# Results
+#### Results
 
-# Conclusion
+#### Conclusion
 

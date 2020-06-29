@@ -12,8 +12,6 @@
     }
 
     .post-title {
-        font-size: 1.5em;
-        line-height: 1.5em;
     }
 
     .post-meta {
@@ -42,91 +40,11 @@
         font-weight: 300;
         font-size: 14px;
         font-style: normal;
-        line-height: 2 em;
-        padding-top: 2rem;
+        line-height: 1.6em;
+        padding-top: 1rem;
         color: $light-font-color;
         .dark-theme & {
                 color: $dark-font-color;
-        }
-
-        h1 {     
-            font-family: 'Calibre', sans-serif;
-            font-weight: 500;
-            font-size: 20px;
-            font-style: normal;            
-            color: $light-font-color;
-            .dark-theme & {
-                color: $dark-font-color;
-            }
-        }
-
-        h2 {
-            font-family: 'Calibre', sans-serif;
-            color: $light-font-color;
-            .dark-theme & {
-                color: $dark-font-color;
-            }
-        }
-
-        h3 {
-            font-family: 'Calibre', sans-serif;
-            font-weight: 500;
-            font-size: 20px;
-            font-style: normal;
-            line-height: 2 em;
-            padding-top: 2rem;
-            color: $light-font-color;
-            .dark-theme & {
-                    color: $dark-navbar-active-color;
-            }
-        }
-
-        h4 {
-            font-family: 'Barlow Semi Condensed', sans-serif;
-            font-weight: 400;
-            font-size: 18px;
-            font-style: normal;
-            line-height: 2 em;
-            padding-top: 2rem;
-            color: $light-font-color;
-            .dark-theme & {
-                    color: $dark-global-link-color;
-            }
-        }
-
-        h5 {
-            font-family: 'Barlow Semi Condensed', sans-serif;
-            color: $light-font-secondary-color;
-            .dark-theme & {
-                    color: $dark-font-color;
-            }
-        }  
-        h6 {
-            font-family: 'Barlow Semi Condensed', sans-serif;
-            padding-top: .8em;
-            padding-bottom: .3em;
-            color: $light-font-secondary-color;
-            .dark-theme & {
-                    color: $dark-font-color;
-                }
-        }
-        h2::before {
-            content: "#";
-            margin-right: 5px;
-            color: $light-post-link-color;
-            .dark-theme & {
-                color: $dark-post-link-color;
-            }
-        }
-
-        h3::before {
-            content: "|";
-            margin-right: 5px;
-            color: $light-post-link-color;
-
-            .dark-theme & {
-                color: $dark-post-link-color;
-            }
         }
 
         a {
@@ -231,7 +149,7 @@
     p {
         font-size: 1em;
         font-color: $dark-font-color;
-        margin: 1.1em 2em 2.5em .2em;
+        margin: 1em 1em 1em 1em;
     }
 
     .post-copyright {

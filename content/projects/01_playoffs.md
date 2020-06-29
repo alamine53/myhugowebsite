@@ -9,11 +9,11 @@ featured_image: "/images/posts/post1_chart1.png"
 Summary: Using the concept of regression discontinuity, I find thatteams who barely make the playoffs gain 8 percent additional wins next season, on average, relative to those who barely miss it. 
 ---
 
-### Summary
+#### Summary
 
 I apply the concept of regression discontinuity to estimate the value of playoff experience in the NBA. I find that, on average, teams who barely make the playoffs gain 8 percent additional wins next season relative to those who barely miss it. These results are subject to vary given the small sample size.
 
-### Background
+#### Background
 
 Despite a positive showing in Game 1, the Brooklyn Nets were eliminated just five games into their 2018-19 playoff campaign. Some might argue that they were better off tanking given their star-less roster. But over the next few weeks, they added all-stars Kyrie Irving and Kevin Durant as they seemed to turn a corner as a franchise. 
 
@@ -21,7 +21,7 @@ The Charlotte Hornets finished only 2 wins short of the Nets. In the ensuing off
 
 I am interested in the question of how much does a trip to the playoffs matter for a team going to next season. At face value, it seems like those who do make the playoffs, even as an 8th seed, gain in the following season. Whether it is that the players gain confidence, or that the team gains attractability in the free agency market, it seems like playoff birth does signal good things. 
 
-### Method 
+#### Method 
 
 Given that playoff admission is determined by regular season ranking, this question lends itself well to the concept of regression discontinuity. 
 
@@ -29,7 +29,7 @@ Regression discontinuity consists of estimating a 'treatment effect' for interve
 
 The idea is that observations around threshold are much more likely to be similar than those far from it. would be identical in every way other than whether or not they were admitted. This method is used to numerically measure the returns of a certain *treatment* effect whose assignment is based on a continuous variable.
 
-### Analysis
+#### Analysis
 
 In the NBA, playoff admission is based on end-of-season ranking. Those figuring in the top 8 of their conference advance to the post-season while all others are sent home. We can think of this as a **regression discontinuity design** where a trip to the playoffs can be considered a treatment. There is a clear admission threshold between 8th and 9th seeds. 
 

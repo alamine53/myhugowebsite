@@ -1,30 +1,43 @@
 {{ define "content" }}
 {{ $data := .Data }}
-
-
 <div class="post-warp archive">
-    <h2 class="post-title" style="text-align:left;padding-bottom:1
-    em">&nbsp;{{ $data.Plural | humanize }}{{ .Title }}&nbsp;  </h3>
+    <h2 class="post-title" style="text-align:right;padding-bottom:3em">&nbsp;{{ humanize .Title }}&nbsp;</h2>
     {{ range (.Paginate (.Pages.GroupByParam "type")).PageGroups }}
 
+
     {{ range .Pages }}
-    <div class="post">
-                  {{ with .Params.featured_image }}
-            <img style = "vertical-align:center" src="{{ . }}"alt="{{ $.Title }}" width="250" height="200"> {{ end }}
-      <a class="post-link" href="{{ .Permalink }}">
-        <h5 class="h5 post-title">{{ .Title }} {{ if .Draft }}(draft){{end}} </h5>   
-      </a>
-        <p class="post-summary">{{ .Summary }}</p> 
-<!--         <p class="post-meta left">{{ .Date.Format "Jan 2, 2006" }}</p>
- -->        <div class="clearfix"></div>    
-      {{ $baseurl := .Site.BaseURL }}
-<!--       <p class="post-meta">Tags: 
-      {{ range $i, $e := .Params.tags }}
-          {{if $i}}, {{end}}
-          <a href="{{ $baseurl }}/tags/{{ . }}">{{ . }}</a>
-      {{ end }}</p> -->
-    </div>
+    <!-- If external link exists in post matter -->
+    {{ if isset .Params "featured_image" }}
+        <article class="archive-item">
+        {{ with .Params.featured_image }}
+        <img style = "vertical-align:center" src="{{ . }}"alt="{{ $.Title }}" width="125" height="100"> {{ end }}       
+        <a href="{{ .Permalink }}" target="_blank">
+        <h4> {{ .Title }} &#8599;</h4>
+        </a> 
+        <h7 class="post-summary">{{ .Summary }}</h7>            
+        <h6 class="pub-type" style="line-height:10%">{{ .Type }}  </h6>
+        <h5 class="pub-date">{{ .Date.Format "2006" }} </h5>
+
+<!--         <span class="archive-item-date">
+            {{ .Date.Format "2006" }}
+        </span> -->
+        
+
+    <!-- Else show internal post page -->
+    {{else}}
+        <article class="archive-item">
+        <a href="{{ .Permalink }}" target="_blank">
+        <h4> {{ .Title }} &#8599;</h4>
+        </a> 
+        <h7 class="post-summary">{{ .Summary }}</h7>            
+        <h6 class="pub-type" style="line-height:10%">{{ .Type }}  </h6>
+        <h5 class="pub-date">{{ .Date.Format "2006" }} </h5>
+    {{end}}
+    </article>
+    <br>
     {{ end }} {{ end }}
     {{ partial "paginator.html" . }}
 </div>
-{{end }}
+{{end}}
+
+

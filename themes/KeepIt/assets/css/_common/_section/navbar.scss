@@ -2,7 +2,7 @@
 
 
   .header-logo a{
-    padding: 0.5s ;
+    padding: 0s ;
 
     i{
       line-height: 2em;
@@ -11,15 +11,15 @@
   
   
  .navbar .menu a {
-    padding: 0.5em;
+    padding: 0 8px;
   }
 
   .navbar .menu .active{
       font-weight: 100;
-      color: $light-navbar-active-color;
+      color: $light-background-color;
 
       .dark-theme &{
-        color: $dark-navbar-active-color;
+        color: $dark-background-color;
       }
   }
   

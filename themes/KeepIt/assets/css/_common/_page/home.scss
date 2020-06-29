@@ -34,10 +34,15 @@
   }
   
   h2.description {
-    font-family: SFMono-Regular;
+    font-family: SFMono-Semibold;
     font-size: 1em;
-    font-weight: 100;
-    padding: 1px;
+    font-weight: 10;
+    padding: 15px;
+    color:$dark-lightest-navy;
+    .dark-theme & {
+      font-family: SFMono-Regular;
+      color: $dark-green;
+      }
   }
 
   
