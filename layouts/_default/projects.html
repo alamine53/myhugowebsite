@@ -4,7 +4,6 @@
     <h2 class="post-title" style="text-align:right;padding-bottom:3em">&nbsp;{{ humanize .Title }}&nbsp;</h2>
     {{ range (.Paginate (.Pages.GroupByParam "type")).PageGroups }}
 
-
     {{ range .Pages }}
     <!-- If external link exists in post matter -->
     {{ if isset .Params "featured_image" }}
