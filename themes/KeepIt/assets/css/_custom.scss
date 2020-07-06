@@ -21,7 +21,6 @@ $dark-post-link-color: #141d26;
 $dark-lightest-slate: #ccd6f6;
 $dark-light-slate: #a8b2d1;
 $dark-slate: #8892b0;
-$dark-lightest-navy: #303C55;
 $dark-light-navy: #172a45;
 $dark-navy: #0a192f;
 $dark-white: #e6f1ff;
@@ -329,7 +328,7 @@ $job-title-font: 'SFMono-Medium';
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
 
      .dark-theme & {
-      color: $dark-lightest-slate;
+      color: $dark-slate;
       text-decoration: none;
       transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
     }
@@ -389,7 +388,7 @@ $job-title-font: 'SFMono-Medium';
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
 
      .dark-theme & {
-      color: $dark-slate;
+      color: $dark-lightest-navy;
       text-decoration: none;
       transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
     }
