@@ -5,6 +5,6 @@ date: 2013-08-01
 weight: 10
 draft: false
 source: Executive Magazine 
-type: 3 Short Articles
+type: 03. Short Articles
 
 ---

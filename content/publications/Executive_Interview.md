@@ -1,5 +1,5 @@
 ---
-type: 3 Short Articles
+type: 03. Short Articles
 title: "Politics Is Stopping Us Help Syrians"
 affiliatelink: https://www.executive-magazine.com/economics-policy/ramzy-naaman-interview-syria-lebanon
 date: 2013-08-01

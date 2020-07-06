@@ -1,10 +1,10 @@
 ---
-title: "Estimating The Added-Value of Head Coaches in the NBA"
-affiliatelink: https://focused-heyrovsky-1d5fdc.netlify.app/
+title: "The Managerial Contribution of Coaches in the NBA"
+affiliatelink: "/files/alamine_coaches.pdf"
 date: 2020-03-01
 weight: 10
 draft: false
 summary: I use a coach-fixed effect regression model to estimate the contribution of head coaches in light of roster characteristics. 
-type: 1 Working Papers
-source: Research Paper
+type: 01. Working Papers
+source: Personal Research
 ---
