@@ -1,6 +1,6 @@
 ---
-title: "A Resource List for Supporting Local Communities in Lebanon"
-summary: A landing page for ways to support local communities in surviving Lebanon's catastrophic economic and financial collapse. 
+title: "HelpLebanon.carrd.co"
+summary: A list of resources for those abroad to help local communities during Lebanon's catastrophic economic and financial collapse. 
 affiliatelink: https://baddise3ed.carrd.co/
 featured_image: "/images/posts/Lebanon_site.png"
 type: Social impact

@@ -9,7 +9,7 @@
     {{ if isset .Params "affiliatelink" }}
         <article class="archive-item">
         {{ with .Params.featured_image }}
-        <img style = "vertical-align:center" src="{{ . }}"alt="{{ $.Title }}" width="125" height="100"> {{ end }}
+        <img style = "vertical-align:center" src="{{ . }}"alt="{{ $.Title }}" width="200" height="150"> {{ end }}
     
         <a href="{{ .Params.affiliatelink }}" target="_blank">
         <h4> {{ .Title }} &#8599;</h4>
@@ -23,7 +23,7 @@
     {{else}}
         <article class="archive-item">
         {{ with .Params.featured_image }}
-        <img style = "vertical-align:center" src="{{ . }}"alt="{{ $.Title }}" width="125" height="100"> {{ end }}
+        <img style = "vertical-align:center" src="{{ . }}"alt="{{ $.Title }}" width="200" height="150"> {{ end }}
 
         <a href="{{ .Permalink }}" target="_blank">
         <h4> {{ .Title }} </h4>
