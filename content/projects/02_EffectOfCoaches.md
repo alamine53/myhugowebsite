@@ -2,7 +2,7 @@
 date: 2020-04-01
 type: Sports Economics
 title: The Managerial Contribution of Coaches in the NBA
-summary: I use a fixed effect regression model to estimate the relative added-value of NBA head coaches, in light of roster characteristics, and predict their effects on future team wins. 
+summary: I estimate the relative added-value of NBA head coaches in light of roster characteristics and injuries. I find that the top coaches (e.g. Steve Kerr, K.C. Jones, Phil Jackson, and Greg Popovich), elevate team performance by as much as 20 wins per season. These estimated fixed effects are also useful in predicting team wins for future coach-team pairings. 
 featured_image: "/images/posts/coaches/scatter_plot.png"
 draft: false
 weight: 1

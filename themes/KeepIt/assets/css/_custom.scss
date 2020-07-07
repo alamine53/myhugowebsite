@@ -315,13 +315,13 @@ $job-title-font: 'SFMono-Medium';
   }  
 
   h5 {
-    font-family: 'Calibre-Regular';
+    font-family: 'SFMono-Regular';
     line-height: 10px;
     display: block;
     font-weight: 0.01px;
     margin-top: 16px;
     margin-bottom: 12px;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 0.1 rem;
     color: $dark-lightest-navy;
     text-decoration: none;
@@ -335,15 +335,15 @@ $job-title-font: 'SFMono-Medium';
   }
 
   h6 {
-    font-family: 'Calibre-RegularItalic';
+    font-family: 'SFMono-Regular';
     line-height: 10px;
     display: block;
     font-weight: 0.7px;
     margin-top: 12px;
     margin-bottom: 12px;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 0.1 rem;
-    color: $dark-lightest-navy;
+    color: $light-blue;
     text-decoration: none;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
 
@@ -391,6 +391,36 @@ $job-title-font: 'SFMono-Medium';
       color: $dark-lightest-navy;
       text-decoration: none;
       transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+    }
+  }
+
+  h9 {
+    font-family: 'Calibre-Semibold', sans-serif;
+    display: block;
+    line-height: 18px;
+    font-weight: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 26px;
+    letter-spacing: 0.1 rem;
+    color: $dark-lightest-navy;
+    text-decoration: none;
+    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+    &:hover {
+      color: $dark-slate;
+      text-decoration: none;
+      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+    }
+     .dark-theme & {
+      color: $dark-green;
+      text-decoration: none;
+      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+      
+      &:hover {
+        color: $dark-slate;
+        text-decoration: none;
+        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+      }
     }
   }
 
