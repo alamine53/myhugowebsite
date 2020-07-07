@@ -235,8 +235,8 @@ $job-title-font: 'SFMono-Medium';
   }
 
   h1 {
-    font-family: 'Calibre-Semibold';
-    font-size: 3em;
+    font-family: 'SFMono-Semibold';
+    font-size: 26px;
     letter-spacing: 0.04rem;
     line-height: 1;
     color: $dark-light-slate;
@@ -286,13 +286,14 @@ $job-title-font: 'SFMono-Medium';
 
   h4 {
     font-family: 'SFMono-Semibold';
-    line-height: 18px;
+    line-height: 12px;
     display: block;
     font-style: normal;
     font-weight: 100;
     font-size: 1em;
     letter-spacing: 0.1 rem;
     color: $light-main;
+        margin-bottom: 12px;
     text-decoration: none;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
     &:hover {
@@ -319,11 +320,11 @@ $job-title-font: 'SFMono-Medium';
     line-height: 10px;
     display: block;
     font-weight: 0.01px;
-    margin-top: 16px;
+    margin-top: 12px;
     margin-bottom: 12px;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 0.1 rem;
-    color: $dark-lightest-navy;
+    color: $dark-slate;
     text-decoration: none;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
 
@@ -341,15 +342,15 @@ $job-title-font: 'SFMono-Medium';
     font-weight: 0.7px;
     margin-top: 12px;
     margin-bottom: 12px;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 0.1 rem;
-    color: $light-blue;
-    text-decoration: none;
+    color: $dark-slate;
+    text-decoration: underline;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
 
      .dark-theme & {
       color: $dark-light-slate;
-      text-decoration: none;
+      text-decoration: underline;
       transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
     }
   }
@@ -373,26 +374,6 @@ $job-title-font: 'SFMono-Medium';
       transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
     }
   }
-  
-  h9 {
-    font-family: 'Calibre-Semibold', sans-serif;
-    display: block;
-    line-height: 18px;
-    font-weight: 10px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    font-size: 26px;
-    letter-spacing: 0.1 rem;
-    color: $dark-lightest-navy;
-    text-decoration: none;
-    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-
-     .dark-theme & {
-      color: $dark-lightest-navy;
-      text-decoration: none;
-      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-    }
-  }
 
   h9 {
     font-family: 'Calibre-Semibold', sans-serif;
@@ -401,14 +382,13 @@ $job-title-font: 'SFMono-Medium';
     font-weight: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 26px;
+    font-size: 24px;
     letter-spacing: 0.1 rem;
-    color: $dark-lightest-navy;
+    color: $dark-light-navy;
     text-decoration: none;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
     &:hover {
-      color: $dark-slate;
-      text-decoration: none;
+      text-decoration: underline;
       transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
     }
      .dark-theme & {
@@ -417,8 +397,7 @@ $job-title-font: 'SFMono-Medium';
       transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
       
       &:hover {
-        color: $dark-slate;
-        text-decoration: none;
+        text-decoration: underline;
         transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
       }
     }

@@ -1,7 +1,7 @@
 {{ define "content" }}
 {{ $data := .Data }}
 <div class="post-warp archive">
-    <h1 class="post-title" style="text-align:right;padding-bottom:3em">&nbsp;{{ humanize .Title }}&nbsp;</h1>
+    <h1 class="post-title" style="text-align:right;padding-bottom:1em">&nbsp;{{ humanize .Title }}&nbsp;</h1>
     {{ range (.Paginate (.Pages.GroupByParam "weight")).PageGroups }}
 
     {{ range .Pages }}
