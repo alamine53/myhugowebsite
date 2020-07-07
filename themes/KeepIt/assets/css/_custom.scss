@@ -238,7 +238,7 @@ $job-title-font: 'SFMono-Medium';
     font-family: 'Calibre-Semibold';
     font-size: 3em;
     letter-spacing: 0.04rem;
-    line-height: 0em;
+    line-height: 1;
     color: $dark-light-slate;
     text-decoration: none;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;

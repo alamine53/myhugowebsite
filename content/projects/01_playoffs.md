@@ -1,7 +1,7 @@
 ---
 date: 2019-06-01
 type: Sports Economics
-title: The Value of Playoff Experience (Using Regression Discontinuity)
+title: The Value of Playoff Experience
 description: in this article, i bla bla bla
 weight: 2
 draft: false
