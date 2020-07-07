@@ -4,7 +4,7 @@ description: Dabbling with the gganimate package in R.
 date: 2019-08-14
 featured_image: "/images/posts/animation_plain.gif"
 type: Data Visualization
-weight: 10
+weight: 3
 Summary: The 2018-19 summer might've the greatest off-season in NBA history. Here's why.
 ---
 

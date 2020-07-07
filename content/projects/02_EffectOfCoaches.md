@@ -1,11 +1,11 @@
 ---
-date: 2020-08-01
+date: 2020-04-01
 type: Sports Economics
 title: The Managerial Contribution of Coaches in the NBA
-description: I use a fixed effect regression model to estimate the relative added-value of NBA head coaches, in light of roster characteristics, and predict their effects on future team wins. 
+summary: I use a fixed effect regression model to estimate the relative added-value of NBA head coaches, in light of roster characteristics, and predict their effects on future team wins. 
 featured_image: "/images/posts/coaches/scatter_plot.png"
 draft: false
-weight: 10
+weight: 1
 ---
 
 
