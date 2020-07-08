@@ -4,7 +4,7 @@
 <div class="post-warp archive">
     <h1 class="post-title" style="text-align:right;padding-bottom:3em">&nbsp;{{ humanize .Title }}&nbsp;</h1>
     {{ range (.Paginate (.Pages.GroupByParam "type")).PageGroups }}
-    <h9>{{ .Key }}</h9>
+    <p>{{ .Key }}</p>
 
 
     {{ range .Pages }}
@@ -12,7 +12,7 @@
     {{ if isset .Params "affiliatelink" }}
         <article class="archive-item">
         <a href="{{ .Params.affiliatelink }}" target="_blank">
-        <h4> {{ .Title }} &#8599;</h4>
+        <h3> {{ .Title }} </h3>
         </a> 
         <h6 class="pub-type" style="line-height:10%">{{ .Params.source }}  </h6>
         <h5 class="pub-date">{{ .Date.Format "2006" }} </h5>
