@@ -8,6 +8,19 @@ draft: false
 weight: 1
 ---
 
+### Introduction
+
+
+Even casual fans would agree that some coaches have a greater impact than others, yet there isn't much evidence to support that. Looking at winning records alone may overstate the true contribution of those who have had the fortune of coaching superior players. Other coaches may be more effective than their team achievements suggest. One example is Brad Stevens who, despite not having the silverware to show for it, is considered one of the best coaches in the league after turning a rebuilding franchise around in a span of a couple of years. 
+
+So instead of endlessly debating which NBA coaches are "better," I decided to test this out using data. Specifically, I wanted to find out which coaches are able to consistently elevate team performance given a threshert of roster quality. 
+
+This project started while I was completing my Master's in economics, during which I was starting to discover the joys of programming. It has greatly evolved since. The code was originally built in Stata, but has been redone in R, then Python --- the latest version of which can be found in [this](https://github.com/alamine53/nba_coach_FixedEffects) Github repo. 
+
+### Estimating the Coaching Effect on Team Wins
+
+For the sake of clarity, I will try to explain things in simple terms, with more details in the [full paper](https://www.ramzyalamine.com/files/alamine_coaches.pdf) if you're interested in that. 
+
 
 ![bar_chart] (/images/posts/coaches/top10_barchart.png)
 
@@ -66,3 +79,11 @@ The research provided in this paper sheds light on an aspect of team play that i
 
 #### Conclusion
 
+### scratch
+
+
+We tend to connect team success with player quality, naturally, because they are the ones doing the scoring. But, as I will show in this article, it's often the coach who deserves the credit.
+
+When we talk of the Golden State Warriors, for example, we immediately think of the splash brothers. We fail to realize that Curry and Klay would have had a different fate had they not been matched with Steve Kerr. Most fans also can't deny that some coaches seem to do *more* with *less*. One example would be Brad Stevens, whose success record probably understates his impact on what started as a re-building franchise and turned into a powerhouse team in a span of a few seasons.
+
+If you've played on sports teams before, you might've experienced the coaching effect first hand. Growing up as an aspiring point guard, I've played on teams were things just seemed to "click" for no obvious reason. Other times things our team would underperform despite excellent players. While there could be many explanations (including team chemistry, facilities, or even pure chance), I couldn't help but notice that some coaches seemed to make things "click" way too consistently for it to be a mere coincidence. (In Lebanon, it was common for a coach to take on multiple teams at once to make ends meet.)
