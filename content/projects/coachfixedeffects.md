@@ -7,13 +7,13 @@ featured_image: "/images/posts/coaches/scatter_plot.png"
 draft: false
 weight: 1
 ---
-![bar_chart] (/images/posts/coaches/thumbnail.png)
+![coach_faces] (/images/posts/coaches/thumbnail.png)
 
 ### Introduction
 
 At a Sloan Sports Analytic Conference, Zach Lowe raised a question that had been on my mind for a while: "We have all these metrics for players, when will we make some for coaches?" It had been quite evident to me, from [playing professionally](https://www.asia-basket.com/Lebanon/basketball-National-Team.asp?Age=18&Year=2010), that some coaches are able to elevate team performance more than others. But the analytics community has yet to come up with a metric that systematically captures that. So, I've set out to fill this gap. 
 
-The project started as I was completing my Master's in Applied Economics, during which I happened to read a number of academic papers on sports economics. I came across [a paper] on the impact of managers in the German Bundesliga(https://journals.sagepub.com/doi/abs/10.1177/1527002516674760) and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two main reasons:
+The project started as I was completing my Master's in Applied Economics, during which I happened to read a number of academic papers on sports economics. I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760)  on the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two reasons:
 
 1. **We are able to capture player quality pretty well.** Thanks to advanced performance metrics such as Win Shares, VORP, BPM.. etc,  we can control for roster quality more accurately than in soccer. 
 
@@ -52,7 +52,7 @@ These metrics are point estimates, therefore they are accompanied with [confiden
 
 ### Underrated Coaches
 
-One of the main advantages of this model is identifying coaches whose impact is overlooked by their team's winning record. Each dot in the chart represents one NBA head coach according to his estimated fixed effect (y-axis) and career win percentage (x-axis). The further the dot from the 45 degree line, the larger the mis-representation between both measures. Observations in yellow correspond to coaches who outperform expectations on a consistent basis, while observations in purple represent coaches who underperform given a threshold of roster quality.
+One of the main advantages of this model is identifying coaches whose impact is overlooked by their team's winning record. Each dot in the chart represents a head coach's percentile rank based on estimated fixed effect (y-axis) relative to his rank based on career win percentage (x-axis). The further the dot from the 45 degree line, the larger the difference between the two. Observations in yellow correspond to coaches who outperform expectations on a consistent basis, while observations in purple represent coaches who underperform given a threshold of roster quality.
 
 The point is to show that, despite those being closely related, they are not exactly identical. 
 ![scatter] (/images/posts/coaches/scatter_plot.png)
