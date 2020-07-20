@@ -3,7 +3,8 @@ date: 2020-04-01
 type: Sports Economics
 title: Quantifying the Coaching Effect in the NBA
 summary: The current analytics landscape lacks any systematic study of the coaching effect. I fill this gap by estimating a Coach-Fixed Effect model applied to the NBA. I find that the top coaches (e.g. Steve Kerr, K.C. Jones, Phil Jackson, and Greg Popovich), elevate team performance by as much as 20 wins per season. These estimated fixed effects are also useful in predicting team wins for future coach-team pairings. 
-featured_image: "/images/posts/coaches/scatter_plot.png"
+featured_image: /images/posts/coaches/scatter_plot.png
+images: /images/posts/coaches/scatter_plot.png
 draft: false
 weight: 1
 ---
