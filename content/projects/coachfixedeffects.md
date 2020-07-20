@@ -2,7 +2,7 @@
 date: 2020-04-01
 type: Sports Economics
 title: Quantifying the Coaching Effect in the NBA
-summary: I estimate the relative added-value of NBA head coaches in light of roster characteristics and injuries. I find that the top coaches (e.g. Steve Kerr, K.C. Jones, Phil Jackson, and Greg Popovich), elevate team performance by as much as 20 wins per season. These estimated fixed effects are also useful in predicting team wins for future coach-team pairings. 
+summary: The current analytics landscape lacks any systematic study of the coaching effect. I fill this gap by estimating a Coach-Fixed Effect model applied to the NBA. I find that the top coaches (e.g. Steve Kerr, K.C. Jones, Phil Jackson, and Greg Popovich), elevate team performance by as much as 20 wins per season. These estimated fixed effects are also useful in predicting team wins for future coach-team pairings. 
 featured_image: "/images/posts/coaches/scatter_plot.png"
 draft: false
 weight: 1
@@ -11,13 +11,13 @@ weight: 1
 
 ### Introduction
 
-At the 2017 Sloan Sports Analytic Conference, Zach Lowe raised a question that had been on my mind for a while: "When will we have metrics that capture coaches' contribution?" Like many basketball enthusiasts, it's quite evident to me, from watching and [playing professionally](https://www.asia-basket.com/Lebanon/basketball-National-Team.asp?Age=18&Year=2010), that some coaches are able to elevate team performance more than others. But the analytics community has yet to come up with a metric that systematically captures that. So, I've set out to fill this gap. 
+At a Sloan Sports Analytic Conference, Zach Lowe raised a question that had been on my mind for a while: "We have all these metrics for players, when will we make some for coaches?" It had been quite evident to me, from [playing professionally](https://www.asia-basket.com/Lebanon/basketball-National-Team.asp?Age=18&Year=2010), that some coaches are able to elevate team performance more than others. But the analytics community has yet to come up with a metric that systematically captures that. So, I've set out to fill this gap. 
 
-The project started as I was completing my Master's in Applied Economics, during which I happened to read a number of academic papers on sports economics. I came across [a paper on the impact of managers in the German Bundesliga](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760) and decided to replicate the analysis on NBA coaches. I soon realized that the NBA is an ideal environment for two main reasons:
+The project started as I was completing my Master's in Applied Economics, during which I happened to read a number of academic papers on sports economics. I came across [a paper] on the impact of managers in the German Bundesliga(https://journals.sagepub.com/doi/abs/10.1177/1527002516674760) and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two main reasons:
 
-1. **We are able to capture player quality pretty well**: Thanks to advanced performance metrics such as Win Shares, VORP, BPM.. etc,  we can control for roster quality, which is not the case in soccer. 
+1. **We are able to capture player quality pretty well.** Thanks to advanced performance metrics such as Win Shares, VORP, BPM.. etc,  we can control for roster quality more accurately than in soccer. 
 
-2. **The turnover rate of coaches is high**. Most NBA coaches are observed on more than one team, with some on as many as 11 (Larry Brown). This reduces standard errors, allowing to trace their impact accurately as they move across teams.
+2. **The turnover rate of coaches is high.** Most NBA coaches are observed on more than one team, with some on as many as 11 (Larry Brown). This reduces standard errors, allowing to trace their impact accurately as they move across teams.
 
 The project continued to evolve as I gathered feedback from professors and later on from colleagues at the IMF. The code was originally built in Stata, but I've redone it in Python in order to incorporate some additional features. Here's the [Github repo](https://github.com/alamine53/nba_coach_FixedEffects). 
 
@@ -29,13 +29,13 @@ For the sake of clarity, I will leave out some details from this article. If you
 
 The main challenge in assessing the impact of coaches is accounting for roster quality. This is why looking at winning records alone can be misleading. For example, Phil Jackson has an astonishing 70% win record over his career, but some could argue he benefited from superior talent (Michael Jordan, Kobe Bryant, Shaquille O'Neal, to a name a few). So, how do we account for that? How do we know whether it the coach who benefited from the players and not the other way around?
 
-Some coaches fly under the radar despite outperforming with lesser rosters. Many would consider Brad Stevens as one of the league's best coaches, especially after taking a roster led by Isaiah Thomas to the top seed in the Eastern Conference in [2016-17](https://www.basketball-reference.com/teams/BOS/2017.html). To Stevens' credit, Thomas has had nowhere near this kind of individual or team success on any of [the other 7 teams he's played on]((https://www.basketball-reference.com/players/t/thomais02.html)). It could have been luck, but Stevens seems to consistently derive the most out of his players (think of Jae Crowder, Kelly Olynyk, Aaron Baynes). It's impossible to put in numbers the size of Stevens' impact simply because there are no metrics for that. The current analytics landscape lacks any systemic quantification of the coaching effect.
+Some coaches fly under the radar despite outperforming with lesser rosters. Many would consider Brad Stevens as one of the league's best coaches, especially after taking a roster led by Isaiah Thomas to the top seed of the Eastern Conference in [2016-17](https://www.basketball-reference.com/teams/BOS/2017.html). To Stevens' credit, Thomas has had nowhere near this kind of individual or team success on any of [the other 7 teams he's played on]((https://www.basketball-reference.com/players/t/thomais02.html)). It could have been luck, but Stevens seems to consistently derive the most out of even secondary players (think Jae Crowder, Kelly Olynyk, Aaron Baynes). It's impossible to put in numbers the size of Stevens' impact simply because there are no metrics for that. 
 
 ### 'Fixed Effects' as Metrics for Coaches
 
-The model I develop generates metrics that capture a coach's average impact on team wins while controlling for roster quality. I use a regression model called 'Fixed Effects' that includes players' performance in the previous season as a proxy for quality. The analysis covers 209 head coaches across all NBA teams since 1985. 
+I fill this gap by generating metrics that capture a coach's average impact on team wins, while controlling for roster quality. I use a regression model called 'Fixed Effects' that includes players' overall performance from the previous season as a proxy for quality. The analysis covers 209 head coaches across all NBA teams since 1985. 
 
-I obtain a nice distribution of fixed effects. As shown in the below histogram, the range of values is from -25 to +28 (Steve Kerr). The mean fixed effect is 0, which means that a value of +10.0 indicates that a coach generates 10 additional wins per season relative to the mean. 
+I obtain a nice distribution of fixed effects. As shown in the below histogram, the range of resulting values is from -25 to +28 (Steve Kerr). The mean fixed effect is 0, which means that a value of +10.0 indicates that a coach generates 10 additional wins per season relative to the mean. 
 
 ![histogram] (/images/posts/coaches/histogram.png)
 
