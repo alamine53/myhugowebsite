@@ -1,89 +1,74 @@
 ---
 date: 2020-04-01
 type: Sports Economics
-title: The Managerial Contribution of Coaches in the NBA
+title: Quantifying the Coaching Effect in the NBA
 summary: I estimate the relative added-value of NBA head coaches in light of roster characteristics and injuries. I find that the top coaches (e.g. Steve Kerr, K.C. Jones, Phil Jackson, and Greg Popovich), elevate team performance by as much as 20 wins per season. These estimated fixed effects are also useful in predicting team wins for future coach-team pairings. 
 featured_image: "/images/posts/coaches/scatter_plot.png"
 draft: false
 weight: 1
 ---
+![bar_chart] (/images/posts/coaches/thumbnail.png)
 
 ### Introduction
 
+At a 2017 Sloan Sports Analytic Conference panel, Zach Lowe raised a question that had been on my mind for a while: "When will we have metrics that capture coaches' contribution?" Like many basketball enthusiasts, it's quite evident to me, from watching and [playing professionally](https://www.asia-basket.com/Lebanon/basketball-National-Team.asp?Age=18&Year=2010) for so long, that some coaches are able to elevate team performance more than others. But the analytics community has yet to come up with a metric that systematically captures that. So, I set out to fill this gap. 
 
-Even casual fans would agree that some coaches have a greater impact than others, yet there isn't much evidence to support that. Looking at winning records alone may overstate the true contribution of those who have had the fortune of coaching superior players. Other coaches may be more effective than their team achievements suggest. One example is Brad Stevens who, despite not having the silverware to show for it, is considered one of the best coaches in the league after turning a rebuilding franchise around in a span of a couple of years. 
+The project started while I was completing my Master's in Applied Economics, during which I happened to read a number of academic papers on sports economics. I came across [a paper on the impact of managers in the German Bundesliga](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760) and decided to replicate the methodology on NBA coaches. I soon realized that the NBA is an ideal environment for two main reasons:
 
-So instead of endlessly debating which NBA coaches are "better," I decided to test this out using data. Specifically, I wanted to find out which coaches are able to consistently elevate team performance given a threshert of roster quality. 
+1. **We are able to capture player quality pretty well**, thanks to advanced performance metrics such as Win Shares, VORP, BPM.. etc. This has yet to be the case in soccer. 
 
-This project started while I was completing my Master's in economics, during which I was starting to discover the joys of programming. It has greatly evolved since. The code was originally built in Stata, but has been redone in R, then Python --- the latest version of which can be found in [this](https://github.com/alamine53/nba_coach_FixedEffects) Github repo. 
+2. **The turnover rate of coaches is quite high**. Most NBA coaches are observed on more than one team, with some on as many as 11 (Larry Brown). This reduces standard errors, allowing to trace their impact accurately as they move across teams.
 
-### Estimating the Coaching Effect on Team Wins
-
-For the sake of clarity, I will try to explain things in simple terms, with more details in the [full paper](https://www.ramzyalamine.com/files/alamine_coaches.pdf) if you're interested in that. 
+The project continued to evolve as I gathered feedback from professors and later on from colleagues at the IMF. The code was originally built in Stata, but I've redone it in Python in order to incorporate some additional features. You can find it [this](https://github.com/alamine53/nba_coach_FixedEffects) Github repo. For the sake of clarity, I will leave out some important details from this article. If you're interested in the technicalities, I encourage you to check out [my working paper](https://www.ramzyalamine.com/files/alamine_coaches.pdf). 
 
 
-![bar_chart] (/images/posts/coaches/top10_barchart.png)
+
+### Controlling for Roster Quality
+
+The main challenge in assessing the impact of coaches is accounting for roster quality. This is why looking at winning records alone can be misleading. For example, Phil Jackson is an astonishing 70% over his career, but some could argue he benefited from superior talent (Michael Jordan, Kobe Bryant, Shaquille O'Neal, to a name a few). So, how do we account for that? How do we know whether it wasn't the other way around, that it's the players who benefitted from his coaching?
+
+Other coaches fly under the radar despite outperforming with lesser rosters. Many would consider Brad Stevens as one of the league's best coaches, especially after taking a roster led by Isaiah Thomas to the top of the Eastern Conference in [2016-17](https://www.basketball-reference.com/teams/BOS/2017.html). To Stevens' credit, Thomas has not had anywhere near this kind of individual or team success on any of [the other 7 teams he's played on]((https://www.basketball-reference.com/players/t/thomais02.html)). Of course, it could have been a lucky match. Either way, it's impossible to put in numbers the size of Stevens' impact as the current analytics landscape lacks any systemic quantification of the coaching effect.
+
+The model I develop here tackles these issues. It controls for roster quality by including the players' performance in the previous season. For a given coach in a given season *t*, I take into account the players' performance in season *t-1*. Specifically, I compute the roster's mean Value Over Replacement Player (VORP) from that season as a measure of its "quality".
+
+### 'Fixed Effects' as a Metric for Coaches
+
+Using a 'fixed effect' regression model, I estimate the correlation between head coach identity and team wins for 209 head coaches (since 1985), while controlling for roster quality. What this produces is the [fixed effect](https://en.wikipedia.org/wiki/Fixed_effects_model) for each head coach. The resulting metric, which I am calling 'Coach Fixed Effect', measures the additional wins contributed, on average, while controlling for roster quality. 
+
+As shown in the below histogram, I obtain a nice distribution of fixed effects. The range of values is from -25 to +21, resulting in a range of 46 wins per season. The mean fixed effect is 0, which is a nice property because it simplifies interpretation. A value of +10.0 means the coach generates 10 additional wins per season relative to the mean historical head coach. 
 
 ![histogram] (/images/posts/coaches/histogram.png)
 
+
+### Top Coaches
+
+The top 15th percentile of coaches are shown in the below figure. Changing from the mean head coach to Steve Kerr generates an additional 28 wins when roster quality is held at its mean. Kerr is by far the most impactful, followed by Phil Jackson and Gregg Popvich with 20 wins each. It is important to note that the data set stops at 2018, therefore the recent Warriors struggles are not captured in this model. 
+
+
+These metrics are point estimates, therefore they are accompanied with [confidence intervals](https://en.wikipedia.org/wiki/Confidence_interval). Coaches with fewer observations are subject to higher standard errors. For example, Nick Nurse is only observed on 3 seasons in the dataset - therefore the error bar is significantly higher than Phil Jackson or Gregg Popovich who are observed on 15+ seasons. In other words, the error margin is reduced as a coach's career unfolds.
+
+![bar_chart] (/images/posts/coaches/top10_barchart.png)
+
+
+### Underrated Coaches
+
+The scatter plot below places all of the coaches in terms fixed effect (y-axis) versus the "traditional" measure of career win percentage. The point is to show that, despite those being closely related, they are not exactly identical. The further a coach is from the 45 degree line, the more his actual impact is misrepresented by his winning record. Observations in yellow correspond to the fixed effect rank being larger than the win rank, therefore they represent underrated coaches. Vice versa, observations in purple represent overrated coaches (or, more accurately, those whose success was driven heavily by superior player quality).
+
 ![scatter] (/images/posts/coaches/scatter_plot.png)
+
+### Predictive Power
+
+To determine whether these estimated fixed effects have any usefulness for the real world, I investigate their predictive power. I ask the following question: Knowing a coach's performance up to season *t*, does that tell me anything about his future performance on season *t+1*? 
+
+
+The line chart below compares the RMSE for my fixed effect model against a model of just roster quality. The RMSE is calculated based on a cross-validation exercise (see working paper for full details). I find that fixed effects improve forecast accuracy of team wins by as much as 15 percent. 
 
 ![rmse] (/images/posts/coaches/forecast_error_per_season.png)
 
 
-#### Introduction
+### Coverage  
 
-![Popovich spurs] (/images/posts/post2_webimage2_popovich.png)
+My dataset covers all NBA teams between 1985 and 2018. The unit of observation is a team-season, which leads to about 900 observations (~ 30 teams x 35 seasons). I source all of the data, including coach and roster information, team wins, and player metrics (for the sake of robustness, I try VORP, WS, BPM... etc as roster quality measures), from the [BBRef website](https://www.basketball-reference.com/)
 
-Tweeting in May 2018, Isaiah Thomas called Brad Stevens “by far the best coach in the NBA” after leading a short-handed Celtics to consecutive playoff runs. But given the lack of relevant metrics, how is one to judge whether this statement is true? If anything, the NBA's coaching award went to Dwayne Casey that year, who was ironically fired weeks after.
+### How Fixed Effects are Calculated  
 
-![Isiah Thomas' tweet about Stevens] (/images/posts/tweet_thomas_stevens.png)
-
-The debate as to whether coaches matter that much for team performance continues to linger among armchair analysts and those in the sports business. For the average fan, it may be excrutiatingly difficult to question their impact. Some coaches, like Phil Jackson and Red Auerbach, have won too many trophies to deny their importance. But could they have benefitted from exceptional players? 
-
-Some head coaches accomplish eye-cataching statistical features that for some may put to rest the question of their impact. Some coaches seem to do well consistently on different teams and regardless of the cards they are dealt. Greg Popovich is now going into his 22nd season as the head coach of the San Antonio Spurs while failing to miss the post-season a single time over the course of his tenure. Phil Jackson's career win percentage is 70 percent, and this spans X seasons and 2 teams. Steve Kerr has reached the NBA finals 5 times in has first 5 seasons.
-
-In soccer, names like Pep Guardiola, Jose Mourinho, and Jurgen Klopp come to mind when the discussion on legendary coache is brought up. They seem to deliver results wherever they go. In football, Sean McVay
-
-Granted, coaching is dependent on talent. A superior raster may give one coach the edge over another, which complicates the task of estimating their contribution.  play a hand in their success, yet coaches who are great consistently outperform expectations. Popovich has had years where his best player was X. But other coaches have also had talent and faired much worse. In addition,that is not always the case. More tuned-in fans may notice that some coaches do more with less.
-
- such sought after names are likely to benefit from bigger bugets that can attract superior talent. But that is only after they showed promise in lesser teams with more modest budgets. In other words, they became great coaches before they took on the giants, then grew even more after. There are a few names that come to mind when one thinks of promising names in the coaching sphere today. 
-
-
-Many great coaches are ignored in that conversation because of a lack of rings. In order for a coach to enter the “greatness” conversation, they must be championship winners. All others are automatically removed from the conversation. They might be highly impactful, yet since we have no other way to measure their impact other than by the ultimate price, they go by unnoticed. But winning a championship is very daunting task that only a select few ever get to experience. Only 1 coach out 20 or 30 (depending on the league) can win each season. Does this mean that all others have not done a good enough job?
-
-The degree to which coaching impacts the outcome of a sports season is much-debated among armchair analysts and anecdotally by those in the sports business, but has been subject to little systematic study. Historically, coaching ability is approximated by the number of championships: Those with most silverware are considered all-time greats. But this approach fails to capture the extent to which a particular head coach plays a role in their team's success. Superior talent may provide some coaches a head start while others may over-achieve given a set of players. 
-
-My paper proposes a new, statistically-robust approach to measuring the relative contribution of head coaches in professional sports. Using data from the NBA, it disentangles their impact as they move across teams while controlling for roster quality and injuries. The NBA is unique in its high frequency of front office changes, with around 60 percent of its coaches being observed on more than one team. Econometrically, this enhances the accuracy of the estimates and efficiently captures the coaching effect.
-
-The resulting estimates allow for identifying excellent coaches, including those who are over-looked by the lack of accolades. They also help compare the contribution of coaches from different eras. For example, changing from the mean head coach to Rick Carlisle generates an estimate 10.5 additional wins when roster characteristics are held at their means [Table 1], while changing to Don Nelson generates 3.8 additional wins.
-
-More importantly, this quantification exercise allows to investigate observable characteristics that shape excellent coaches. For example, the notion that ex-players make for good coaches is debunked in the data. On the contrary, coaches with more diverse backgrounds seem to be better-suited to lead an NBA franchise. Moreover, playoff-seasoned coaches display better results on average.
-
-#### Data Analysis
-
-The main estimation strategy follows from the literature on managerial contribution in organizational settings. It consists in a coach-fixed effect regression model that is tweaked to fit the context of the NBA. The model is supplemented by performance-based metrics that capture players' relative ability level at the start of the season. It can be represented by the following equation. 
-
-For coach $i$ in season $t$ (with players $p$ = 1, ..., 5):
-
-\begin{equation}
-\text{Wins}_{i,t} = \sum_{p=1}^{5}(\alpha_{p}\text{Talent}_{p,t} + \beta_{p}\text{Injuries}_{p,t}) + \lambda_{i} + \epsilon_{i,t}
-\end{equation}
-
-where the dependent variable is the number of wins for team $i$ in season $t$ = {1,2,3}.  Coach fixed effects are captured by $\lambda_{i}$, the variable of interest. ${Talent}_{p,t}$ represents player $p$'s overall contribution from the previous season.
-
-The research provided in this paper sheds light on an aspect of team play that is under-emphasized. In addition to setting strategy, coaches motivate, inspire, and establish a culture. Identifying the right head coach is crucial to maximizing on a team's potential and accentuating its players' relative strengths. The sports world has seen many memorable figures, including the likes Pep Guardiola, Bill Belichik, Phil Jackson, and Greg Popovich. Motivated by their success, this paper views coaching as source of value rather than just a seat to fill. 
-
-
-#### Results
-
-#### Conclusion
-
-### scratch
-
-
-We tend to connect team success with player quality, naturally, because they are the ones doing the scoring. But, as I will show in this article, it's often the coach who deserves the credit.
-
-When we talk of the Golden State Warriors, for example, we immediately think of the splash brothers. We fail to realize that Curry and Klay would have had a different fate had they not been matched with Steve Kerr. Most fans also can't deny that some coaches seem to do *more* with *less*. One example would be Brad Stevens, whose success record probably understates his impact on what started as a re-building franchise and turned into a powerhouse team in a span of a few seasons.
-
-If you've played on sports teams before, you might've experienced the coaching effect first hand. Growing up as an aspiring point guard, I've played on teams were things just seemed to "click" for no obvious reason. Other times things our team would underperform despite excellent players. While there could be many explanations (including team chemistry, facilities, or even pure chance), I couldn't help but notice that some coaches seemed to make things "click" way too consistently for it to be a mere coincidence. (In Lebanon, it was common for a coach to take on multiple teams at once to make ends meet.)

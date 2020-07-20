@@ -271,8 +271,9 @@ $job-title-font: 'SFMono-Medium';
     line-height: 18px;
     display: block;
     font-style: normal;
-    font-weight: 100;
+    font-weight: 80;
     font-size: 20px;
+    margin-top: 28px;
     letter-spacing: 0.1 rem;
     color: $dark-navy;
     text-decoration: none;
@@ -334,7 +335,7 @@ $job-title-font: 'SFMono-Medium';
     margin-bottom: 12px;
     font-size: 12px;
     letter-spacing: 0.1 rem;
-    color: $dark-slate;
+    color: $light-main;
     text-decoration: none;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
 
@@ -354,8 +355,8 @@ $job-title-font: 'SFMono-Medium';
     margin-bottom: 12px;
     font-size: 12px;
     letter-spacing: 0.1 rem;
-    color: $light-blue;
-    text-decoration: none;
+    color: $dark-slate;
+    text-decoration: underline;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
 
      .dark-theme & {
@@ -412,7 +413,6 @@ $job-title-font: 'SFMono-Medium';
       }
     }
   }
-
   p{
     font-family: 'Barlow-Semi-Condensed', sans-serif;
     display: block;

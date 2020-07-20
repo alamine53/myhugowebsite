@@ -7,7 +7,7 @@ theme = "KeepIt"
 paginate = 12
 enableEmoji = true
 enableRobotsTXT = true
-googleAnalytics = ""
+googleAnalytics = "UA-172041562-1"
 disqusShortname = "yourdiscussshortname"
 
 [sitemap]
