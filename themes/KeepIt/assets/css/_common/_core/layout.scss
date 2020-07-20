@@ -25,9 +25,11 @@
   .main {
     flex: 1 0 auto;
   }
+
   .container{
-    padding-left: 1em;
-    padding-right: 1em;
+    max-width: none;
+    padding-left: 3em;
+    padding-right: 3em;
   }
   
   .footer {
