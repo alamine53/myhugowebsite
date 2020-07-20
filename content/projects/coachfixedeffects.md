@@ -13,9 +13,9 @@ weight: 1
 
 ### Introduction
 
-A few years ago at the Sloan Sports Analytic Conference, one of the moderators raised an important question, for which no panelist gave a clear answer: "We have all these metrics that capture player perfromance, isn't it time to have metrics for coaches?" It is quite evident, even to the casual observer, that some coaches are able to elevate team performance more than others. But the analytics community has yet to come up with a metric that systematically studies that. So, I've set out to fill this gap. 
+A few years ago at the Sloan Sports Analytic Conference, one of the moderators raised a question for which there was no clear answer: "We have all these metrics that capture player perfromance, isn't it time to have metrics for coaches?" It is quite evident, even to the casual observer, that some coaches are able to elevate team performance more than others. But the analytics community has yet to come up with a metric that systematically studies that. So, I've set out to fill this gap. 
 
-The project started as I was completing my Master's in Applied Economics, during which I happened to read a number of academic papers on sports economics. I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760)  on the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two reasons:
+The project started as I was completing my graduate studies in economics, during which I happened to read a number of academic papers on sports economics. I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760)  on the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two reasons:
 
 1. **We are able to capture player quality pretty well.** Thanks to advanced performance metrics such as Win Shares, VORP, BPM.. etc,  we can control for roster quality more accurately than in soccer. 
 
