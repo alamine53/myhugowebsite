@@ -12,7 +12,7 @@ weight: 1
 
 ### Introduction
 
-At a Sloan Sports Analytic Conference, Zach Lowe raised a question that had been on my mind for a while: "We have all these metrics for players, when will we make some for coaches?" It had been quite evident to me, from [playing professionally](https://www.asia-basket.com/Lebanon/basketball-National-Team.asp?Age=18&Year=2010), that some coaches are able to elevate team performance more than others. But the analytics community has yet to come up with a metric that systematically captures that. So, I've set out to fill this gap. 
+At a Sloan Sports Analytic Conference, the moderator raised a question that had been on my mind for a while: "We have all these metrics for players, isn't it about time to have metrics for coaches?" It is quite evident, even to the casual fan, that some coaches are able to elevate team performance more than others. But the analytics community has yet to come up with a metric that systematically studies that. So, I've set out to fill this gap. 
 
 The project started as I was completing my Master's in Applied Economics, during which I happened to read a number of academic papers on sports economics. I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760)  on the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two reasons:
 
