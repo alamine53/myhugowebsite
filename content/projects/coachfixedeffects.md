@@ -14,9 +14,9 @@ weight: 1
 
 ### Introduction
 
-Everybody in the NBA is trying to come up with performance metrics, but what about coaches? It's clear to me, from watching and playing basketball professionally, that some coaches are able to elevate performance *more* than others. Yet systematically it remains a blackbox. I've set out to fill this gap.
+Everybody in the NBA is trying to come up with performance metrics, but what about coaches? It's clear to me, from watching and playing basketball professionally, that some coaches are able to elevate performance *more* than others. Yet systematically this topic remains a blackbox.
 
-The project started as I was completing my graduate studies in economics, during which I happened to read a number of academic papers on sports economics. I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760)  on the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two reasons:
+The project started during my graduate studies in economics, where I happened to read a number of academic papers on sports economics. I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760) that studied the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two main reasons:
 
 1. **Player quality can be captured fairly well.** Advanced metrics allow for capturing the role of roster quality.
 
@@ -38,7 +38,7 @@ Some coaches fly under the radar despite outperforming with lesser rosters. Many
 
 Coach Fixed Effects (Coach FE) capture the average additional wins contributed while controlling for roster quality. I take into account the players' performance in the previous season as a proxy for quality. The analysis covers 159 head coaches across all teams from 1985 to 2018. 
 
-Here's a look at the distribution of Coach FE estimates. Values range from -25 to +21. The mean fixed effect is close to 0, which means that a value of +10.0 indicates that a coach generates about 10 additional wins per season relative to the mean. 
+Here's a look at the distribution of Coach FE estimates. Values range from -25 to +21. The mean fixed effect is close to 0, which means that a value of +10.0 generates about 10 additional wins per season relative to the mean. 
 
 ![histogram] (/images/posts/coaches/histogram.png)
 
@@ -47,7 +47,6 @@ Here's a look at the distribution of Coach FE estimates. Values range from -25 t
 
 The top 15th percentile of coaches are shown in the below figure. Changing from the mean head coach to Nick Nurse generates an additional 21 wins when roster quality is held at its mean. Similarly, changing to Steve Kerr generates 18 wins on average. 
 
-
 These metrics are point estimates, therefore they are accompanied with [confidence intervals](https://en.wikipedia.org/wiki/Confidence_interval). As shown by the error bars in the below chart, coaches with fewer observations are subject to higher standard errors (and wider confidence intervals). Since Nick Nurse, for example, is only observed on just 1 season, his Fixed Effect could be anywhere from +7 to +40. This margin will decrease as he coaches more seasons. Phil Jackson and Gregg Popovich, meanwhile, have much higher certainty because they have more decorated careers.
 
 ![bar_chart] (/images/posts/coaches/top10_barchart.png)
@@ -55,7 +54,7 @@ These metrics are point estimates, therefore they are accompanied with [confiden
 
 ### Underrated Coaches
 
-One of the main advantages of this model is identifying coaches whose impact is overlooked by their team's winning record. Each dot in the chart represents a head coach's percentile rank based on estimated fixed effect (y-axis) relative to his rank based on career win percentage (x-axis). The further the dot from the 45 degree line, the larger the difference between the two. Observations in yellow correspond to coaches who outperform expectations on a consistent basis, while observations in purple represent coaches who underperform given a threshold of roster quality.
+One of the main advantages is identifying coaches whose impact is overlooked by their team's winning record. Each dot in the below chart represents a particular head coach, based on his percentile ranks according to estimated fixed effect (y-axis) and to career win percentage (x-axis). The further the dot from the 45 degree line, the larger the difference between the two. Observations in yellow correspond to coaches who outperform expectations on a consistent basis, while observations in purple represent coaches who underperform given a threshold of roster quality.
 
 The point is to show that, despite those being closely related, they are not exactly identical. 
 ![scatter] (/images/posts/coaches/scatter_plot.png)
