@@ -14,7 +14,7 @@ weight: 1
 
 ### Introduction
 
-One of the moderators at the Sloan Sports Analytics Conference raised a question that stuck with me: What about coaches? It had become clear to me, from watching and playing basketball professionally, that some coaches are able to elevate performance *more* than others. Yet coaching remains a blackbox within the league and the analytics community has yet to come up with metrics for that. So, I've set out to fill this gap by launching a systematic study of coaches. 
+One of the moderators at the Sloan Sports Analytics Conference raised a question that stuck with me: What about coaches? It had become clear to me, from watching and playing basketball professionally, that some coaches are able to elevate performance *more* than others. Yet coaching remains a blackbox as the analytics community has yet to come up with metrics for that. So, I've set out to fill this gap by launching a systematic study of coaches. 
 
 The project started as I was completing my graduate studies in economics, during which I happened to read a number of academic papers on sports economics. I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760)  on the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two reasons:
 
