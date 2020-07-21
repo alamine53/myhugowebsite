@@ -9,12 +9,12 @@ thumbnail: /images/posts/coaches/scatter_plot_notitle.png
 draft: false
 weight: 1
 ---
-![coach_faces] (/images/posts/coaches/thumbnail.png)
-
+<!-- ![coach_faces] (/images/posts/coaches/thumbnail.png)
+ -->
 
 ### Introduction
 
-One of the moderators at the Sloan Sports Analytics Conference raised a question that stuck with me: "What about coaches?" We've been long caught up in measuring the performance players, totally ignoring the coaching effect. It had become clear to me, from watching and playing basketball professionally, that some coaches are able to elevate individual and team performance *far more* than others. But the analytics community has yet to come up with a metric that systematically studies that. So, I've set out to fill this gap. 
+One of the moderators at the Sloan Sports Analytics Conference raised a question that stuck with me: "What about coaches?" We've been long caught up in measuring the performance of players, pretending as if coaches don't affect it. It had become clear to me, from watching and playing basketball professionally, that some coaches are able to elevate performance *more* than others. So, given that the analytics community has yet to come up with a metric that systematically studies that, I've set out to fill this gap. 
 
 The project started as I was completing my graduate studies in economics, during which I happened to read a number of academic papers on sports economics. I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760)  on the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two reasons:
 
@@ -30,25 +30,25 @@ For the sake of clarity, I will leave out some details from this article. If you
 
 ### Controlling for Roster Quality
 
-The main challenge in assessing the impact of coaches is accounting for roster quality. This is why looking at winning records alone can be misleading. For example, Phil Jackson has an astonishing 70% win record over his career, but some could argue he benefited from superior talent (Michael Jordan, Kobe Bryant, Shaquille O'Neal, to a name a few). So, how do we account for that? How do we know whether it the coach who benefited from the players and not the other way around?
+The main challenge in assessing the impact of coaches is accounting for roster quality. Some coaches may have a tougher job than others. This is why looking at the winning record for someone like Phil Jackson can be misleading. While he has an astonishing 70% win record over his career, some could argue he benefited from superior talent (Michael Jordan, Kobe Bryant, Shaquille O'Neal, to a name a few). So, how do we account for that? How do we know whether it's the coach who benefited from the players and not the other way around?
 
-Some coaches fly under the radar despite outperforming with lesser rosters. Many would consider Brad Stevens as one of the league's best coaches, especially after taking a roster led by Isaiah Thomas to the top seed of the Eastern Conference in [2016-17](https://www.basketball-reference.com/teams/BOS/2017.html). To Stevens' credit, Thomas has had nowhere near this kind of individual or team success on any of [the other 7 teams he's played on]((https://www.basketball-reference.com/players/t/thomais02.html)). It could have been luck, but Stevens seems to consistently derive the most out of even secondary players (think Jae Crowder, Kelly Olynyk, Aaron Baynes). It's impossible to put in numbers the size of Stevens' impact simply because there are no metrics for that. 
+Some coaches fly under the radar despite outperforming with lesser rosters. Many would consider Brad Stevens as one of the league's best coaches, especially after taking a roster led by Isaiah Thomas to the top seed of the Eastern Conference in [2016-17](https://www.basketball-reference.com/teams/BOS/2017.html). To Stevens' credit, Thomas has had nowhere near this kind of individual or team success on any of [the other 7 teams he's played on]((https://www.basketball-reference.com/players/t/thomais02.html)). It could have been luck, of course, but Stevens seems to consistently derive the most out of even secondary players (think Jae Crowder, Kelly Olynyk, Aaron Baynes). 
 
 ### 'Fixed Effects' as Metrics for Coaches
 
-I fill this gap by generating metrics that capture a coach's average impact on team wins, while controlling for roster quality. I use a regression model called 'Fixed Effects' that includes players' overall performance from the previous season as a proxy for quality. The analysis covers 209 head coaches across all NBA teams since 1985. 
+Coach Fixed Effects (Coach FE) capture the average additional wins contributed while controlling for roster quality. I take into account the players' performance in the previous season as a proxy for quality. The analysis covers 159 head coaches across all teams from 1985 to 2018. 
 
-I obtain a nice distribution of fixed effects. As shown in the below histogram, the range of resulting values is from -25 to +28 (Steve Kerr). The mean fixed effect is 0, which means that a value of +10.0 indicates that a coach generates 10 additional wins per season relative to the mean. 
+Here's a look at the distribution of Coach FE estimates. Values range from -25 to +21. The mean fixed effect is close to 0, which means that a value of +10.0 indicates that a coach generates about 10 additional wins per season relative to the mean. 
 
 ![histogram] (/images/posts/coaches/histogram.png)
 
 
 ### Top Coaches
 
-The top 15th percentile of coaches are shown in the below figure. Changing from the mean head coach to Steve Kerr generates an additional 28 wins when roster quality is held at its mean. Kerr is by far the most impactful, followed by Phil Jackson and Gregg Popvich with 20 wins each. It is important to note that the data set stops at 2018, therefore the recent Warriors struggles are not captured in this model. 
+The top 15th percentile of coaches are shown in the below figure. Changing from the mean head coach to Nick Nurse generates an additional 21 wins when roster quality is held at its mean. Similarly, changing to Steve Kerr generates 18 wins on average. 
 
 
-These metrics are point estimates, therefore they are accompanied with [confidence intervals](https://en.wikipedia.org/wiki/Confidence_interval). Coaches with fewer observations are subject to higher standard errors (and wider confidence intervals). Since Nick Nurse, for example, is only observed on 3 seasons, his Fixed Effect has a high degree of uncertainty. Meanwhile, Phil Jackson and Gregg Popovich, who have considerably more observations, have lower standard errors. 
+These metrics are point estimates, therefore they are accompanied with [confidence intervals](https://en.wikipedia.org/wiki/Confidence_interval). As shown by the error bars in the below chart, coaches with fewer observations are subject to higher standard errors (and wider confidence intervals). Since Nick Nurse, for example, is only observed on just 1 season, his Fixed Effect could be anywhere from +7 to +40. This margin will decrease as he coaches more seasons. Phil Jackson and Gregg Popovich, meanwhile, have much higher certainty because they have more decorated careers.
 
 ![bar_chart] (/images/posts/coaches/top10_barchart.png)
 
