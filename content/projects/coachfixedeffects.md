@@ -14,11 +14,11 @@ weight: 1
 
 ### Introduction
 
-At a time where everybody in the NBA is trying to come up with perfromance metrics,  one of the moderators at the Sloan Sports Analytics Conference raised the question: What about coaches? It had become clear to me, from watching and playing basketball professionally, that some coaches elevate performance *more* than others. Yet coaching remains a blackbox, and the analytics community has yet to study it systematically. So, I've set out to fill this gap.
+Everybody in the NBA is trying to come up with performance metrics, but what about coaches? It's clear to me, from watching and playing basketball professionally, that some coaches are able to elevate performance *more* than others. Yet systematically it remains a blackbox. I've set out to fill this gap.
 
 The project started as I was completing my graduate studies in economics, during which I happened to read a number of academic papers on sports economics. I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760)  on the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two reasons:
 
-1. **Player quality can be captured fairly well.** Advanced metrics allow for capturing the effect of roster quality.
+1. **Player quality can be captured fairly well.** Advanced metrics allow for capturing the role of roster quality.
 
 2. **The turnover rate of coaches is high.** Most NBA coaches are observed on more than one team (with some on as many as 11), therefore reducing standard errors.
 
