@@ -2,7 +2,7 @@
 date: 2020-04-01
 type: Sports Economics
 title: Quantifying the Coaching Effect in the NBA
-description: The current analytics landscape lacks any systematic study of the coaching effect. I fill this gap by estimating a Coach-Fixed Effect model applied to the NBA. I find that the top coaches (e.g. Steve Kerr, K.C. Jones, Phil Jackson, and Greg Popovich), elevate team performance by as much as 20 wins per season. These estimated fixed effects are also useful in predicting team wins for future coach-team pairings. 
+summary: The current analytics landscape lacks any systematic study of the coaching effect. I fill this gap by estimating a Coach-Fixed Effect model applied to the NBA. I find that the top coaches (e.g. Steve Kerr, K.C. Jones, Phil Jackson, and Greg Popovich), elevate team performance by as much as 20 wins per season. These estimated fixed effects are also useful in predicting team wins for future coach-team pairings. 
 featured_image: /images/posts/coaches/scatter_plot_notitle.png
 images: /images/posts/coaches/scatter_plot_notitle.png
 thumbnail: /images/posts/coaches/scatter_plot_notitle.png
@@ -14,7 +14,7 @@ weight: 1
 
 ### Introduction
 
-A few years ago I attended the Sloan Sports Analytic Conference where one of the moderators raised a question that stuck with me: "What about coaches?" The analytics community has long been caught up in developing performance metrics for players, totally ignoring the coaching effect. It had become clear to me, from watching and playing sports professionally, that some coaches are able to elevate individual and team performance *far more* than others. But the analytics community has yet to come up with a metric that systematically studies that. So, I've set out to fill this gap. 
+One of the moderators at the Sloan Sports Analytics Conference raised a question that stuck with me: "What about coaches?" We've been long caught up in measuring the performance players, totally ignoring the coaching effect. It had become clear to me, from watching and playing basketball professionally, that some coaches are able to elevate individual and team performance *far more* than others. But the analytics community has yet to come up with a metric that systematically studies that. So, I've set out to fill this gap. 
 
 The project started as I was completing my graduate studies in economics, during which I happened to read a number of academic papers on sports economics. I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760)  on the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two reasons:
 
