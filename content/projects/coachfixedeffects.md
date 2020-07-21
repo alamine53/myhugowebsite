@@ -14,13 +14,13 @@ weight: 1
 
 ### Introduction
 
-One of the moderators at the Sloan Sports Analytics Conference raised a question that stuck with me: "What about coaches?" We've been long caught up in measuring the performance of players, pretending as if coaches don't affect it. It had become clear to me, from watching and playing basketball professionally, that some coaches are able to elevate performance *more* than others. So, given that the analytics community has yet to come up with a metric that systematically studies that, I've set out to fill this gap. 
+One of the moderators at the Sloan Sports Analytics Conference raised a question that stuck with me: What about coaches? It had become clear to me, from watching and playing basketball professionally, that some coaches are able to elevate performance *more* than others. Yet coaching remains a blackbox within the league and the analytics community has yet to come up with metrics for that. So, I've set out to fill this gap by launching a systematic study of coaches. 
 
 The project started as I was completing my graduate studies in economics, during which I happened to read a number of academic papers on sports economics. I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760)  on the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two reasons:
 
-1. **We are able to capture player quality pretty well.** Thanks to advanced performance metrics such as Win Shares, VORP, BPM.. etc,  we can control for roster quality more accurately than in soccer. 
+1. **Player quality can be captured fairly well.** Advanced metrics allow for capturing the effect of roster quality.
 
-2. **The turnover rate of coaches is high.** Most NBA coaches are observed on more than one team, with some on as many as 11 (Larry Brown). This reduces standard errors, allowing to trace their impact accurately as they move across teams.
+2. **The turnover rate of coaches is high.** Most NBA coaches are observed on more than one team (with some on as many as 11), therefore reducing standard errors.
 
 The project continued to evolve as I gathered feedback from professors and later on from colleagues at the IMF. The code was originally built in Stata, but I've redone it in Python in order to incorporate some additional features. Here's the [Github repo](https://github.com/alamine53/nba_coach_FixedEffects). 
 
