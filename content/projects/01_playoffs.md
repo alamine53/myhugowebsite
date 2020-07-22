@@ -23,11 +23,11 @@ Just below them in the rankings, the Charlotte Hornets missed the playoffs by 2 
 
 Let's face it, the battle between 8th and 9th can be uninteresting. There is 97 percent chance the 8th seed won't get past the first round anyway. The reason this matters is that this could offer insight into the value of playoff experience. In fact, this is the best way to measure exactly what a trip to the playoffs is worth. Let me explain.
 
-Suppose all the 8th and 9th seeds ever, from both conferences, are bunched up in a group. You have no idea which is which, and you have to draw a team to compete against the Basketball Gods (an imaginary team). Does it matter? No, they are all pretty close in ability level, as evidenced by their proximity in the ranking. 
+Suppose all the 8th and 9th seeds ever, from both conferences, are bunched up in a group. You have no idea which is which, and you have to draw a team to compete against the Monstars (an imaginary team. Good, great, it doesn't matter). Would you prefer picking a team over the other? No, they are all pretty close in ability level, as evidenced by their proximity in the ranking. 
 
 Now pick half of the teams in this group to compete in a 7-game series against the Basketball Gods, and observe their gain in performance next season. Would it be interesting if those who were picked end up gaining more wins the following season than those who weren't? 
 
-That would be our best esimate of the **playoff effect**. Since all the teams in the sample are *identical* in ability level, the difference in perfromance gains can be traced to competing against the Basketball Gods.
+That would be our best esimate of the **playoff effect**. Since all the teams in the sample are *identical* in ability level, the difference in perfromance gains *has to be* due to competing against the Monstars. 
 
 
 ### What the data says 
@@ -36,18 +36,16 @@ You probably already know, otherwise this article wouldn't have existed. But gue
 
 On average, 8th seeds experience a 2.1 percent improvement while 9th seeds experience a 5.9 percent drop. That is a difference of 8.0 percent between average outcomes. This difference is the value of a trip to the playoffs. 
 
+There are no other teams (or a combination of teams) that, if you were to compare outcomes between them, you would get a better estimate of the average playoff effect. If you thought about taking the average all those who make the playoffs, compared against the average of those who missed, that won't work. The group of playoff teams is systematically better than non-playoff teams. 
+
 ![RD Chart] (/images/posts/post1_chart1.png)
 
 
-Although I won't directly use a regression discontinuity design in this article, it's helpful to go over it briefly.
-
-Regression discontinuity consists of comparing the effect of a "treatment" for observations just above or below a certain threshold. It's commonly used test scores, height, winning record... etc), it is possible to estimate the impact of this treatment by looking at observations just around that threshold. 
-
-The idea is that observations around threshold are much more likely to be similar than those far from it. would be identical in every way other than whether or not they were admitted. This method is used to numerically measure the returns of a certain *treatment* effect whose assignment is based on a continuous variable.
-
 ### What could explain this
 
-The benefits from being in a playoff series are many, especially for teams with promising but unpolished players. For one, the incredibly competitive environment is are great for learning and provides tremendous growth opportunities for players at their start of their careers. The 2017-18 season witnessed the come-up of Jayson Tatum who put the short-handed Celtics team on his back during the playoffs. Tatum now looks to be the centerpiece for the Celtics’ future as the team looks to build around them.
+The benefits of a playoff series are no strangers to the average fan. The 
+
+, especially for teams with promising but unpolished players. For one, the incredibly competitive environment is are great for learning and provides tremendous growth opportunities for players at their start of their careers. The 2017-18 season witnessed the come-up of Jayson Tatum who put the short-handed Celtics team on his back during the playoffs. Tatum now looks to be the centerpiece for the Celtics’ future as the team looks to build around them.
 
 Most playoff games are nationally-televised, providing a chance for players to make a name for themselves at the biggest stage. This year was the turn for players like Jamal Murray, D’Angelo Russell, and Derrick White – whose names seemed to echo in every Sports Center highlight. With such wide recognition, these players are more likely to become stars and earn interest from the big teams around the league. Russell is a proof of that as the Golden State Warrior sought him in return for losing their primary scorer – Kevin Durant. Before his brief stunt with the Nets, which was solidified in the playoffs, Russell was a loosely traded commodity around the league.
 
