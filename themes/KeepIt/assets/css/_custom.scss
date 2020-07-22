@@ -236,7 +236,7 @@ $job-title-font: 'SFMono-Medium';
 
   h1 {
     font-family: 'Calibre-Semibold';
-    text-transform: lowercase;
+    text-transform: Capitalize;
     font-size: 36px;
     letter-spacing: 0.04rem;
     line-height: 1;
@@ -275,6 +275,7 @@ $job-title-font: 'SFMono-Medium';
     font-weight: 80;
     font-size: 20px;
     margin-top: 28px;
+    margin-bottom: 0px;
     letter-spacing: 0.1 rem;
     color: $dark-navy;
     text-decoration: none;
@@ -358,7 +359,7 @@ $job-title-font: 'SFMono-Medium';
     letter-spacing: 0.1 rem;
     color: $dark-slate;
     text-decoration: underline;
-    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+    transition: color 0.2s ease, border-coslor 0.2s ease, background 0.2s ease, opacity 0.2s ease;
 
      .dark-theme & {
       color: $dark-green;
@@ -370,10 +371,10 @@ $job-title-font: 'SFMono-Medium';
   h7 {
     font-family: 'Barlow-Semi-Condensed', sans-serif;
     display: block;
-    line-height: 18px;
+    line-height: 20px;
     font-weight: 10px;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-size: 14px;
     letter-spacing: 0.1 rem;
     color: $dark-lightest-navy;

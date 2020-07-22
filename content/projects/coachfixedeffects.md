@@ -2,7 +2,7 @@
 date: 2020-04-01
 type: Sports Economics
 title: Quantifying the Coaching Effect in the NBA
-summary: The current analytics landscape lacks any systematic study of the coaching effect. I fill this gap by estimating a Coach-Fixed Effect model applied to the NBA. I find that the top coaches (e.g. Steve Kerr, K.C. Jones, Phil Jackson, and Greg Popovich), elevate team performance by as much as 20 wins per season. These estimated fixed effects are also useful in predicting team wins for future coach-team pairings. 
+summary: Using a coach-fixed effect regression model, I find that the top NBA coaches elevate team performance by as much as 20 additional wins per season. 
 featured_image: /images/posts/coaches/scatter_plot_notitle.png
 images: /images/posts/coaches/scatter_plot_notitle.png
 thumbnail: /images/posts/coaches/scatter_plot_notitle.png
@@ -14,7 +14,7 @@ weight: 1
 
 ### Introduction
 
-Everybody in the NBA is trying to come up with performance metrics, but what about coaches? It's clear to me, from watching and playing basketball professionally, that some coaches are able to elevate performance *more* than others. Yet systematically this topic remains a blackbox.
+For many, coaching analysis remains a black box. On one hand, it's evident that some coaches are able to elevate performance *more than others* (Jurgen Klopp, Pep Guardiola, Gregg Popovich, Bill Belichick), but there is no systematic evidence to prove that. Armchair analysts continue to rely on nothing more than mere conjecture. I've set out to fill this gap. 
 
 The project started during my graduate studies in economics, where I happened to read a number of academic papers on sports economics. I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760) that studied the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two main reasons:
 
@@ -24,13 +24,13 @@ The project started during my graduate studies in economics, where I happened to
 
 The project continued to evolve as I gathered feedback from professors and later on from colleagues at the IMF. The code was originally built in Stata, but I've redone it in Python in order to incorporate some additional features. Here's the [Github repo](https://github.com/alamine53/nba_coach_FixedEffects). 
 
-For the sake of clarity, I will leave out some details from this article. If you're interested in the technicalities, I encourage you to check [my working paper](https://www.ramzyalamine.com/files/alamine_coaches.pdf). 
+For the sake of clarity, I will leave out some details from this article. If you're interested in the technicalities, I encourage you to check [my working paper](https://www.ramzyalamine.com/files/alamine_coaches.pdf). If you'd like to jump straight to the ratings, they are at the bottom of the page. 
 
 
 
 ### Controlling for Roster Quality
 
-The main challenge in assessing the impact of coaches is accounting for roster quality. Some coaches may have a tougher job than others. This is why looking at the winning record for someone like Phil Jackson can be misleading. While he has an astonishing 70% win record over his career, some could argue he benefited from superior talent (Michael Jordan, Kobe Bryant, Shaquille O'Neal, to a name a few). So, how do we account for that? How do we know whether it's the coach who benefited from the players and not the other way around?
+The main challenge in studying the impact of coaches is accounting for roster quality. Some coaches may have a weaker roster than others. This is why looking at the winning record for someone like Phil Jackson can be misleading. While he has an astonishing 70% win record over his career, some could argue he benefited from superior talent (Michael Jordan, Kobe Bryant, Shaquille O'Neal, to a name a few). So, how do we account for that? How do we know whether it's the coach who benefited from the players and not the other way around?
 
 Some coaches fly under the radar despite outperforming with lesser rosters. Many would consider Brad Stevens as one of the league's best coaches, especially after taking a roster led by Isaiah Thomas to the top seed of the Eastern Conference in [2016-17](https://www.basketball-reference.com/teams/BOS/2017.html). To Stevens' credit, Thomas has had nowhere near this kind of individual or team success on any of [the other 7 teams he's played on]((https://www.basketball-reference.com/players/t/thomais02.html)). It could have been luck, of course, but Stevens seems to consistently derive the most out of even secondary players (think Jae Crowder, Kelly Olynyk, Aaron Baynes). 
 
@@ -69,10 +69,6 @@ The line chart below compares the RMSE for my fixed effect model against a model
 ![rmse] (/images/posts/coaches/forecast_error_per_season.png)
 
 
-### Coverage  
-
-My dataset covers all NBA teams between 1985 and 2018. The unit of observation is a team-season, which leads to about 900 observations (~ 30 teams x 35 seasons). I source all of the data, including coach and roster information, team wins, and player metrics, from [Basketball Reference](https://www.basketball-reference.com/).
-
 ### How Fixed Effects are Calculated  
 
 For a given coach in a given season *t*, I take into account the players' performance in season *t-1*. Specifically, I compute the roster's mean Value Over Replacement Player (VORP) from that season as a measure of its "quality".
@@ -81,9 +77,14 @@ Using a 'fixed effect' regression model, I estimate the correlation between head
 
 ### Potential Shortcomings
 
-Since I use previous season performance as a proxy for player quality, these fixed effects could favor coaches with budding superstars (e.g. Scott Brooks with the Oklahoma City Thunder).
+1. **Player development being credited to the coach.** Since performance at t-1 is used as a proxy for player quality, season-to-season growth is not accurately accounted for as an independent variable, leading to upward bias on the fixed effect. In other words, the model could favor coaches with budding superstars, such as Scott Brooks with the Oklahoma City Thunder. I foresee two ways of addressing this. First is using a weighted average of the prior X seasons, not just t-1, with weights assigned by proximity. Second is incorporating posterior seasons in the player variable. 
 
-As mentioned earlier, coaches with fewer observations (more recent careers) are subject to high standard errors. As such, they should be viewed with skepticism. For reference, the higher the 't-statistic', the lower the standard error.
+2. **High Uncertainty for coaches with few observations.** Low observations can be due either to the coach being relatively recent (Nick Nurse) or having had a short career as a head coach. For example, both Larry Bird and Danny Ainge moved on to the General Manager positions after just three seasons as head coach. It's not surprising, given their promotion, that they both appear in the top 10th percentile of coaches. 
+
+
+### Coverage  
+
+The dataset covers all NBA teams between 1985 and 2018. The unit of observation is a team-season, which leads to about 900 observations (~ 30 teams x 35 seasons). I source all of the data, including coach and roster information, team wins, and player metrics, from [Basketball Reference](https://www.basketball-reference.com/).
 
 ### Full Metrics
 
