@@ -14,7 +14,7 @@ weight: 1
 
 ### Introduction
 
-For many, coaching analysis remains a black box. It's evident that some coaches are able to elevate performance *more* than others (Jurgen Klopp, Pep Guardiola, Gregg Popovich, Bill Belichick), but there is no systematic evidence to prove that. I've set out to fill this gap. 
+Coaching analysis remains largely a black box. Despite being heavily debated by armchair analysts and those in the sports business, the NBA continues to lack any systematic quantification of the coaching effect. Meanwhile, it can be quite evident---even to the casual observer---that some coaches are able to impact the outcome of a basketball season *much more* than others. In this article, I propose a robust methodology to measure that.
 
 The project started during my graduate studies in economics, where I happened to read a number of academic papers on sports economics. I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760) that studied the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two main reasons:
 
