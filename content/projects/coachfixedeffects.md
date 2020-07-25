@@ -14,11 +14,11 @@ weight: 1
 
 ### Introduction
 
-Coaching analysis remains largely a black box. Despite being heavily debated by armchair analysts and those in the sports business, the NBA continues to lack any systematic quantification of the coaching effect. Meanwhile, it can be quite evident---even to the casual observer---that some coaches are able to impact the outcome of a basketball season *much more* than others. In this article, I propose a robust methodology to measure that.
+Coaching analysis remains largely a black box in the NBA. Despite being heavily debated by armchair analysts and those in the sports business, the coaching effect continues to lack any systematic study. But even to the casual observer, it can be quite evident that some coaches are able to impact the outcome of a basketball season *much more* than others. In this article, I propose an econometrically-robust methodology to measure that.
 
 The project started during my graduate studies in economics, where I happened to read a number of academic papers on sports economics. I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760) that studied the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two main reasons:
 
-1. **Player quality can be captured fairly well.** Advanced metrics allow for capturing the role of roster quality.
+1. **Player quality can be captured fairly accurately,** thanks to advanced performance metrics such as Win Shares, Value Over Replacement (VORP), Real Plus-Minus... etc. 
 
 2. **The turnover rate of coaches is high.** Most NBA coaches are observed on more than one team (with some on as many as 11), therefore reducing standard errors.
 
@@ -30,9 +30,11 @@ For the sake of clarity, I will leave out some details from this article. If you
 
 ### Controlling for Roster Quality
 
-The main challenge in studying the impact of coaches is accounting for roster quality. Some coaches may have a weaker roster than others. This is why looking at the winning record for someone like Phil Jackson can be misleading. While he has an astonishing 70% win record over his career, some could argue he benefited from superior talent (Michael Jordan, Kobe Bryant, Shaquille O'Neal, to a name a few). So, how do we account for that? How do we know whether it's the coach who benefited from the players and not the other way around?
+The main challenge in systematically assessing the impact of coaches is accounting for roster quality. Some coaches may have stronger lineups than others, therefore inflating their success rate. This is why looking at the winning record for someone like Phil Jackson can be misleading. While he has an astonishing 70% win record over his career, some could argue he benefited from superior talent (Michael Jordan, Kobe Bryant, Shaquille O'Neal, to a name a few). So, how do we account for that? How do we know whether it's the coach who benefited from the players and not the other way around?
 
-Some coaches fly under the radar despite outperforming with lesser rosters. Many would consider Brad Stevens as one of the league's best coaches, especially after taking a roster led by Isaiah Thomas to the top seed of the Eastern Conference in [2016-17](https://www.basketball-reference.com/teams/BOS/2017.html). To Stevens' credit, Thomas has had nowhere near this kind of individual or team success on any of [the other 7 teams he's played on]((https://www.basketball-reference.com/players/t/thomais02.html)). It could have been luck, of course, but Stevens seems to consistently derive the most out of even secondary players (think Jae Crowder, Kelly Olynyk, Aaron Baynes). 
+Some coaches fly under the radar despite outperforming with lesser rosters. Many would consider Brad Stevens as one of the league's best young coaches, especially after taking a roster led by Isaiah Thomas to the top seed of the Eastern Conference in [2016-17](https://www.basketball-reference.com/teams/BOS/2017.html). To Stevens' credit, Thomas has had nowhere near this kind of individual or team success on any of [the other 7 teams he's played on]((https://www.basketball-reference.com/players/t/thomais02.html)). It could have been luck, of course, but Stevens seems to consistently derive the most out of even secondary players (think Jae Crowder, Kelly Olynyk, Aaron Baynes) and outperform expectations. 
+
+If one is to measure the pure coaching effect, then one needs to take into considerations that Jackson and Stevens have had different starting points. 
 
 ### 'Fixed Effects' as Metrics for Coaches
 
