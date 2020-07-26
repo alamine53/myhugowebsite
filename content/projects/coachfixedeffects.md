@@ -14,9 +14,9 @@ weight: 1
 
 ### Introduction
 
-Coaching analysis remains largely a black box in the NBA. Despite being heavily debated by armchair analysts and those in the sports business, the coaching effect continues to lack any systematic study. But even to the casual observer, it can be quite evident that some coaches are able to impact the outcome of a basketball season *much more* than others. In this article, I propose an econometrically-robust methodology to measure that.
+It can be quite evident---even to the casual observer---that some coaches are able to elevate their team's performance *much more* than others. However, coaching analysis remains largely a black box in the NBA. Despite being heavily debated by armchair analysts and those in the sports business, the degree to which coaches impact the outcome of a basketball season continues lack any systematic study. In this article, I propose an econometrically-robust methodology to measure that.
 
-The project started during my graduate studies in economics, where I happened to read a number of academic papers on sports economics. I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760) that studied the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two main reasons:
+The project started during my graduate studies in economics, where I happened to read a number of academic papers on sports economics (having played basketball professionally, this was an effective way to learn about economic research while being geniunely interested in the content matter). I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760) that studied the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two main reasons:
 
 1. **Player quality can be captured fairly accurately,** thanks to advanced performance metrics such as Win Shares, Value Over Replacement (VORP), Real Plus-Minus... etc. 
 
@@ -30,7 +30,7 @@ For the sake of clarity, I will leave out some details from this article. If you
 
 ### Controlling for Roster Quality
 
-The main challenge in systematically assessing the impact of coaches is accounting for roster quality. Some coaches may have stronger lineups than others, therefore inflating their success rate. This is why looking at the winning record for someone like Phil Jackson can be misleading. While he has an astonishing 70% win record over his career, some could argue he benefited from superior talent (Michael Jordan, Kobe Bryant, Shaquille O'Neal, to a name a few). So, how do we account for that? How do we know whether it's the coach who benefited from the players and not the other way around?
+The main challenge in systematically assessing the impact of coaches is accounting for roster quality. Some coaches may benefit from stronger lineups for achieving good winning records. This is why looking at the winning record for someone like Phil Jackson can be misleading. While he maintained an astonishing 70% win record over his career, some could argue that much of it is due to coaching superior talent (Michael Jordan, Kobe Bryant, Shaquille O'Neal, to a name a few). So, how do we account for that? How do we know whether it's the coach who benefited from the players and not the other way around?
 
 Some coaches fly under the radar despite outperforming with lesser rosters. Many would consider Brad Stevens as one of the league's best young coaches, especially after taking a roster led by Isaiah Thomas to the top seed of the Eastern Conference in [2016-17](https://www.basketball-reference.com/teams/BOS/2017.html). To Stevens' credit, Thomas has had nowhere near this kind of individual or team success on any of [the other 7 teams he's played on]((https://www.basketball-reference.com/players/t/thomais02.html)). It could have been luck, of course, but Stevens seems to consistently derive the most out of even secondary players (think Jae Crowder, Kelly Olynyk, Aaron Baynes) and outperform expectations. 
 
@@ -56,9 +56,10 @@ These metrics are point estimates, therefore they are accompanied with [confiden
 
 ### Underrated Coaches
 
-One of the main advantages is identifying coaches whose impact is overlooked by their team's winning record. Each dot in the below chart represents a particular head coach, based on his percentile ranks according to estimated fixed effect (y-axis) and to career win percentage (x-axis). The further the dot from the 45 degree line, the larger the difference between the two. Observations in yellow correspond to coaches who outperform expectations on a consistent basis, while observations in purple represent coaches who underperform given a threshold of roster quality.
+One of the main advantages is identifying coaches whose impact is overlooked by their team's winning record. Each dot in the below chart represents a head coach. On the y-axis would be on his percentile rank based on estimated fixed effect and on the x-axis is his percentile rank based on win percentage. The further the dot from the 45 degree line, the larger the difference between the two approaches. For example, observations in yellow are ranked higher in fixed effect relative to win percentage, therefore they correspond to coaches who are under-rated given team performance. Observations in purple represent those whose success record is largely due to superior players.
 
-The point is to show that, despite those being closely related, they are not exactly identical. 
+Based on this comparison, the most "over-rated" head coach would be David Blatt, who ranks around the top in win percentage but below average in fixed effect. This suggests that Blatt, who coached for only one full season with the Cavs, did not necessarily outperform given how his players had performed in prior seasons. The most "under-rated" head coach would be J.B. Bickerstaff, who despite ranking around the center in win percentage, had done considerably well given the quality of his roster. Note that the estimates for both these coaches are associated with high standard errors due to low observations. 
+
 ![scatter] (/images/posts/coaches/scatter_plot.png)
 
 ### Predictive Power
@@ -73,7 +74,9 @@ The line chart below compares the RMSE for my fixed effect model against a model
 
 ### How Fixed Effects are Calculated  
 
-For a given coach in a given season *t*, I take into account the players' performance in season *t-1*. Specifically, I compute the roster's mean Value Over Replacement Player (VORP) from that season as a measure of its "quality".
+First, I calculate the 'roster quality' variable for each team since the beginning of the dataset. For each roster at time *t*, I sort players by descending number of minutes played and keep only the top 5 players with most usage (this helps eliminate those with significant injuries). Using VORP, I calculate the players' cumulative performance in season *t-1* as a proxy for roster quality in season *t*.
+
+Note that what you see here is one specification (VORP for 5-player roster) out of hundreds. For robustness, I also consider rosters of 3 and 7 players but I find optimal results with 5. In addition, I repeat the same calculations using a number of other metrics instead VORP (computing means instead of sums where necessary), including Win Shares, Box Plus-Minus, and Player Efficiency Rating. Once again, I find highest forecasting accuracy with VORP. You can find more robustness checks in [the paper](https://www.ramzyalamine.com/files/alamine_coaches.pdf).
 
 Using a 'fixed effect' regression model, I estimate the correlation between head coach identity and team wins for 209 head coaches (since 1985), while controlling for roster quality. What this produces is the [fixed effect](https://en.wikipedia.org/wiki/Fixed_effects_model) for each head coach. The resulting metric, which I am calling 'Coach Fixed Effect', measures the additional wins contributed, on average, while controlling for roster quality. 
 
