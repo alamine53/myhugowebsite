@@ -9,12 +9,12 @@ thumbnail: /images/posts/coaches/scatter_plot_notitle.png
 draft: false
 weight: 1
 ---
-<!-- ![coach_faces] (/images/posts/coaches/thumbnail.png)
- -->
+![coach_faces] (/images/posts/coaches/thumbnail.png)
+
 
 ### Introduction
 
-It can be quite evident---even to the casual observer---that some coaches are able to elevate their team's performance *much more* than others. However, coaching analysis remains largely a black box in the NBA. Despite being heavily debated by armchair analysts and those in the sports business, the degree to which coaches impact the outcome of a basketball season continues lack any systematic study. In this article, I propose an econometrically-robust methodology to measure that.
+Coaching analysis remains largely a black box in the NBA. Despite being heavily debated by armchair analysts and those in the sports business, the degree to which coaches impact the outcome of a basketball season continues lack any systematic study. At the same time, it can be quite evident---even to the casual observer---that some coaches elevate team performance *much more* than others. In this article, I propose an econometrically-robust methodology to measure that.
 
 The project started during my graduate studies in economics, where I happened to read a number of academic papers on sports economics (having played basketball professionally, this was an effective way to learn about economic research while being geniunely interested in the content matter). I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760) that studied the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two main reasons:
 
@@ -22,7 +22,7 @@ The project started during my graduate studies in economics, where I happened to
 
 2. **The turnover rate of coaches is high.** Most NBA coaches are observed on more than one team (with some on as many as 11), therefore reducing standard errors.
 
-The project continued to evolve as I gathered feedback from professors and later on from colleagues at the IMF. The code was originally built in Stata, but I've redone it in Python in order to incorporate some additional features. Here's the [Github repo](https://github.com/alamine53/nba_coach_FixedEffects). 
+I've always been interested in the question of coaching. The project continued to evolve as I gathered feedback from professors and later on from colleagues at the IMF. The code was originally built in Stata, but I've redone it in Python in order to incorporate some additional features. Here's the [Github repo](https://github.com/alamine53/nba_coach_FixedEffects). 
 
 For the sake of clarity, I will leave out some details from this article. If you're interested in the technicalities, I encourage you to check [my working paper](https://www.ramzyalamine.com/files/alamine_coaches.pdf). If you'd like to jump straight to the ratings, they are at the bottom of the page. 
 
