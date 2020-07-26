@@ -16,7 +16,7 @@ weight: 1
 
 Coaching analysis remains largely a black box in the NBA. Despite being heavily debated by armchair analysts and those in the sports business, the degree to which coaches impact the outcome of a basketball season continues lack any systematic study. At the same time, it can be quite evident---even to the casual observer---that some coaches elevate team performance *much more* than others. In this article, I propose an econometrically-robust methodology to measure that.
 
-The project started during my graduate studies in economics, where I happened to read a number of academic papers on sports economics (having played basketball professionally, this was an effective way to learn about economic research while being geniunely interested in the content matter). I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760) that studied the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two main reasons:
+The project started during my graduate studies in economics, where I happened to read a number of academic papers on sports economics (having played basketball professionally, this was an effective way to read technical research without getting bored). I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760) that studied the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two main reasons:
 
 1. **Player quality can be captured fairly accurately,** thanks to advanced performance metrics such as Win Shares, Value Over Replacement (VORP), Real Plus-Minus... etc. 
 
