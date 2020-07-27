@@ -26,17 +26,16 @@ I've always been interested in the question of coaching. The project continued t
 
 For the sake of clarity, I will leave out some details from this article. If you're interested in the technicalities, I encourage you to check [my working paper](https://www.ramzyalamine.com/files/alamine_coaches.pdf). If you'd like to jump straight to the ratings, they are at the bottom of the page. 
 
+### The Problem with Win Percentages
+
+The traditional approach for analyzing the performance of a head coach consists of looking at the success record over the course of his career or with a specific team, then forming a subjective judgement about how much added-value he generated. This can be misleading because coaches may benefit from particularly strong lineups. Consider the case of Phil Jackson, a legendary coach with more championship rings than most franchises. While he maintained an astonishing 70% win record over his career, it's difficult to tell just how much of it is due to having some of the most dominant players in history (Michael Jordan, Kobe Bryant, Shaquille O'Neal). While there is no doubting the Zen Master's genius, the challenge is getting a sense of his impact relative to others in history. So, how do we account for roster quality? How do we know whether it's the coach who benefited from the players and not the other way around?
+
+Conversely, winning records alone may overlook the impact of coaches who outperform with lesser rosters. Many would consider Brad Stevens as one of the league's best young coaches, especially after taking a roster led by Isaiah Thomas to the top seed of the Eastern Conference in [2016-17](https://www.basketball-reference.com/teams/BOS/2017.html). To Stevens' credit, Thomas has had nowhere near this kind of individual or team success on any of [the other 7 teams he's played on]((https://www.basketball-reference.com/players/t/thomais02.html)). It could have been luck, of course, but Stevens seems to consistently derive the most out of even secondary players (think Jae Crowder, Kelly Olynyk, Aaron Baynes) and outperform expectations. 
 
 
-### Controlling for Roster Quality
+### Fixed Effects with Controls for Roster Quality
 
-The main challenge in systematically assessing the impact of coaches is accounting for roster quality. Some coaches may benefit from stronger lineups for achieving good winning records. This is why looking at the winning record for someone like Phil Jackson can be misleading. While he maintained an astonishing 70% win record over his career, some could argue that much of it is due to coaching superior talent (Michael Jordan, Kobe Bryant, Shaquille O'Neal, to a name a few). So, how do we account for that? How do we know whether it's the coach who benefited from the players and not the other way around?
-
-Some coaches fly under the radar despite outperforming with lesser rosters. Many would consider Brad Stevens as one of the league's best young coaches, especially after taking a roster led by Isaiah Thomas to the top seed of the Eastern Conference in [2016-17](https://www.basketball-reference.com/teams/BOS/2017.html). To Stevens' credit, Thomas has had nowhere near this kind of individual or team success on any of [the other 7 teams he's played on]((https://www.basketball-reference.com/players/t/thomais02.html)). It could have been luck, of course, but Stevens seems to consistently derive the most out of even secondary players (think Jae Crowder, Kelly Olynyk, Aaron Baynes) and outperform expectations. 
-
-If one is to measure the pure coaching effect, then one needs to take into considerations that Jackson and Stevens have had different starting points. 
-
-### 'Fixed Effects' as Metrics for Coaches
+The main challenge in assessing the impact of coaches is accounting for the difference in starting points. Any measure of the coaching effect must systematically control for the quality of the roster in isolation of the coach.
 
 Coach Fixed Effects (Coach FE) capture the average additional wins contributed while controlling for roster quality. I take into account the players' performance in the previous season as a proxy for quality. The analysis covers 159 head coaches across all teams from 1985 to 2018. 
 
