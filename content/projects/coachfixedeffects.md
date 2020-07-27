@@ -95,6 +95,9 @@ The dataset covers all NBA teams between 1985 and 2018. The unit of observation 
 
 Click [here](/files/results.csv) for a csv version of the below table.
 
+![table] (/images/posts/coaches/full_table.png)
+
+
 |     | Name               |Coach FE |    t_stat | Pct Rk (FE) | Pct Rk (Wins) |   Career Win% |
 |----:|:-------------------|--------:|----------:|------------:|--------------:|--------------:|
 |   0 | Nick Nurse         |   22.33 |      2.64 |           1 |          0.98 |          0.71 |
