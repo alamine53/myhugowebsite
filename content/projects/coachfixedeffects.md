@@ -26,16 +26,16 @@ I've always been interested in the question of coaching. The project continued t
 
 For the sake of clarity, I will leave out some details from this article. If you're interested in the technicalities, I encourage you to check [my working paper](https://www.ramzyalamine.com/files/alamine_coaches.pdf). If you'd like to jump straight to the ratings, they are at the bottom of the page. 
 
-### The Problem with Win Percentages
+### The Problem with Looking at Team Wins
 
-The traditional approach for analyzing the performance of a head coach consists of looking at the success record over the course of his career or with a specific team, then forming a subjective judgement about how much added-value he generated. This can be misleading because coaches may benefit from particularly strong lineups. Consider the case of Phil Jackson, a legendary coach with more championship rings than most franchises. While he maintained an astonishing 70% win record over his career, it's difficult to tell just how much of it is due to having some of the most dominant players in history (Michael Jordan, Kobe Bryant, Shaquille O'Neal). While there is no doubting the Zen Master's genius, the challenge is getting a sense of his impact relative to others in history. So, how do we account for roster quality? How do we know whether it's the coach who benefited from the players and not the other way around?
+The traditional approach for analyzing the performance of a head coach consists of looking at his team's success record, then forming a subjective judgement about how much added-value he generated. This can be misleading because coaches may benefit from particularly strong lineups. Consider the case of Phil Jackson, a legendary coach with more championship rings than most franchises. While the Zen Master maintained a 70% win record over his career, it's difficult to tell just how much of it is due to having some of the most dominant players in history (Michael Jordan, Kobe Bryant, Shaquille O'Neal). There is no doubting that Phil Jackson is an all-time great, but how much is his impact relative to others in history?
 
-Conversely, winning records alone may overlook the impact of coaches who outperform with lesser rosters. Many would consider Brad Stevens as one of the league's best young coaches, especially after taking a roster led by Isaiah Thomas to the top seed of the Eastern Conference in [2016-17](https://www.basketball-reference.com/teams/BOS/2017.html). To Stevens' credit, Thomas has had nowhere near this kind of individual or team success on any of [the other 7 teams he's played on]((https://www.basketball-reference.com/players/t/thomais02.html)). It could have been luck, of course, but Stevens seems to consistently derive the most out of even secondary players (think Jae Crowder, Kelly Olynyk, Aaron Baynes) and outperform expectations. 
+Looking at winning records alone may also overlook the impact of those who outperform with lesser rosters. Many would consider Brad Stevens as one of the league's best young coaches, especially after taking a roster led by Isaiah Thomas to the top seed of the Eastern Conference in [2016-17](https://www.basketball-reference.com/teams/BOS/2017.html). To Stevens' credit, Thomas has had nowhere near this kind of individual or team success on any of [the other 7 teams he's played on]((https://www.basketball-reference.com/players/t/thomais02.html)). It could have been luck, of course, but Stevens seems to consistently derive the most out of even secondary players (think Jae Crowder, Kelly Olynyk, Aaron Baynes) and outperform expectations. 
 
 
-### Fixed Effects with Controls for Roster Quality
+### Fixed Effects as Metrics for Coaches
 
-The main challenge in assessing the impact of coaches is accounting for the difference in starting points. Any measure of the coaching effect must systematically control for the quality of the roster in isolation of the coach.
+The main challenge is accounting for different starting points. Any objective assessment must systematically control for roster quality and any other confounding variables. How do we account for roster quality? How do we know whether it's the coach who benefited from the players and not the other way around? 
 
 Coach Fixed Effects (Coach FE) capture the average additional wins contributed while controlling for roster quality. I take into account the players' performance in the previous season as a proxy for quality. The analysis covers 159 head coaches across all teams from 1985 to 2018. 
 
@@ -71,9 +71,9 @@ The line chart below compares the RMSE for my fixed effect model against a model
 ![rmse] (/images/posts/coaches/forecast_error_per_season.png)
 
 
-### How Fixed Effects are Calculated  
+### How Fixed Effects are Calculated
 
-First, I calculate the 'roster quality' variable for each team since the beginning of the dataset. For each roster at time *t*, I sort players by descending number of minutes played and keep only the top 5 players with most usage (this helps eliminate those with significant injuries). Using VORP, I calculate the players' cumulative performance in season *t-1* as a proxy for roster quality in season *t*.
+I start by developing a measure of roster quality by team-season. For each roster at a given season *t*, I restrict roster size to the 5 players with most playing time. Using VORP from the previous season, I then compute the players' cumulative performance in season *t-1* as a proxy for roster quality in season *t*.
 
 Note that what you see here is one specification (VORP for 5-player roster) out of hundreds. For robustness, I also consider rosters of 3 and 7 players but I find optimal results with 5. In addition, I repeat the same calculations using a number of other metrics instead VORP (computing means instead of sums where necessary), including Win Shares, Box Plus-Minus, and Player Efficiency Rating. Once again, I find highest forecasting accuracy with VORP. You can find more robustness checks in [the paper](https://www.ramzyalamine.com/files/alamine_coaches.pdf).
 
@@ -84,6 +84,8 @@ Using a 'fixed effect' regression model, I estimate the correlation between head
 1. **Player development being credited to the coach.** Since performance at t-1 is used as a proxy for player quality, season-to-season growth is not accurately accounted for as an independent variable, leading to upward bias on the fixed effect. In other words, the model could favor coaches with budding superstars, such as Scott Brooks with the Oklahoma City Thunder. I foresee two ways of addressing this. First is using a weighted average of the prior X seasons, not just t-1, with weights assigned by proximity. Second is incorporating posterior seasons in the player variable. 
 
 2. **High Uncertainty for coaches with few observations.** Low observations can be due either to the coach being relatively recent (Nick Nurse) or having had a short career as a head coach. For example, both Larry Bird and Danny Ainge moved on to the General Manager positions after just three seasons as head coach. It's not surprising, given their promotion, that they both appear in the top 10th percentile of coaches. 
+
+3. **Not taking Playoffs into consideration.** For simplicity and consistency, the analysis is restricted to regular seasons only. 
 
 
 ### Coverage  
