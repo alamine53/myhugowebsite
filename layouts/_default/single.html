@@ -1,5 +1,9 @@
 {{ define "content" -}}
 {{ $cdn_url := .Scratch.Get "cdn_url" }}
+{{ $img := (.Resources.ByType "image").GetMatch "images/*featured*" }}
+{{ with $img }}
+    <img src="{{ .Permalink }}" alt="{{ $.Title }}">
+{{ end }}   
 <article class="post-warp">
     <h2 class="post-title" style="text-align:middle;padding-bottom:0.5em">&nbsp;{{ .Title }}&nbsp;</h2>
     <p class="copyright-item">
@@ -11,16 +15,18 @@
 
     <div class="post-content">
 
-          {{ $reAltIn := "<img src=\"([^\"]+)\" alt=\"([^\"]+)?\">" }}
-          {{ $reAltOut :=  ( printf "<figure><img src=\"/images/ring.svg\" data-sizes=\"auto\" data-src=\"%s$1\" alt=\"$2\" class=\"lazyload\"><figcaption class=\"image-caption\">$2</figcaption></figure>" $cdn_url ) }}
-          {{ $altContent := .Content | replaceRE $reAltIn $reAltOut | safeHTML }}
+        {{ $reAltIn := "<img src=\"([^\"]+)\" alt=\"([^\"]+)?\">" }}
+        {{ $reAltOut :=  ( printf "<figure><img src=\"/images/ring.svg\" data-sizes=\"auto\" data-src=\"%s$1\" alt=\"$2\" class=\"lazyload\"><figcaption class=\"image-caption\">$2</figcaption></figure>" $cdn_url ) }}
+        {{ $altContent := .Content | replaceRE $reAltIn $reAltOut | safeHTML }}
 
-          {{ $reAltTitleIn := "<img src=\"([^\"]+)\" alt=\"([^\"]+)?\" title=\"([^\"]+)?\" />" }}
-          {{ $reAltTitleOut := ( printf "<figure><img src=\"/images/ring.svg\" data-src=\"%s$1\" data-sizes=\"auto\" alt=\"$2\" title=\"$3\" class=\"lazyload\"><figcaption class=\"image-caption\">$2</figcaption></figure>" $cdn_url ) }}
-          {{ $finalContent := $altContent | replaceRE $reAltTitleIn $reAltTitleOut | safeHTML }}
-          {{ $img := (.Resources.ByType "image").GetMatch "*featured*" }}
-
-          {{ $finalContent }}
+        {{ $reAltTitleIn := "<img src=\"([^\"]+)\" alt=\"([^\"]+)?\" title=\"([^\"]+)?\" />" }}
+        {{ $reAltTitleOut := ( printf "<figure><img src=\"/images/ring.svg\" data-src=\"%s$1\" data-sizes=\"auto\" alt=\"$2\" title=\"$3\" class=\"lazyload\"><figcaption class=\"image-caption\">$2</figcaption></figure>" $cdn_url ) }}
+        {{ $finalContent := $altContent | replaceRE $reAltTitleIn $reAltTitleOut | safeHTML }}
+        {{ $img := (.Resources.ByType "image").GetMatch "images/*featured*" }}
+        {{ with $img }}
+            <img src="{{ .Permalink }}" alt="{{ $.Title }}">
+        {{ end }}   
+        {{ $finalContent }}
     </div>
 
 
