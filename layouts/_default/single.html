@@ -2,6 +2,13 @@
 {{ $cdn_url := .Scratch.Get "cdn_url" }}
 <article class="post-warp">
     <h2 class="post-title" style="text-align:middle;padding-bottom:0.5em">&nbsp;{{ .Title }}&nbsp;</h2>
+    <p class="copyright-item">
+    {{ if and ( $.Param "socialShare" ) (gt (len ($.Param "share")) 0) }}
+    <span>{{ i18n "Share" }}:</span>
+    <span>{{ partial "share-links.html" . }}</span>
+    {{ end }}
+    </p>
+
     <div class="post-content">
 
           {{ $reAltIn := "<img src=\"([^\"]+)\" alt=\"([^\"]+)?\">" }}
@@ -11,11 +18,13 @@
           {{ $reAltTitleIn := "<img src=\"([^\"]+)\" alt=\"([^\"]+)?\" title=\"([^\"]+)?\" />" }}
           {{ $reAltTitleOut := ( printf "<figure><img src=\"/images/ring.svg\" data-src=\"%s$1\" data-sizes=\"auto\" alt=\"$2\" title=\"$3\" class=\"lazyload\"><figcaption class=\"image-caption\">$2</figcaption></figure>" $cdn_url ) }}
           {{ $finalContent := $altContent | replaceRE $reAltTitleIn $reAltTitleOut | safeHTML }}
+          {{ $img := (.Resources.ByType "image").GetMatch "*featured*" }}
 
           {{ $finalContent }}
     </div>
 
-<!--     <div class="post-copyright">
+
+    <div class="post-copyright">
             {{ with .Site.Params.author }} 
             <p class="copyright-item">
                 <span>{{ i18n "Author" }}:</span>
@@ -27,21 +36,22 @@
                     <span>{{ i18n "Words" }}:</span>
                    <span>{{ .WordCount }}</span>
             </p>
-            
-            <p class="copyright-item">
-                {{ if and ( $.Param "socialShare" ) (gt (len ($.Param "share")) 0) }}
-                <span>{{ i18n "Share" }}:</span>
-                <span>{{ partial "share-links.html" . }}</span>
-                {{ end }}
-            </p>
 
+
+            <p class="copyright-item">
+            {{ if and ( $.Param "socialShare" ) (gt (len ($.Param "share")) 0) }}
+            <span>{{ i18n "Share" }}:</span>
+            <span>{{ partial "share-links.html" . }}</span>
+            {{ end }}
+            </p>          
+<!-- 
             {{ with .Site.Params.license }} 
             <p class="copyright-item">
                 {{ . | safeHTML}}
             </p>
-            {{ end }}
+            {{ end }} -->
     </div>
- -->
+
   
     <div class="post-tags">
         {{ with .Params.tags }}
@@ -68,11 +78,13 @@
         {{ end }}
     </div>
 
-<!--     <div class="post-comment">
+    <div class="post-comment">
           {{ if ( .Params.showComments | default true ) }}
           {{ partial "comments.html" . }}
+          {{ template "_internal/disqus.html" . }}
           {{ end }}
-    </div> -->
+    </div>
+
 </article>
 {{- end }}
 
