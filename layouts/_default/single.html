@@ -1,9 +1,8 @@
 {{ define "content" -}}
 {{ $cdn_url := .Scratch.Get "cdn_url" }}
-{{ $img := (.Resources.ByType "image").GetMatch "images/*featured*" }}
-{{ with $img }}
-    <img src="{{ .Permalink }}" alt="{{ $.Title }}">
-{{ end }}   
+{{ template "_internal/twitter_cards.html" . }}
+{{ template "_internal/google_analytics.html" . }}
+
 <article class="post-warp">
     <h2 class="post-title" style="text-align:middle;padding-bottom:0.5em">&nbsp;{{ .Title }}&nbsp;</h2>
     <p class="copyright-item">

@@ -13,7 +13,7 @@ weight: 1
 
 ### Introduction
 
-Some coaches elevate team performance *more* than others. Most armchair analysts would agree with this statement. Yet, the degree to which coaches impact the outcome of a basketball season continues lack any systematic study. In this post (and the accompanied [research paper](https://www.ramzyalamine.com/files/alamine_coaches.pdf)), I propose an econometrically-robust methodology to measure that.
+Some coaches elevate team performance *more* than others. Most fans and armchair analysts would agree with this statement. Yet, the degree to which coaches impact the outcome of a basketball season continues lack any systematic study. In this post (and the accompanied [research paper](https://www.ramzyalamine.com/files/alamine_coaches.pdf)), I propose an econometrically-robust methodology to measure that.
 
 The project started during my graduate studies in Applied Economics, where I read a number of academic papers on sports economics (having played basketball professionally, this was an effective way to read technical papers without getting bored). I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760) that studied the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two main reasons:
 
