@@ -5,6 +5,7 @@
 
 <article class="post-warp">
     <h2 class="post-title" style="text-align:middle;padding-bottom:0.5em">&nbsp;{{ .Title }}&nbsp;</h2>
+    <meta name="twitter:image" content="{{ .Params.featured_image }}">
     <p class="copyright-item">
     {{ if and ( $.Param "socialShare" ) (gt (len ($.Param "share")) 0) }}
     <span>{{ i18n "Share" }}:</span>
