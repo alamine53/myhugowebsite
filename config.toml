@@ -141,7 +141,7 @@ disqusShortname = "ramzyalamine"
 [params.share]
 Twitter = true
 Facebook = true
-#Reddit = true
+Reddit = true
 Linkedin = true
 #Pinterest = true
 #HackerNews = true

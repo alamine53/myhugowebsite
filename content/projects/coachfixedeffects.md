@@ -13,7 +13,7 @@ weight: 1
 
 ### Introduction
 
-Some coaches elevate team performance *more* than others. Most fans and armchair analysts would agree with this statement. Yet, the degree to which coaches impact the outcome of a basketball season continues lack any systematic study. In this post (and the accompanied [research paper](https://www.ramzyalamine.com/files/alamine_coaches.pdf)), I propose an econometrically-robust methodology to measure that.
+Some coaches elevate team performance *more* than others. Most fans and armchair analysts would agree with this statement, yet the degree to which coaches impact the outcome of a basketball season continues to lack any systematic study. In this post (and the accompanied [research paper](https://www.ramzyalamine.com/files/alamine_coaches.pdf)), I propose an econometrically-robust methodology to measure that.
 
 The project started during my graduate studies in Applied Economics, where I read a number of academic papers on sports economics (having played basketball professionally, this was an effective way to read technical papers without getting bored). I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760) that studied the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two main reasons:
 
@@ -45,7 +45,7 @@ Here's a look at the distribution of Coach FE estimates. Values range from -25 t
 
 ### Top Coaches
 
-The top 15th percentile of coaches are shown in the below figure. Changing from the mean head coach to Nick Nurse generates an additional 21 wins when roster quality is held at its mean. Similarly, changing to Steve Kerr generates 18 wins on average. 
+The top 15th percentile of coaches are shown in the below figure. Changing from the mean head coach to Nick Nurse generates an additional 21 wins when roster quality is held at its mean. Similarly, changing to Steve Kerr generates 18 wins on average. Nurse is the top coach based on my analysis. 
 
 These metrics are point estimates, therefore they are accompanied with [confidence intervals](https://en.wikipedia.org/wiki/Confidence_interval). As shown by the error bars in the below chart, coaches with fewer observations are subject to higher standard errors (and wider confidence intervals). Since Nick Nurse, for example, is only observed on just 1 season, his Fixed Effect could be anywhere from +7 to +40. This margin will decrease as he coaches more seasons. Phil Jackson and Gregg Popovich, meanwhile, have much higher certainty because they have more decorated careers.
 
