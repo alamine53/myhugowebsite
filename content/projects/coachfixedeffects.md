@@ -8,31 +8,37 @@ featured: "/images/posts/coaches/feature.png"
 draft: false
 weight: 1
 ---
-![coach_faces] (/images/posts/coaches/thumbnail.png)
+<!-- ![coach_faces] (/images/posts/coaches/thumbnail.png)
+ -->
+
+#### Introduction
+
+Some coaches elevate team performance *more* than others. Most fans and armchair analysts would agree with that. You see it all across professional sports: in soccer, the NFL, or basketball, excellent coaches tend to more with less. Wherever they go to, they are able to maximize on their players' potential and achieve success. If you've played on a team before, you might've noticed it, too. Whether through personal qualities or tactical brilliance, some coaches are just more effective leaders. They derive the best out of you. They put you in a position to succeed. They make the game easier. 
+
+Despite advancements in analytics, the sports world continues to view coaching as an afterthought. There are no stats to identify excellent coaches, the way you would with players. Most assessments are based on conjecture. Anecdotal evidence. The degree to which coaches impact the outcome of a basketball season lacks any systematic analysis. In this post (and the accompanied [research paper](https://www.ramzyalamine.com/files/alamine_coaches.pdf)), I propose a statistical approach to quantify the coaching effect. My goal is to make coaching analysis less of a "black box", to give coaches their the piece of the pie, and uncover their respective impact on team wins. 
 
 
-### Introduction
+#### The Traditional Way of Looking at Coaching
 
-Some coaches elevate team performance *more* than others. Most fans and armchair analysts would agree with this statement, yet the degree to which coaches impact the outcome of a basketball season continues to lack any systematic study. In this post (and the accompanied [research paper](https://www.ramzyalamine.com/files/alamine_coaches.pdf)), I propose an econometrically-robust methodology to measure that.
+Most people would look at a coach's success record, then form a subjective judgement about how much added-value he generated. For example, Phil Jackson maintained a 70 percent success rate over his career. That puts him at the top of the leaderboard (he's also won more championships than most NBA franchises). While there's no doubt of his genius, it's difficult to tell just how much he benefited from superior talent. Would the Zen Master have had the same success if it wasn't for Jordan and Pippen, and Kobe and Shaq? It's unlikely. Would all those players have had the same career success if it wasn't for Jackson? It's also unlikely. 
 
-The project started during my graduate studies in Applied Economics, where I read a number of academic papers on sports economics (having played basketball professionally, this was an effective way to read technical papers without getting bored). I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760) that studied the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two main reasons:
+Brad Stevens is considered one of the league's most promising young coaches. He's had a career winning record of 56 percent, considerably below Jackson's but an applaudable accomplishment nonetheless (he does not have any championships to speak of). His resume becomes infinitely more impressive when you consider the quality of the roster, especially early in his career. Stevens took the Celtics to the top seed of the Eastern Conference in [2016-17](https://www.basketball-reference.com/teams/BOS/2017.html) with a roster led by Isaiah Thomas and Jae Crowder. While there are many factors that could have helped (teammate chemistry, facilities, and pure chance), it's unlikely that a roster like that would have acheived the same number of wins. Evidently, neither Thomas, Crowder (or Bradley, Olynyk, Baynes andothers) have had the same success on any of the many other teams they've played on --- before or after Stevens. 
+
+All of this to say that the traditional way of looking at coaches can be misleading. Some may benefit from particularly strong talent, while others may overperform with lesser rosters. Neither of those are captured by success records. There needs to be a more systematic way to control for potential.  
+
+
+
+#### A More Systematic Approach
+
+The project started during my graduate studies, where I read a number of academic papers on sports economics (having played basketball professionally, this was an effective way to read technical papers without getting bored). I came across [a paper](https://journals.sagepub.com/doi/abs/10.1177/1527002516674760) that studied the impact of managers in the German Bundesliga, and decided to replicate the analysis on NBA coaches. I soon realized that the NBA was an ideal environment for two main reasons:
 
 1. **Player quality can be captured fairly accurately,** thanks to advanced performance metrics such as Win Shares, Value Over Replacement (VORP), Real Plus-Minus... etc. 
 
 2. **The turnover rate of coaches is high.** Most NBA coaches are observed on more than one team (with some on as many as 11), therefore reducing standard errors.
 
-I've always been interested in the question of coaching. The project continued to evolve as I gathered feedback from professors and later on from colleagues at the IMF. The code was originally built in Stata, but I've redone it in Python in order to incorporate some additional features. Here's the [Github repo](https://github.com/alamine53/nba_coach_FixedEffects). 
+The project continued to evolve as I gathered feedback from professors and later on from colleagues at the IMF. The code was originally built in Stata, but I've redone it in Python in order to incorporate some additional features. Here's the [Github repo](https://github.com/alamine53/nba_coach_FixedEffects). 
 
-For the sake of clarity, I will leave out some details from this article. If you're interested in the technicalities, I encourage you to check [my working paper](https://www.ramzyalamine.com/files/alamine_coaches.pdf). If you'd like to jump straight to the ratings, they are at the bottom of the page. 
-
-### The Problem with Looking at Team Wins
-
-The traditional approach for analyzing the performance of a head coach consists of looking at his team's success record, then forming a subjective judgement about how much added-value is generated. This can be misleading because coaches may benefit from particularly strong lineups. Consider the case of Phil Jackson, a legendary coach with more championship rings than most franchises. While the Zen Master maintained a 70% win record over his career, it's difficult to tell just how much of it is due to having some of the most dominant players in history (Michael Jordan, Kobe Bryant, Shaquille O'Neal). There is no doubting that Phil Jackson is an all-time great, but how much is his impact relative to others in history?
-
-Looking at winning records alone may also overlook the impact of those who outperform with lesser rosters. Many would consider Brad Stevens as one of the league's best young coaches, especially after taking a roster led by Isaiah Thomas to the top seed of the Eastern Conference in [2016-17](https://www.basketball-reference.com/teams/BOS/2017.html). To Stevens' credit, Thomas has had nowhere near this kind of individual or team success on any of [the other 7 teams he's played on]((https://www.basketball-reference.com/players/t/thomais02.html)). It could have been luck, of course, but Stevens seems to consistently derive the most out of even secondary players (think Jae Crowder, Kelly Olynyk, Aaron Baynes) and outperform expectations. 
-
-
-### Fixed Effects as Metrics for Coaches
+For simplicity, I will leave out some details from this article. If you're interested in the technicalities, I encourage you to check [my working paper](https://www.ramzyalamine.com/files/alamine_coaches.pdf). If you'd like to jump straight to the ratings, they are at the bottom of the page. 
 
 The main challenge is accounting for different starting points. Any objective assessment must systematically control for roster quality and any other confounding variables. How do we account for roster quality? How do we know whether it's the coach who benefited from the players and not the other way around? 
 
@@ -43,7 +49,7 @@ Here's a look at the distribution of Coach FE estimates. Values range from -25 t
 ![histogram] (/images/posts/coaches/histogram.png)
 
 
-### Top Coaches
+#### Top Coaches
 
 The top 15th percentile of coaches are shown in the below figure. Changing from the mean head coach to Nick Nurse generates an additional 21 wins when roster quality is held at its mean. Similarly, changing to Steve Kerr generates 18 wins on average. Nurse is the top coach based on my analysis. 
 
@@ -52,7 +58,7 @@ These metrics are point estimates, therefore they are accompanied with [confiden
 ![bar_chart] (/images/posts/coaches/top10_barchart.png)
 
 
-### Underrated Coaches
+#### Underrated Coaches
 
 One of the main advantages is identifying coaches whose impact is overlooked by their team's winning record. Each dot in the below chart represents a head coach. On the y-axis would be on his percentile rank based on estimated fixed effect and on the x-axis is his percentile rank based on win percentage. The further the dot from the 45 degree line, the larger the difference between the two approaches. For example, observations in yellow are ranked higher in fixed effect relative to win percentage, therefore they correspond to coaches who are under-rated given team performance. Observations in purple represent those whose success record is largely due to superior players.
 
@@ -60,7 +66,7 @@ Based on this comparison, the most "over-rated" head coach would be David Blatt,
 
 ![scatter] (/images/posts/coaches/scatter_plot.png)
 
-### Predictive Power
+#### Predictive Power
 
 To determine whether these estimated fixed effects have any usefulness for the real world, I investigate their predictive power. I ask the following question: Knowing a coach's performance up to season *t*, does that tell me anything about his future performance on season *t+1*? 
 
@@ -70,7 +76,7 @@ The line chart below compares the RMSE for my fixed effect model against a model
 ![rmse] (/images/posts/coaches/forecast_error_per_season.png)
 
 
-### How Fixed Effects are Calculated
+#### How Fixed Effects are Calculated
 
 I start by developing a measure of roster quality by team-season. For each roster at a given season *t*, I restrict roster size to the 5 players with most playing time. Using VORP from the previous season, I then compute the players' cumulative performance in season *t-1* as a proxy for roster quality in season *t*.
 
@@ -78,7 +84,7 @@ For robustness, I also consider alternative roster size of 3 and 7 players but I
 
 Using a 'fixed effect' regression model, I estimate the correlation between head coach identity and team wins for 209 head coaches (since 1985), while controlling for roster quality. What this produces is the [fixed effect](https://en.wikipedia.org/wiki/Fixed_effects_model) for each head coach. The resulting metric, which I am calling 'Coach Fixed Effect', measures the additional wins contributed, on average, while controlling for roster quality. 
 
-### Potential Shortcomings
+#### Potential Shortcomings
 
 1. **Player development being credited to the coach.** Since performance at t-1 is used as a proxy for player quality, season-to-season growth is not accurately accounted for as an independent variable, leading to upward bias on the fixed effect. In other words, the model could favor coaches with budding superstars, such as Scott Brooks with the Oklahoma City Thunder. I foresee two ways of addressing this. First is using a weighted average of the prior X seasons, not just t-1, with weights assigned by proximity. Second is incorporating posterior seasons in the player variable. 
 
@@ -87,11 +93,11 @@ Using a 'fixed effect' regression model, I estimate the correlation between head
 3. **Not taking Playoffs into consideration.** For simplicity and consistency, the analysis is restricted to regular seasons only. 
 
 
-### Coverage  
+#### Coverage  
 
 The dataset covers all NBA teams between 1985 and 2018. The unit of observation is a team-season, which leads to about 900 observations (~ 30 teams x 35 seasons). I source all of the data, including coach and roster information, team wins, and player metrics, from [Basketball Reference](https://www.basketball-reference.com/).
 
-### Full Metrics
+#### Full Metrics
 
 Click [here](/files/results.csv) for a csv version of the below table.
 
