@@ -303,7 +303,7 @@ $job-title-font: 'SFMono-Medium';
     display: block;
     font-style: normal;
     font-weight: 200;
-    font-size: 1.1em;
+    font-size: 1.2em;
     letter-spacing: 0.1 rem;
     color: $light-main;
     margin-top: 40px;
@@ -330,15 +330,16 @@ $job-title-font: 'SFMono-Medium';
   }  
 
   h5 {
-    font-family: 'SFMono-Regular';
+    font-family: 'Calibre-Semibold';
     line-height: 10px;
     display: block;
     font-weight: 0.01px;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    text-indent: 14px;
     letter-spacing: 0.1 rem;
-    color: $light-main;
+    color: $dark-navy;
     text-decoration: none;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
 
