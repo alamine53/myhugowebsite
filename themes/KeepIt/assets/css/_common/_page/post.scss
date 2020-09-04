@@ -36,6 +36,124 @@
         }
     }
 
+
+    .post-featured-image {
+      padding-top: .6rem;
+
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+    }
+
+    .post-toc {
+      display: block;
+      position: absolute;
+      width: 240px;
+      max-width: 300px;
+      margin-left: 980px;
+      padding: .8rem;
+      border-left: 1px solid $dark-post-link-color;
+      word-wrap: break-word;
+      box-sizing: border-box;
+      top: 12rem;
+
+      .post-toc-title {
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+
+      .post-toc-content {
+        &.always-active ul {
+          display: block;
+        }
+
+        >nav>ul {
+          margin: .625rem 0;
+        }
+
+        ul {
+          padding-left: .625rem;
+          list-style: none;
+
+          ul {
+            padding-left: 1.25rem;
+            display: none;
+          }
+
+          .has-active > ul {
+            display: block;
+          }
+        }
+
+        .toc-link.active {
+          color: $dark-post-link-color;
+        }
+      }
+    }
+
+    .post-toc-mobile {
+      display: none;
+      padding-top: .8rem;
+
+      details {
+        summary {
+          .post-toc-title {
+            display: block;
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.2em;
+            font-weight: bold;
+            line-height: 2em;
+            padding: 0 .625rem;
+            background: $dark-post-link-color;
+
+            i.details {
+              line-height: 2em;
+            }
+
+            .dark-theme & {
+              background: $dark-post-link-color;
+            }
+          }
+
+          &::-webkit-details-marker {
+            display: none;
+          }
+        }
+      }
+
+      details[open] {
+        i.details {
+          transform: rotate(180deg);
+        }
+      }
+
+      .post-toc-content {
+        border: 2px solid $dark-post-link-color;
+
+        >nav>ul {
+          margin: .625rem 0;
+        }
+
+        ul {
+          padding-left: .625rem;
+          list-style: none;
+
+          ul {
+            padding-left: 1.25rem;
+          }
+        }
+
+        .dark-theme & {
+          border: 2px solid $dark-post-link-color;
+        }
+      }
+    }
+
     .post-content {
         text-align: justify;
         font-family: 'Barlow Semi Condensed', sans-serif;

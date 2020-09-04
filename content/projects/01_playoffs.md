@@ -15,9 +15,9 @@ Summary: Using the concept of regression discontinuity, I find thatteams who bar
 
 ### Introduction
 
-Despite a positive showing in Game 1, the Brooklyn Nets were eliminated just five games into their 2018-19 playoff campaign. Some might argue that they were better off tanking given their "okay" roster. But over the next few weeks, they added Kyrie Irving and Kevin Durant and seemed to turn a corner as a franchise. 
+Despite a positive showing in Game 1, the Brooklyn Nets were eliminated just five games into their 2018-19 playoff campaign. Some might argue they were better off tanking and try their luck through the draft. But over the next few weeks, they added Kyrie Irving and Kevin Durant and seemed to turn a corner as a franchise. 
 
-Just below them in the rankings, the Charlotte Hornets missed the playoffs by 2 games. To make matters worse, they let their captain walk off in the off-season (from a Celtics fan, thank you). So, is this a one-off or do 8th seeds consistently do better than 9th seeds in the following season? 
+Just below them in the rankings, the Charlotte Hornets missed the playoffs by 2 games. To make matters worse, they let their captain walk off in the off-season. So, is this a one-off or do 8th seeds consistently do better than 9th seeds in the following season? 
 
 ### Why this matters
 
@@ -38,7 +38,7 @@ On average, 8th seeds experience a 2.1 percent improvement while 9th seeds exper
 
 There are no other teams (or a combination of teams) that, if you were to compare outcomes between them, you would get a better estimate of the average playoff effect. If you thought about taking the average all those who make the playoffs, compared against the average of those who missed, that won't work. The group of playoff teams is systematically better than non-playoff teams. 
 
-![RD Chart] (/images/posts/post1_chart1.png)
+![RD Chart] (/images/posts/playoff_effect.png)
 
 
 ### What could explain this
