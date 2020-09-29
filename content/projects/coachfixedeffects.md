@@ -4,8 +4,7 @@ date: 2020-04-01
 type: Sports Economics 
 title: Quantifying the Coaching Effect in the NBA
 summary: Using a coach-fixed effect regression model, I find that the top NBA coaches elevate team performance by as much as 20 additional wins per season. 
-featured_image: "/images/posts/coaches/feature.png"
-featured: "/images/posts/coaches/feature.png"
+featured_image: "/images/posts/coaches/scatter_plot.png"
 draft: false
 weight: 1
 ---
@@ -57,7 +56,7 @@ The top 15th percentile of coaches are shown in the below figure. Changing from 
 
 These metrics are point estimates, therefore they are accompanied with [confidence intervals](https://en.wikipedia.org/wiki/Confidence_interval). As shown by the error bars in the below chart, coaches with fewer observations are subject to higher standard errors (and wider confidence intervals). Since Nick Nurse, for example, is only observed on just 1 season, his Fixed Effect could be anywhere from +7 to +40. This margin will decrease as he coaches more seasons. Phil Jackson and Gregg Popovich, meanwhile, have much higher certainty because they have more decorated careers.
 
-![bar_chart] (/images/posts/coaches/top10_barchart.png)
+![bar_chart] (/images/posts/coaches/Picture2.png)
 
 
 ##### Underrated Coaches
@@ -66,7 +65,7 @@ One of the main advantages is identifying coaches whose impact is overlooked by 
 
 Based on this comparison, the most "over-rated" head coach would be David Blatt, who ranks around the top in win percentage but below average in fixed effect. This suggests that Blatt, who coached for only one full season with the Cavs, did not necessarily outperform given how his players had performed in prior seasons. The most "under-rated" head coach would be J.B. Bickerstaff, who despite ranking around the center in win percentage, had done considerably well given the quality of his roster. Note that the estimates for both these coaches are associated with high standard errors due to low observations. 
 
-![scatter] (/images/posts/coaches/scatter_plot.png)
+![scatter] (/images/posts/coaches/Picture3_ScatterPlot.png)
 
 #### Predictive Power
 
@@ -75,7 +74,7 @@ To determine whether these estimated fixed effects have any usefulness for the r
 
 The line chart below compares the RMSE for my fixed effect model against a model of just roster quality. The RMSE is calculated based on a cross-validation exercise (see working paper for full details). I find that fixed effects improve forecast accuracy of team wins by as much as 15 percent. 
 
-![rmse] (/images/posts/coaches/forecast_error_per_season.png)
+![rmse] (/images/posts/coaches/Picture1_LineChart.png)
 
 
 #### How Fixed Effects Are Calculated
