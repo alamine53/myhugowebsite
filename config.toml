@@ -29,13 +29,13 @@ disqusShortname = "ramzyalamine"
 
 [menu]
 
-  [[menu.main]]
-    name = "About"
-    url = "/files/about"
-    weight = 1
+#  [[menu.main]]
+#    name = "About"
+#    url = "/files/about"
+#    weight = 1
 
   [[menu.main]]
-    name = "Publications"
+    name = "Research"
     url = "/Publications"
     weight = 2
 
@@ -44,10 +44,10 @@ disqusShortname = "ramzyalamine"
     url = "/projects"
     weight = 3
 
-  #[[menu.main]]
-   # name = "CV"
-   # url = "/files/alamine_cv.pdf"
-   # weight = 3
+  [[menu.main]]
+    name = "Resume"
+    url = "/files/alamine_resume.pdf"
+    weight = 1
 
  #[[menu.main]]
     #name = "Wordpress Site (Basketball Analytics)"

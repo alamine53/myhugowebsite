@@ -2,19 +2,32 @@
 {{ $data := .Data }}
 
 <div class="post-warp archive">
-    <h1 class="post-title" style="text-align:right;padding-bottom:3em">&nbsp;{{ humanize .Title }}&nbsp;</h1>
-    {{ range (.Paginate (.Pages.GroupByParam "type")).PageGroups }}
-    <p>{{ .Key }}</p>
+
 
 
     {{ range .Pages }}
+
     <!-- If external link exists in post matter -->
     {{ if isset .Params "affiliatelink" }}
+
         <article class="archive-item">
-        <a href="{{ .Params.affiliatelink }}" target="_blank">
         <h3> {{ .Title }} </h3>
-        </a> 
-        <h6 class="pub-type" style="line-height:10%">{{ .Params.source }}  </h6>
+        <h7 class="pub-description">{{ .Params.desc }}  </h7>
+
+        <!-- If there are multiple external links -->
+        {{ if isset .Params "affiliatelink2" }}
+            <a href="{{ .Params.affiliatelink }}" target="_blank" du>
+            <h6 class="pub-link" style="line-height:10%">{{ .Params.source }} </h6>
+            <a href="{{ .Params.affiliatelink2 }}" target="_blank">
+            <h6 class="pub-link2" >{{ .Params.source2 }} </h6> 
+
+        {{else}}
+            </a> 
+            <a href="{{ .Params.affiliatelink }}" target="_blank">
+            <h6 class="pub-link" style="line-height:10%">{{ .Params.source }} </h6> 
+            </a> 
+        {{end}}
+
         <h5 class="pub-date">{{ .Date.Format "2006" }} </h5>
 <!--         <span class="archive-item-date">
             {{ .Date.Format "2006" }}
@@ -32,7 +45,9 @@
     {{end}}
     </article>
     <br>
-    {{ end }} {{ end }}
+    <hr color = "lightgray" size = "1" width = "100%">
+    <br>
+    {{ end }}
     {{ partial "paginator.html" . }}
 </div>
 {{end}}

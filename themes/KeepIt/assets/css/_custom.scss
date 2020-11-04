@@ -91,11 +91,6 @@ $job-title-font: 'SFMono-Medium';
   }
 
   @font-face{
-  font-family: 'Rachael', sans-serif;
-  src: url(https://fonts.googleapis.com/css?family=Chivo|Staatliches&display=swap);
-  }
-
-  @font-face{
   font-family: 'Barlow', sans-serif;
   src: url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Barlow+Semi+Condensed&family=Oswald&display=swap');
   }
@@ -110,8 +105,12 @@ $job-title-font: 'SFMono-Medium';
   }
 
   @font-face {
-  font-family: 'Poppins';  }
-
+  font-family: 'Vidaloka';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.google.com/specimen/Abril+Fatface?selection.family=Abril+Fatface|Vidaloka&query=abril#glyphs');
+  }
 
   @font-face {
   font-family: SFMono-Medium;
@@ -206,6 +205,10 @@ $job-title-font: 'SFMono-Medium';
      }
   }
   
+// ================================
+// header links 
+// ================================
+
   a {
     font-family: 'Barlow', sans-serif;
     font-style: normal;
@@ -215,22 +218,11 @@ $job-title-font: 'SFMono-Medium';
     color: $dark-lightest-navy;
     text-decoration: none;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-    &:hover {
-      color: $light-global-link-hover-color;
-      text-decoration: none;
-      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-    }
 
      .dark-theme & {
       color: $dark-light-slate;
       text-decoration: none;
       transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-
-      &:hover{
-        color: $dark-global-link-hover-color;
-        text-decoration: none;
-        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-      }
     }
   }
 
@@ -267,32 +259,28 @@ $job-title-font: 'SFMono-Medium';
     }
   }  
 
+// ===================================
+// title in publications / research
+// ===================================
+
   h3 {
     font-family: 'Calibre-Semibold';
-    line-height: 18px;
+    line-height: 28px;
     display: block;
     font-style: normal;
     font-weight: 80;
-    font-size: 22px;
-    margin-top: 28px;
-    margin-bottom: 4px;
-    letter-spacing: 0.1 rem;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    letter-spacing: 0.2 rem;
     color: $dark-navy;
     text-decoration: none;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-    &:hover {
-      text-decoration: underline;
-      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-    }
+
     .dark-theme & {
       color: $dark-lightest-slate;
       text-decoration: none;
       transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-
-      &:hover {
-      text-decoration: underline;
-      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-    }
     }
 
   }
@@ -329,17 +317,25 @@ $job-title-font: 'SFMono-Medium';
     }
   }  
 
+// ===================================
+// the year in publications / research
+// ===================================
+
   h5 {
-    font-family: 'SFMono-Regular';
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1.2em;
+    letter-spacing: 0.4 rem;
+    color: $dark-lightest-navy;
+    text-decoration: none;
     line-height: 10px;
     display: block;
-    font-weight: 0.01px;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    font-size: 14px;
-    letter-spacing: 0.1 rem;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 16px;
+    font-style: normal;
     color: $dark-slate;
-    text-decoration: none;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
 
      .dark-theme & {
@@ -349,38 +345,57 @@ $job-title-font: 'SFMono-Medium';
     }
   }
 
+// ===================================
+// "type" in publications / research
+// ===================================
+
   h6 {
-    font-family: 'SFMono-Regular';
-    line-height: 10px;
-    display: block;
-    font-weight: 0.7px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    line-height: 0px;
+    display: inline-block;
     margin-top: 12px;
-    margin-bottom: 12px;
-    font-size: 14px;
-    letter-spacing: 0.1 rem;
+    margin-bottom: 2px;
+    font-size: 16px;
+    letter-spacing: 0.4 rem;
     color: $light-main;
     text-decoration: none;
-    transition: color 0.2s ease, border-coslor 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-
+    margin-right:20px;    
+    &:hover {
+      text-decoration: underline;
+      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+    }
      .dark-theme & {
       color: $dark-green;
       text-decoration: none;
       transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+      
+      &:hover {
+      text-decoration: underline;
+      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+      }
     }
   }
 
+// ================================
+// summary and descriptions in Research & Projects 
+// ================================
+
   h7 {
-    font-family: 'Barlow-Semi-Condensed', sans-serif;
-    display: block;
-    line-height: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-size: 1.2em;
     font-weight: 10px;
+    letter-spacing: 0.4 rem;
+    display: block;
+    line-height: 26px;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 0.1 rem;
-    color: $dark-lightest-navy;
+    color: $dark-light-navy;
     text-decoration: none;
-    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+
 
      .dark-theme & {
       color: $dark-slate;
@@ -416,6 +431,7 @@ $job-title-font: 'SFMono-Medium';
       }
     }
   }
+
   p{
     font-family: 'Barlow-Semi-Condensed', sans-serif;
     display: block;

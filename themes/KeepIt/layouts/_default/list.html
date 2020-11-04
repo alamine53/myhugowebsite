@@ -2,7 +2,7 @@
 {{ $data := .Data }}
 <div class="post-warp archive">
     <h2 class="post-title" style="text-align:right;padding-bottom:4em">&nbsp;{{ humanize .Title }}&nbsp;</h2>
-    {{ range (.Paginate (.Pages.GroupByDate "")).PageGroups }}
+    {{ range (.Paginate (.Pages.GroupByDate "type")).PageGroups }}
     <h3>{{ .Key }}</h3>
 
     {{ range .Pages }}

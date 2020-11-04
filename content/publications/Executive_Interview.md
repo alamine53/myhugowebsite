@@ -5,7 +5,7 @@ affiliatelink: https://www.executive-magazine.com/economics-policy/ramzy-naaman-
 date: 2013-08-01
 weight: 10
 draft: false
-source: "Executive Magazine" 
+source: Article in Magazine 
 
 
 ---

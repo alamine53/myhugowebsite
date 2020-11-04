@@ -4,7 +4,6 @@ affiliatelink: https://www.executive-magazine.com/economics-policy/lebanon-syria
 date: 2013-08-01
 weight: 10
 draft: false
-source: Executive Magazine 
-type: 03. Short Articles
+source: Article in Magazine 
 
 ---
