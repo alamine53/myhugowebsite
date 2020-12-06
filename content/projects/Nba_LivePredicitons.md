@@ -5,6 +5,6 @@ affiliatelink: https://ramztradamus.netlify.app/
 featured_image: "/images/posts/nba_forecasts.png"
 type: Website
 date: 2020-11-20
-weight: 2
+weight: 1
 draft: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Investor Sentiment, Sovereign Debt Mispricing, and Economic Outcomes"
-affiliatelink: "/files/AlAmineWillems_DebtMispricing.pdf"
+affiliatelink: https://www.imf.org/en/Publications/WP/Issues/2020/08/14/Investor-Sentiment-Sovereign-Debt-Mispricing-and-Economic-Outcomes-49569
 date: 2020-07-01
 year: 2020
 weight: 1

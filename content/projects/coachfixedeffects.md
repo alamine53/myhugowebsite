@@ -6,7 +6,7 @@ title: Quantifying the Coaching Effect in the NBA
 summary: Using a coach-fixed effect regression model, I find that the top NBA coaches elevate team performance by as much as 20 additional wins per season. 
 featured_image: "/images/posts/coaches/scatter_plot.png"
 draft: false
-weight: 1
+weight: 5
 ---
 <!-- ![coach_faces] (/images/posts/coaches/thumbnail.png)
  -->

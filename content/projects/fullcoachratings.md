@@ -6,7 +6,7 @@ title: Model-Based Ratings of NBA Coaches
 summary: Using a coach-fixed effect regression model, I find that the top NBA coaches elevate team performance by as much as 20 additional wins per season. 
 featured_image: "/images/posts/coaches/Table.png"
 draft: false
-weight: 1
+weight: 4
 ---
 <!-- ![coach_faces] (/images/posts/coaches/thumbnail.png)
  -->
