@@ -96,23 +96,6 @@ $job-title-font: 'SFMono-Medium';
   }
 
   @font-face {
-  font-family: 'Chivo';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Chivo Regular'), local('Chivo-Regular'), url(https://fonts.gstatic.com/s/chivo/v11/va9I4kzIxd1KFrBmQeNVkqDOeTY.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-
-  @font-face {
-  font-family: 'Vidaloka';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('https://fonts.google.com/specimen/Abril+Fatface?selection.family=Abril+Fatface|Vidaloka&query=abril#glyphs');
-  }
-
-  @font-face {
   font-family: SFMono-Medium;
   font-weight: 400;
   font-style: normal;
@@ -210,9 +193,9 @@ $job-title-font: 'SFMono-Medium';
 // ================================
 
   a {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'SFMono-Regular', sans-serif;
     font-style: normal;
-    font-weight: 100;
+    font-weight: 20;
     font-size: 1.1em;
     letter-spacing: 0.4 rem;
     color: $dark-lightest-navy;
@@ -264,21 +247,21 @@ $job-title-font: 'SFMono-Medium';
 // ===================================
 
   h3 {
-    font-family: 'Calibre-Semibold';
-    line-height: 28px;
+    font-family: 'SFMono-Semibold';
+    line-height: 20px;
     display: block;
-    font-style: normal;
+    font-style: bold;
     font-weight: 80;
-    font-size: 28px;
+    font-size: 18;
     margin-top: 20px;
     margin-bottom: 2px;
-    letter-spacing: 0.2 rem;
+    letter-spacing: 0.1 rem;
     color: $dark-navy;
     text-decoration: none;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
 
     .dark-theme & {
-      color: $dark-lightest-slate;
+      color: $dark-green;
       text-decoration: none;
       transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
     }
@@ -350,24 +333,24 @@ $job-title-font: 'SFMono-Medium';
 // ===================================
 
   h6 {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'SFMono-Regular', sans-serif;
     font-style: normal;
     line-height: 0px;
     display: inline-block;
     margin-top: 12px;
     margin-bottom: 2px;
-    font-size: 16px;
-    letter-spacing: 0.4 rem;
+    font-size: 14px;
+    letter-spacing: 0.2 rem;
     color: $light-main;
-    text-decoration: none;
+    text-decoration: underline;
     margin-right:20px;    
     &:hover {
       text-decoration: underline;
       transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
     }
      .dark-theme & {
-      color: $dark-green;
-      text-decoration: none;
+      color: $dark-lightest-slate;
+      text-decoration: underline;
       transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
       
       &:hover {
@@ -382,16 +365,14 @@ $job-title-font: 'SFMono-Medium';
 // ================================
 
   h7 {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'SFMono-Regular';
     font-style: normal;
-    font-size: 1.1em;
-    font-weight: 10px;
-    letter-spacing: 0.4 rem;
+    font-size: 14px;
+    letter-spacing: 0.1 rem;
     display: block;
-    line-height: 26px;
+    line-height: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 17px;
     letter-spacing: 0.1 rem;
     color: $dark-light-navy;
     text-decoration: none;
