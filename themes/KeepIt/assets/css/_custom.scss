@@ -301,14 +301,14 @@ $job-title-font: 'SFMono-Medium';
   }  
 
 // ===================================
-// the year in publications / research
+// "year" in publications / research
 // ===================================
 
   h5 {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'SFMono-Regular', sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 1.2em;
+    font-size: 14px;
     letter-spacing: 0.4 rem;
     color: $dark-lightest-navy;
     text-decoration: none;
@@ -316,7 +316,6 @@ $job-title-font: 'SFMono-Medium';
     display: block;
     margin-top: 2px;
     margin-bottom: 2px;
-    font-size: 16px;
     font-style: normal;
     color: $dark-slate;
     transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
@@ -339,7 +338,7 @@ $job-title-font: 'SFMono-Medium';
     display: inline-block;
     margin-top: 12px;
     margin-bottom: 2px;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 0.2 rem;
     color: $light-main;
     text-decoration: underline;
@@ -365,7 +364,7 @@ $job-title-font: 'SFMono-Medium';
 // ================================
 
   h7 {
-    font-family: 'SFMono-Regular';
+    font-family: 'Barlow', sans-serif;
     font-style: normal;
     font-size: 14px;
     letter-spacing: 0.1 rem;
@@ -374,7 +373,7 @@ $job-title-font: 'SFMono-Medium';
     margin-top: 0px;
     margin-bottom: 0px;
     letter-spacing: 0.1 rem;
-    color: $dark-light-navy;
+    color: $dark-lightest-navy;
     text-decoration: none;
 
 
