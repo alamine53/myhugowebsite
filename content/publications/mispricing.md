@@ -6,5 +6,5 @@ year: 2020
 weight: 1
 draft: false
 source: IMF Working Paper
-desc: Paper with Tim Willems on the effect of cheap borrowing relative to economic fundamentals on future growth and the occurence of fiscal crises. 
+desc: Paper on mispriced debt relative to economic fundamentals and its negative effect on future growth and the occurence of fiscal crises (with Tim Willems). 
 ---
