@@ -8,7 +8,7 @@ I do Machine Learning for Crisis Prediction and Risk Management @ IMF.
 
 1. [Quantifying the Contribution of NBA Coaches Using Fixed Effects](https://towardsdatascience.com/quantifying-the-contribution-of-nba-coaches-using-fixed-effects-56f77f22153a)
 
-2. [Website for Live NBA Coach Metrics](https://nbacoacheffects.herokuapp.com/)
+2. [Live NBA Coach Metrics](https://nbacoacheffects.herokuapp.com/)
 
 3. [The Case for Flow Over Talent in the NBA](../posts/nba-flow.md)
 
@@ -41,17 +41,16 @@ I do Machine Learning for Crisis Prediction and Risk Management @ IMF.
 
     A landing page for donation and relief initiatives in sortable, actionable format. This site has received more than 2.5 million visitors, and estimated to generate between $2 to $10 Million in the days following the August 4th explosion. 
 
----
+<!-- ---
 
 ## Awards
 
 
 Year | Award | Category
 -----|-------|--------
-2014 | Emmy  | Won Outstanding Lead Actor in a miniseries or a movie
-2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
-2014 | Satellite | Won Best Actor miniseries or television film
+2010 |   | Won Outstanding Lead Actor in a miniseries or a movie
+2018 | IMF Innovation | Won Innovation Champion 
+2010 | FIBA | Selected on the Lebanese Under-18 National Team
 
-
----
+--- -->
 
