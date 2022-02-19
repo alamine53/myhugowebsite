@@ -2,6 +2,8 @@
 title = "About"
 +++
 
+## Introduction
+
 The Golden State Warriors entered the 2021-22 season with a hope of snatching a playoff spot; they now sit top of the league with their best start since the 72-win season. Much of their collective success can be explained by indidividual performances, with both key and role players exceeding expectations across the board. Steph Curry's Player Efficiency Rating (PER) of 27.4 is his best since the 2017-18 season. Andrew Wiggins's PER has crossed the 16 mark for the first time since 2015. Jordan Poole, Gary Payton II, and Nemanja Bjelica have all achieved near all-time highs across various performance metrics. Below is where the Warriors' current roster lies, individually, relative to previous seasons.
 
 ![warriors](/images/posts/warriors_flow.jpg)

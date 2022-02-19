@@ -18,8 +18,9 @@ googleAnalytics = "UA-172041562-1"  # add your tracking id
     fontFamily = "Inconsolata"
     pageWidth = "750px"
     avatarSize = "120px"
-    colorBlack = "#222222"
-    colorRed = "#dc3545"
+    colorBlack = "#495371"
+    #colorRed = "#FF8243"
+    colorRed = "#FF5200"
   [[params.socialIcons]]
     icon = "fab fa-twitter"
     title = "Twitter"
