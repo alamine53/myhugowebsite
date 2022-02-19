@@ -10,7 +10,7 @@ I do Machine Learning for Crisis Prediction and Risk Management @ IMF.
 
 2. [Live NBA Coach Metrics](https://nbacoacheffects.herokuapp.com/)
 
-3. [The Case for Flow Over Talent in the NBA](/posts/nba-flow.md)
+3. [The Case for Flow Over Talent in the NBA](/posts/nba-flow)
 
 ## Short Articles
 

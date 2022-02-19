@@ -15,7 +15,7 @@ This is a Hugo based resume template. You can find the full source code on
 
 2. [Website for Live NBA Coach Metrics](https://nbacoacheffects.herokuapp.com/)
 
-3. [The Case for Flow Over Talent in the NBA](../posts/nba-flow.md)
+3. [The Case for Flow Over Talent in the NBA](/posts/nba-flow.md)
 
 
 ## Short Articles
