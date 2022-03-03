@@ -1,10 +1,10 @@
-## About 
+## Bio 
 
 {{< figure class="avatar" src="/avatar.png" alt="avatar">}}
 
 Researcher with background in economics. Most recently, I worked as a Research Analyst doing machine learning for crisis prediction at the IMF.
 
-As an ex-national basketball player, I'm interested in how sports dynasties are built. Specifically, I explore coaching, team chemistry, player development, and roster distributions as overlooked elements for long-term success. 
+As an ex-national basketball player, I'm interested in how sports dynasties are built. Specifically, I explore the role of coaching, player development, and roster distributions in shaping sustained success. 
 
 ## Articles
 
