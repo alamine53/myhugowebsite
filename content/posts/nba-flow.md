@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "Flow over talent"
 +++
 
 # "Flow" over talent
