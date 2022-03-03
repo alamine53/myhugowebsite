@@ -32,13 +32,13 @@ As an ex-national basketball player, I'm interested in how sports dynasties are 
 
 ## Sites
 
-  1. [HelpLebanon Carrd](https://helplebanon.carrd.co/) 
+1. [HelpLebanon Carrd](https://helplebanon.carrd.co/) 
 
-    A landing page for donation and relief initiatives in sortable, actionable format. This site has received more than 2.5 million visitors, and estimated to generate between $2 to $10 Million in the days following the August 4th explosion. 
+A landing page for donation and relief initiatives in sortable, actionable format. This site has received more than 2.5 million visitors, and estimated to generate between $2 to $10 Million in the days following the August 4th explosion. 
 
-  2. [Live NBA Coach Metrics](https://nbacoacheffects.herokuapp.com/)
+2. [Live NBA Coach Metrics](https://nbacoacheffects.herokuapp.com/)
     
-    A live website for estimates on coaching contribution above roster characteristics in the NBA. 
+A live website for estimates on coaching contribution above roster characteristics in the NBA. 
 
 <!-- ---
 
