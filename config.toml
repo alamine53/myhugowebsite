@@ -15,7 +15,8 @@ googleAnalytics = "UA-172041562-1"  # add your tracking id
     text = "By Olivier Roques"
     url = "https://github.com/ojroques/hugo-researcher"
   [params.style]  # appearance options (can be omitted)
-    fontFamily = "Inconsolata"
+    fontFamily = "Barlow"
+    fontHeaders = "Inconsolata"
     pageWidth = "750px"
     avatarSize = "140px"
     colorBlack = "#495371"

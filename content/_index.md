@@ -8,14 +8,13 @@ As an ex-national basketball player, I'm interested in how sports dynasties are 
 
 ## Articles
 
+1. [Quantifying the Contribution of NBA Coaches Using Fixed Effects](https://towardsdatascience.com/quantifying-the-contribution-of-nba-coaches-using-fixed-effects-56f77f22153a)
 
-2. [Quantifying the Contribution of NBA Coaches Using Fixed Effects](https://towardsdatascience.com/quantifying-the-contribution-of-nba-coaches-using-fixed-effects-56f77f22153a)
+2. [Coaching can make or break a team](https://ramzyalamine.medium.com/coaching-can-make-or-break-a-team-just-ask-doc-rivers-67ce3ed051c7)
 
-3. [Coaching can make or break a team](https://ramzyalamine.medium.com/coaching-can-make-or-break-a-team-just-ask-doc-rivers-67ce3ed051c7)
+3. [Expanding Trade Across the Maghreb](https://blogs.imf.org/2019/04/23/expanding-trade-across-the-maghreb/)
 
-4. [Expanding Trade Across the Maghreb](https://blogs.imf.org/2019/04/23/expanding-trade-across-the-maghreb/)
-
-5. [Counting The Cost: How Much Is Lebanon's Economy Being Hurt By Syria's Crisis](https://www.executive-magazine.com/economics-policy/lebanon-syria-crisis)
+4. [Counting The Cost: How Much Is Lebanon's Economy Being Hurt By Syria's Crisis](https://www.executive-magazine.com/economics-policy/lebanon-syria-crisis)
 
 
 <!-- 2. [The Case for Flow Over Talent in the NBA](/posts/nba-flow)
