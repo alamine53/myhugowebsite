@@ -1,6 +1,6 @@
 title = "Ramzy Al-Amine        رمزي الأمين"
 baseURL = "https://ramzyalamine.com"
-theme = "researcher"
+theme = "rmz53"
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 math = false          # enable KaTeX (https://katex.org/) globally
