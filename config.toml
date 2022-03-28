@@ -1,4 +1,4 @@
-title = "Ramzy Al-Amine        رمزي الأمين"
+title = "Ramzy Al Amine"
 baseURL = "https://ramzyalamine.com"
 theme = "rmz53"
 disableKinds = ["taxonomy", "term"]
@@ -12,11 +12,11 @@ googleAnalytics = "UA-172041562-1"  # add your tracking id
   favicon = "favicon.ico"  # path to a .ico to use as favicon
   logo = ""  # url or path to a logo to put in the header
   [params.footer]
-    text = "By Olivier Roques"
-    url = "https://github.com/ojroques/hugo-researcher"
+    text = "Ramzy Al Amine"
+    url = "https://github.com/alamine53"
   [params.style]  # appearance options (can be omitted)
     fontFamily = "Barlow"
-    fontHeaders = "Inconsolata"
+    fontHeaders = "Playfair Display"
     pageWidth = "750px"
     avatarSize = "140px"
     colorBlack = "#495371"
@@ -25,7 +25,7 @@ googleAnalytics = "UA-172041562-1"  # add your tracking id
   [[params.socialIcons]]
     icon = "fab fa-twitter"
     title = "Twitter"
-    url = "https://twitter.com/"
+    url = "https://twitter.com/ramz-53"
   [[params.socialIcons]]
     icon = "fas fa-envelope"
     title = "E-mail"
