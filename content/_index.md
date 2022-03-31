@@ -2,7 +2,7 @@
 
 {{< figure class="avatar" src="/avatar.png" alt="avatar">}}
 
-Experienced researcher with background in macroeconomics. Most recently, I worked as a Research Analyst doing machine learning for crisis prediction at the IMF.
+Experienced researcher with a background in macroeconomics. Most recently, I worked as a Research Analyst doing machine learning for crisis prediction at the IMF.
 
 As an ex-national basketball player, I'm interested in how ultra-successful sports dynasties are built. Specifically, I explore the role of coaching, player development, and roster distributions in shaping sustained success. 
 
