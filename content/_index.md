@@ -17,8 +17,10 @@ As an ex-national basketball player, I'm interested in how successful sports dyn
 4. [Counting The Cost: How Much Is Lebanon's Economy Being Hurt By Syria's Crisis](https://www.executive-magazine.com/economics-policy/lebanon-syria-crisis)
 
 
-<!-- 2. [The Case for Flow Over Talent in the NBA](/posts/nba-flow)
- -->
+## Blog
+
+2. [A metric for the degree to which NBA players are playing up to their talent (Part I)](/posts/nba-distance-to-potential)
+
 
 ## Publications
 
@@ -33,11 +35,11 @@ As an ex-national basketball player, I'm interested in how successful sports dyn
 
 1. [HelpLebanon Carrd](https://helplebanon.carrd.co/) 
 
-A landing page for donation and relief initiatives in sortable, actionable format. This site has received more than 2.5 million visitors, and estimated to generate between $2 to $10 Million in the days following the August 4th explosion. 
+Landing page for donation and relief initiatives in sortable, actionable format. This site has received more than 2.5 million visitors, and estimated to channel between $2 to $10 Million in donations following the August 4th explosion. 
 
 2. [Live NBA Coach Metrics](https://nbacoacheffects.herokuapp.com/)
     
-A live website for estimates on coaching contribution above roster characteristics in the NBA. 
+Live website for estimates on coaching contribution above roster characteristics in the NBA. 
 
 <!-- ---
 
