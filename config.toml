@@ -1,6 +1,6 @@
 title = "Ramzy Al Amine"
 baseURL = "https://ramzyalamine.com"
-theme = "rmz53"
+theme = "hugo-researcher"
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 math = false          # enable KaTeX (https://katex.org/) globally
