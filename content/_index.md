@@ -1,26 +1,23 @@
-## Bio 
+## About me
 
 {{< figure class="avatar" src="/avatar.png" alt="avatar">}}
 
-Experienced researcher with a background in macroeconomics. Most recently, I worked as a Research Analyst doing machine learning for crisis prediction at the IMF.
+I am a Machine Learning Engineer at Mark Cuban Companies, developing data-based tools for basketball coaching. Previously, I worked at the IMF's Risk Unit in Washington D.C, where I helped build and operate crisis prediction models for risk management and contingency planning. 
 
-As an ex-national basketball player, I'm interested in how successful sports dynasties are built. Specifically, I explore the role of coaching, player development, and roster distributions in shaping sustained success. 
+I am a graduate of the American University of Beirut and hold a Master's of Arts in Applied Economics from Georgetown University. My work focuses on predictive modeling, time series forecasting, and statistics. I am interested in topics related to organizational success in the context of macroeconomics and sports.
 
-## Articles
+Prior to specializing in economics, I was a national basketball player at the junior level. I represented Team Lebanon U18 at FIBA Asia 2010 where we fell to China in the quarter final. Here are [my stats](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964) from that tournament. 
+
+## Sports Articles
 
 1. [Quantifying the Contribution of NBA Coaches Using Fixed Effects](https://towardsdatascience.com/quantifying-the-contribution-of-nba-coaches-using-fixed-effects-56f77f22153a)
 
-2. [Coaching can make or break a team](https://ramzyalamine.medium.com/coaching-can-make-or-break-a-team-just-ask-doc-rivers-67ce3ed051c7)
-
-3. [Expanding Trade Across the Maghreb](https://blogs.imf.org/2019/04/23/expanding-trade-across-the-maghreb/)
-
-4. [Counting The Cost: How Much Is Lebanon's Economy Being Hurt By Syria's Crisis](https://www.executive-magazine.com/economics-policy/lebanon-syria-crisis)
-
-
-## Blog
-
 2. [A metric for the degree to which NBA players are playing up to their talent (Part I)](/posts/nba-distance-to-potential)
 
+3. [Coaching can make or break a team](https://ramzyalamine.medium.com/coaching-can-make-or-break-a-team-just-ask-doc-rivers-67ce3ed051c7)
+
+4. [Live NBA Coach Metrics](https://nbacoacheffects.herokuapp.com/)
+    
 
 ## Publications
 
@@ -31,15 +28,16 @@ As an ex-national basketball player, I'm interested in how successful sports dyn
   3. R.Al-Amine, A.Auclair, Y.Cai, J.Dauphin, A.Kireyev, B.Nandwa, L.Ocampos, B.Sarr [Economic Integration in the Maghreb](https://www.imf.org/en/Publications/Departmental-Papers-Policy-Papers/Issues/2019/02/08/Economic-Integration-in-the-Maghreb-An-Untapped-Source-of-Growth-46273), *IMF Policy Paper*, 2019
 
 
-## Sites
+## Other
 
-1. [HelpLebanon Carrd](https://helplebanon.carrd.co/) 
+1. ["HelpLebanon"](https://helplebanon.carrd.co/) is a site I built as a landing page for resources on the Lebanese financial crisis. Little did I know it would receive more than 2.5 million visitors in the wake of the Beirut Port explosion on August 4th, 2020. It is estimated to have channelled between $2 to $5 Million in donation money to local NGOs. [Here](https://docs.google.com/presentation/d/175wsn-18PNyWML7TmsUDiRTSIEaD7EgCVGfOKM4Kihc/edit?usp=sharing) is the full story in a presentation I gave a few months after. 
 
-Landing page for donation and relief initiatives in sortable, actionable format. This site has received more than 2.5 million visitors, and estimated to channel between $2 to $10 Million in donations following the August 4th explosion. 
 
-2. [Live NBA Coach Metrics](https://nbacoacheffects.herokuapp.com/)
-    
-Live website for estimates on coaching contribution above roster characteristics in the NBA. 
+2. [Expanding Trade Across the Maghreb](https://blogs.imf.org/2019/04/23/expanding-trade-across-the-maghreb/); *Executive Magazine*, 2013
+
+3. [Counting The Cost: How Much Is Lebanon's Economy Being Hurt By Syria's Crisis](https://www.executive-magazine.com/economics-policy/lebanon-syria-crisis); *Executive Magazine*, 2013
+
+4. Check out [my music](https://soundcloud.com/ramsesmakesbeats/sets/albominati) on Soundcloud.  
 
 <!-- ---
 
