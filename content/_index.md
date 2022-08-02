@@ -6,7 +6,7 @@ I am a Machine Learning Engineer at Mark Cuban Companies, developing data-based 
 
 I am a graduate of the American University of Beirut and hold a Master's of Arts in Applied Economics from Georgetown University. My work focuses on predictive modeling, time series forecasting, and statistics. I am interested in topics related to organizational success in the context of macroeconomics and sports.
 
-Prior to specializing in economics, I was a national basketball player at the junior level. I represented Team Lebanon U18 at FIBA Asia 2010 where we fell to China in the quarter final. Here are [my stats](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964) from that tournament. 
+Prior to specializing in economics, I was a national basketball player. I represented Team Lebanon U18 at FIBA Asia 2010 where we fell to China in the quarter final. Here are [my stats](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964) from that tournament. 
 
 ## Sports Articles
 
