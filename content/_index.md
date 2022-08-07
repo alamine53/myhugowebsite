@@ -2,7 +2,7 @@
 
 {{< figure class="avatar" src="/avatar.png" alt="avatar">}}
 
-I am a Machine Learning Engineer at Mark Cuban Companies, developing data-based tools for basketball coaching. Previously, I worked at the IMF's Risk Unit in Washington D.C, where I helped build and operate crisis prediction models for risk management and contingency planning. 
+I am a Machine Learning Engineer at Mark Cuban Companies, developing data-based tools for basketball coaching. Previously, I worked at the IMF's Risk Unit in Washington D.C, where I helped build and operate crisis prediction models for macro risk management and contingency planning. 
 
 I am a graduate of the American University of Beirut and hold a Master's of Arts in Applied Economics from Georgetown University. My work focuses on predictive modeling, time series forecasting, and statistics. I am interested in topics related to organizational success in the context of macroeconomics and sports.
 
