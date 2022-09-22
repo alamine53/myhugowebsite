@@ -28,7 +28,7 @@ I am a graduate of the American University of Beirut and hold a Master's of Arts
 
 ## Other
 
-1. ["HelpLebanon"](https://helplebanon.carrd.co/): A website originally developed as a landing page for resources on the Lebanese financial. It would receive more than 2.5 million visitors in the wake of the Beirut Port explosion on August 4th., channelling an estimated $2 to $3 Million in donation money to local NGOs. [Here](https://docs.google.com/presentation/d/175wsn-18PNyWML7TmsUDiRTSIEaD7EgCVGfOKM4Kihc/edit?usp=sharing) is the full story in a presentation I gave a few months after. 
+1. ["HelpLebanon"](https://helplebanon.carrd.co/): A website originally developed as a landing page for resources on the Lebanese financial. This site received 2.6 million visitors in the two days following the Beirut Port explosion on August 4th., channelling an estimated $2 to $3 Million in donation money to local NGOs. [Here](https://docs.google.com/presentation/d/175wsn-18PNyWML7TmsUDiRTSIEaD7EgCVGfOKM4Kihc/edit?usp=sharing) is the full story in a presentation I gave a few months after. 
 
 
 2. [Expanding Trade Across the Maghreb](https://blogs.imf.org/2019/04/23/expanding-trade-across-the-maghreb/); *Executive Magazine*, 2013
