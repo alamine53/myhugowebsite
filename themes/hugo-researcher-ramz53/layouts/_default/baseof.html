@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@970&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Spectral:wght@300;400&display=swap');
+</style>
+<html lang="{{ .Site.Params.lang }}">
+    {{- partial "head.html" . -}}
+    {{ if or (.Params.math) (.Site.Params.math) }}
+        {{- partial "math.html" . -}}
+    {{ end }}
+    <body>
+        {{- partial "header.html" . -}}
+        <div id="content">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
+    </body>
+</html>
