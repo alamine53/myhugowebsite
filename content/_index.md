@@ -2,7 +2,7 @@
 
 {{< figure class="avatar" src="/avatar.png" alt="avatar">}}
 
-I'm starting a new role in sports analytics, where I'll be developing machine learning models for improving player performance. Previously, I worked at the IMF's Risk Unit in Washington D.C, where I helped build crisis prediction models for risk management and contingency planning. I am interested in topics relating to organizational success and decision making in sports and the economy. 
+I currently work as a Machine Learning Researcher for a professional sports team in the US. Previously, I worked at the IMF's Risk Unit in Washington D.C, where I helped build crisis prediction models for risk management and contingency planning. I am interested in topics relating to organizational success and decision making in the sports business. 
 
 I am a graduate of the American University of Beirut and hold a Master's of Arts in Applied Economics from Georgetown University. Prior to specializing in economics, I was a national basketball player for Team Lebanon U18. Here are [my stats](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964) from FIBA Asia 2010. 
 
