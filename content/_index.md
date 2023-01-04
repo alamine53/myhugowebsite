@@ -2,11 +2,11 @@
 
 {{< figure class="avatar" src="/avatar.png" alt="avatar">}}
 
-I develop AI models for improving performance at the Dallas Mavericks. Prior to joining the Mavs, I worked at the International Monetary Fund, where I built crisis prediction models for risk management and contingency planning.
+I build AI models at the Dallas Mavericks. Prior to joining the Mavs, I worked at the International Monetary Fund, where I developed crisis prediction models for risk management and contingency planning.
 
 I have a BA in Economics from the American University of Beirut and a MA in Applied Economics from Georgetown University. Before entering college, I was a member of Lebanon's National Team that won 5th in [FIBA Asia 2010](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964) . 
 
-I am also the creator of [HelpLebanon.carrd.co](https://helplebanon.carrd.co), a website that saw 2.6 Million visitors in the wake of the 2020 Beirut explosion. More on this below.
+I am also the creator of [HelpLebanon.carrd.co](https://helplebanon.carrd.co), a website that saw 2.6 Million visitors in the wake of the 2020 Beirut explosion.
 
 ## Publications
 
@@ -31,15 +31,15 @@ I am also the creator of [HelpLebanon.carrd.co](https://helplebanon.carrd.co), a
 
 Link: ["HelpLebanon.carrd.co"](https://helplebanon.carrd.co/) 
 
-In May 2020, I developed a landing page for resources on helping local Lebanese communities survive the acute economic crisis. Two months later, it became the epicenter for disaster relief initatives as donations rushed in to support the victims of the August 4th Beirut port explosion, which killed 218 and left numerous without shelter. Traffic on the site surged instantly, and I quickly re-purposed it to cater for those looking for ways to help. New initatives were being submitted via the "suggest" button, of which I added those who passed the eye test. A swarm of solidarity messages came pouring in from all over the world as well. Celebrities and public figures like Dua Lipa and Victoria Beckham somehow shared the site on their social media. Between August 4th and August 7th, the total number of visitors to the site reached 2.6 Million.
+In May 2020, I launched a landing page for resources on helping local Lebanese communities survive the economic crisis. A few weeks later, it became the epicenter for disaster relief initatives as donations rushed in to support the victims of the August 4th Beirut port explosion. Following the blast, which killed 218 and left numerous without shelter, traffic on the site surged instantly, and I quickly repurposed it to cater for those looking for ways to help. New initatives were being submitted a via the suggestion button, of which I added those who passed the eye test. A swarm of solidarity messages came pouring in from all over the world as well. Celebrities and public figures like Dua Lipa and Victoria Beckham shared the site on their social media. Between August 4th and August 7th, the total number of visitors to the site reached 2.6 Million.
 
 Full story [here](https://docs.google.com/presentation/d/175wsn-18PNyWML7TmsUDiRTSIEaD7EgCVGfOKM4Kihc/edit?usp=sharing). 
 
 ## Other
 
-1. [Expanding Trade Across the Maghreb](https://blogs.imf.org/2019/04/23/expanding-trade-across-the-maghreb/); *Executive Magazine*, 2013
+1. [Expanding Trade Across the Maghreb](https://blogs.imf.org/2019/04/23/expanding-trade-across-the-maghreb/); Magazine Article, *Executive Magazine*, 2013
 
-2. [Counting The Cost: How Much Is Lebanon's Economy Being Hurt By Syria's Crisis](https://www.executive-magazine.com/economics-policy/lebanon-syria-crisis); *Executive Magazine*, 2013
+2. [Counting The Cost: How Much Is Lebanon's Economy Being Hurt By Syria's Crisis](https://www.executive-magazine.com/economics-policy/lebanon-syria-crisis); Magazine Article, *Executive Magazine*, 2013
 
 3. I produce [recreational beats](https://soundcloud.com/ramsesmakesbeats/sets/albominati) on Soundcloud.  
 
