@@ -2,7 +2,7 @@
 
 {{< figure class="avatar" src="/avatar.png" alt="avatar">}}
 
-I am a ML Engineer at the Dallas Mavericks, where I develop AI models for improving performance. Prior to joining the Mavs, I worked at the International Monetary Fund, where I built crisis prediction models for risk management and contingency planning.
+I develop AI models for improving performance at the Dallas Mavericks. Prior to joining the Mavs, I worked at the International Monetary Fund, where I built crisis prediction models for risk management and contingency planning.
 
 I have a BA in Economics from the American University of Beirut and a MA in Applied Economics from Georgetown University. Previously, I was a member of Lebanon's National Team that won 5th in [FIBA Asia 2010](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964) . 
 
