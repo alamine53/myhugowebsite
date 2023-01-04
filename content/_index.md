@@ -6,7 +6,7 @@ I develop AI models for improving performance at the Dallas Mavericks. Prior to 
 
 I have a BA in Economics from the American University of Beirut and a MA in Applied Economics from Georgetown University. Before entering college, I was a member of Lebanon's National Team that won 5th in [FIBA Asia 2010](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964) . 
 
-I am also the creator of *[HelpLebanon.carrd.co](https://helplebanon.carrd.co)*, a website that saw 2.6 Million visitors in the wake of the 2020 Beirut explosion. More on this below.
+I am also the creator of [HelpLebanon.carrd.co](https://helplebanon.carrd.co), a website that saw 2.6 Million visitors in the wake of the 2020 Beirut explosion. More on this below.
 
 ## Publications
 
@@ -31,7 +31,7 @@ I am also the creator of *[HelpLebanon.carrd.co](https://helplebanon.carrd.co)*,
 
 Link: ["HelpLebanon.carrd.co"](https://helplebanon.carrd.co/) 
 
-In May 2020, I developed a landing page for resources on helping local Lebanese communities survive the acute economic crisis. Two months later, the site became an epicenter for disaster relief initatives and donation efforts in support of the victims of the August 4th Beirut Port explosion. The blast killed 218 and left numerous without shelter. Almost instantly, traffic on the site surged and I quickly re-purposed it to cater for those looking for ways to help. New initatives poured in via the "suggest" button, of which I added those who passed the eye test, as well as messages of solidarity from all over the world. Celebrities and public figures like Dua Lipa and Victoria Beckham somehow shared the site on their social media. As a result, in the two days following August 4th, the total number of visitors to the site reached 2.6 million.
+In May 2020, I developed a landing page for resources on helping local Lebanese communities survive the acute economic crisis. Two months later, it became the epicenter for disaster relief initatives as donations rushed in to support the victims of the August 4th Beirut port explosion, which killed 218 and left numerous without shelter. Traffic on the site surged instantly, and I quickly re-purposed it to cater for those looking for ways to help. New initatives were being submitted via the "suggest" button, of which I added those who passed the eye test. A swarm of solidarity messages came pouring in from all over the world as well. Celebrities and public figures like Dua Lipa and Victoria Beckham somehow shared the site on their social media. Between August 4th and August 7th, the total number of visitors to the site reached 2.6 Million.
 
 Full story [here](https://docs.google.com/presentation/d/175wsn-18PNyWML7TmsUDiRTSIEaD7EgCVGfOKM4Kihc/edit?usp=sharing). 
 
