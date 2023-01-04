@@ -4,9 +4,9 @@
 
 I develop AI models for improving performance at the Dallas Mavericks. Prior to joining the Mavs, I worked at the International Monetary Fund, where I built crisis prediction models for risk management and contingency planning.
 
-I have a BA in Economics from the American University of Beirut and a MA in Applied Economics from Georgetown University. Previously, I was a member of Lebanon's National Team that won 5th in [FIBA Asia 2010](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964) . 
+I have a BA in Economics from the American University of Beirut and a MA in Applied Economics from Georgetown University. Before entering college, I was a member of Lebanon's National Team that won 5th in [FIBA Asia 2010](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964) . 
 
-I am also the creator of [HelpLebanon.carrd.co](https://helplebanon.carrd.co), a website that saw 2.6 Million visitors in the wake of the 2020 Beirut explosion. (More on this below)
+I am also the creator of *[HelpLebanon.carrd.co](https://helplebanon.carrd.co)*, a website that saw 2.6 Million visitors in the wake of the 2020 Beirut explosion. More on this below.
 
 ## Publications
 
