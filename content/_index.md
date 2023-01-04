@@ -4,9 +4,9 @@
 
 I am a ML Engineer at the Dallas Mavericks, where I develop AI models for improving performance. Prior to joining the Mavs, I worked at the International Monetary Fund, where I built crisis prediction models for risk management and contingency planning.
 
-I have a BA in Economics from the American University of Beirut and hold a Master's in Applied Economics from Georgetown University. Previously, I was a member of Lebanon's National Team that won 5th in [FIBA Asia 2010](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964) . 
+I have a BA in Economics from the American University of Beirut and a MA in Applied Economics from Georgetown University. Previously, I was a member of Lebanon's National Team that won 5th in [FIBA Asia 2010](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964) . 
 
-I am also the creator of [HelpLebanon.carrd.co](https://helplebanon.carrd.co), a website that saw more the 2 million visitors in the wake of the Beirut blast on August 4th, 2020. 
+I am also the creator of [HelpLebanon.carrd.co](https://helplebanon.carrd.co), a website that saw 2.6 Million visitors in the wake of the 2020 Beirut explosion. (More on this below)
 
 ## Publications
 
@@ -29,9 +29,9 @@ I am also the creator of [HelpLebanon.carrd.co](https://helplebanon.carrd.co), a
 
 ## Help Lebanon Carrd
 
-Link to website: ["HelpLebanon.carrd.co"](https://helplebanon.carrd.co/) 
+Link: ["HelpLebanon.carrd.co"](https://helplebanon.carrd.co/) 
 
-In May 2020, I developed a landing page of resources for helping local Lebanese communities survive the economic crisis. Two months later, the site became an epicenter for disaster relief initatives and donation efforts as the international community rushed to support the victims of the Beirut Port explosion. The blast killed 218 and left many more without shelter. Almost instantly, traffic on the site surged as people looked for ways to help. The surge was fueled by celebrities, such as Dua Lipa and Victoria Beckham, who shared the site on their social media. In the two days following August 4th, the total number of visitors to the site reached 2.6 million.
+In May 2020, I developed a landing page for resources on helping local Lebanese communities survive the acute economic crisis. Two months later, the site became an epicenter for disaster relief initatives and donation efforts in support of the victims of the August 4th Beirut Port explosion. The blast killed 218 and left numerous without shelter. Almost instantly, traffic on the site surged and I quickly re-purposed it to cater for those looking for ways to help. New initatives poured in via the "suggest" button, of which I added those who passed the eye test, as well as messages of solidarity from all over the world. Celebrities and public figures like Dua Lipa and Victoria Beckham somehow shared the site on their social media. As a result, in the two days following August 4th, the total number of visitors to the site reached 2.6 million.
 
 Full story [here](https://docs.google.com/presentation/d/175wsn-18PNyWML7TmsUDiRTSIEaD7EgCVGfOKM4Kihc/edit?usp=sharing). 
 
