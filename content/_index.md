@@ -2,20 +2,11 @@
 
 {{< figure class="avatar" src="/avatar.png" alt="avatar">}}
 
-I currently work as a Machine Learning Researcher for a professional sports team in the US. Previously, I worked at the IMF's Risk Unit in Washington D.C, where I helped build crisis prediction models for risk management and contingency planning. I am interested in topics relating to organizational success and decision making in the sports business. 
+I am a ML Engineer at the Dallas Mavericks, where I develop AI models for improving performance. Prior to joining the Mavs, I worked at the International Monetary Fund, where I built crisis prediction models for risk management and contingency planning.
 
-I am a graduate of the American University of Beirut and hold a Master's of Arts in Applied Economics from Georgetown University. Prior to specializing in economics, I was a national basketball player for Team Lebanon U18. Here are [my stats](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964) from FIBA Asia 2010. 
+I have a BA in Economics from the American University of Beirut and hold a Master's in Applied Economics from Georgetown University. Previously, I was a member of Lebanon's National Team that won 5th in [FIBA Asia 2010](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964) . 
 
-## Sports Articles
-
-1. [Quantifying the Contribution of NBA Coaches Using Fixed Effects](https://towardsdatascience.com/quantifying-the-contribution-of-nba-coaches-using-fixed-effects-56f77f22153a)
-
-2. [A metric for the degree to which NBA players are playing up to their talent (Part I)](/posts/nba-distance-to-potential)
-
-3. [Coaching can make or break a team](https://ramzyalamine.medium.com/coaching-can-make-or-break-a-team-just-ask-doc-rivers-67ce3ed051c7)
-
-4. [Live NBA Coach Metrics](https://nbacoacheffects.herokuapp.com/)
-    
+I am also the creator of [HelpLebanon.carrd.co](https://helplebanon.carrd.co), a website that saw more the 2 million visitors in the wake of the Beirut blast on August 4th, 2020. 
 
 ## Publications
 
@@ -26,16 +17,31 @@ I am a graduate of the American University of Beirut and hold a Master's of Arts
   3. R.Al-Amine, A.Auclair, Y.Cai, J.Dauphin, A.Kireyev, B.Nandwa, L.Ocampos, B.Sarr [Economic Integration in the Maghreb](https://www.imf.org/en/Publications/Departmental-Papers-Policy-Papers/Issues/2019/02/08/Economic-Integration-in-the-Maghreb-An-Untapped-Source-of-Growth-46273), *IMF Policy Paper*, 2019
 
 
+## Sports Research
+
+1. [Quantifying the Contribution of NBA Coaches Using Fixed Effects](https://towardsdatascience.com/quantifying-the-contribution-of-nba-coaches-using-fixed-effects-56f77f22153a)
+
+2. [A metric for the degree to which NBA players are playing up to their talent (Part I)](/posts/nba-distance-to-potential)
+
+3. [Coaching can make or break a team](https://ramzyalamine.medium.com/coaching-can-make-or-break-a-team-just-ask-doc-rivers-67ce3ed051c7)
+
+4. [Live NBA Coach Metrics](https://nbacoacheffects.herokuapp.com/)
+
+## Help Lebanon Carrd
+
+Link to website: ["HelpLebanon.carrd.co"](https://helplebanon.carrd.co/) 
+
+In May 2020, I developed a landing page of resources for helping local Lebanese communities survive the economic crisis. Two months later, the site became an epicenter for disaster relief initatives and donation efforts as the international community rushed to support the victims of the Beirut Port explosion. The blast killed 218 and left many more without shelter. Almost instantly, traffic on the site surged as people looked for ways to help. The surge was fueled by celebrities, such as Dua Lipa and Victoria Beckham, who shared the site on their social media. In the two days following August 4th, the total number of visitors to the site reached 2.6 million.
+
+Full story [here](https://docs.google.com/presentation/d/175wsn-18PNyWML7TmsUDiRTSIEaD7EgCVGfOKM4Kihc/edit?usp=sharing). 
+
 ## Other
 
-1. ["HelpLebanon"](https://helplebanon.carrd.co/): A website originally developed as a landing page for resources on the Lebanese financial. This site received 2.6 million visitors in the two days following the Beirut Port explosion on August 4th., channelling an estimated $2 to $3 Million in donation money to local NGOs. [Here](https://docs.google.com/presentation/d/175wsn-18PNyWML7TmsUDiRTSIEaD7EgCVGfOKM4Kihc/edit?usp=sharing) is the full story in a presentation I gave a few months after. 
+1. [Expanding Trade Across the Maghreb](https://blogs.imf.org/2019/04/23/expanding-trade-across-the-maghreb/); *Executive Magazine*, 2013
 
+2. [Counting The Cost: How Much Is Lebanon's Economy Being Hurt By Syria's Crisis](https://www.executive-magazine.com/economics-policy/lebanon-syria-crisis); *Executive Magazine*, 2013
 
-2. [Expanding Trade Across the Maghreb](https://blogs.imf.org/2019/04/23/expanding-trade-across-the-maghreb/); *Executive Magazine*, 2013
-
-3. [Counting The Cost: How Much Is Lebanon's Economy Being Hurt By Syria's Crisis](https://www.executive-magazine.com/economics-policy/lebanon-syria-crisis); *Executive Magazine*, 2013
-
-4. Check out [my music](https://soundcloud.com/ramsesmakesbeats/sets/albominati) on Soundcloud.  
+3. I produce [recreational beats](https://soundcloud.com/ramsesmakesbeats/sets/albominati) on Soundcloud.  
 
 <!-- ---
 
