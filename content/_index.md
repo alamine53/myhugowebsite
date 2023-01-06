@@ -10,7 +10,6 @@ I am also the creator of:
   * [HelpLebanon.carrd.co](https://helplebanon.carrd.co): A donations website that saw 2.6 Million visitors in the wake of the 2020 Beirut port explosion.
   * [CoFEE](http://nbacoacheffects.com/): A metric for the added wins of NBA coaches above roster characteristics (site is currently under maintenance, see [Medium article](https://towardsdatascience.com/quantifying-the-contribution-of-nba-coaches-using-fixed-effects-56f77f22153a)).
   * [Fantalytics](https://fantalytics.app): A subscription service that sends you advanced analytics for your fantasy team twice a week.
-
 ## Publications
 
   1. R.Al-Amine, T.Willems: [Investor Sentiment, Sovereign Debt Mispricing, and Economic Outcomes](https://doi.org/10.1093/ej/ueac067)); _The Economic Journal_ (10 Septmber 2022)
@@ -19,24 +18,26 @@ I am also the creator of:
 
   3. R.Al-Amine, A.Auclair, Y.Cai, J.Dauphin, A.Kireyev, B.Nandwa, L.Ocampos, B.Sarr [Economic Integration in the Maghreb](https://www.imf.org/en/Publications/Departmental-Papers-Policy-Papers/Issues/2019/02/08/Economic-Integration-in-the-Maghreb-An-Untapped-Source-of-Growth-46273), *IMF Policy Paper*, 2019
 
-
-
+<!-- 
 ## Help Lebanon Carrd
 
-Site: [HelpLebanon.carrd.co](https://helplebanon.carrd.co/) 
+Link: ["HelpLebanon.carrd.co"](https://helplebanon.carrd.co/)  -->
 
-In 2020, I launched this site as a landing page for resources on helping local Lebanese communities survive the economic crisis. Weeks later, it became the epicenter for disaster relief initatives as donations rushed in to support the victims of the August 4th Beirut port explosion. Following the blast, which killed 218 and left numerous without shelter, traffic on the site surged instantly, and I quickly repurposed it to cater for those looking for ways to help. New initatives were being submitted a via the suggestion button, of which I added those who passed the eye test. A swarm of solidarity messages came pouring in from all over the world as well. Celebrities and public figures like Dua Lipa and Victoria Beckham shared the site on their social media. Between August 4th and August 7th, the total number of visitors to the site reached 2.6 Million.
+<!-- In 2020, I launched the above site as a landing page for resources on helping local Lebanese communities survive the economic crisis. Weeks later, it became the epicenter for disaster relief initatives as donations rushed in to support the victims of the August 4th Beirut port explosion. Following the blast, which killed 218 and left numerous without shelter, traffic on the site surged instantly, and I quickly repurposed it to cater for those looking for ways to help. New initatives were being submitted a via the suggestion button, of which I added those who passed the eye test. A swarm of solidarity messages came pouring in from all over the world as well. Celebrities and public figures like Dua Lipa and Victoria Beckham shared the site on their social media. Between August 4th and August 7th, the total number of visitors to the site reached 2.6 Million. -->
 
-Full story [here](https://docs.google.com/presentation/d/175wsn-18PNyWML7TmsUDiRTSIEaD7EgCVGfOKM4Kihc/edit?usp=sharing). 
+<!-- Full story [here](https://docs.google.com/presentation/d/175wsn-18PNyWML7TmsUDiRTSIEaD7EgCVGfOKM4Kihc/edit?usp=sharing).  -->
 
-## Other
+## Writing
 
-1. [Expanding Trade Across the Maghreb](https://blogs.imf.org/2019/04/23/expanding-trade-across-the-maghreb/); Magazine Article, *Executive Magazine*, 2013
+1. [A metric for the degree to which NBA players are playing up to their talent (Part I)](/posts/nba-distance-to-potential); Blog post, 2021
 
-2. [Counting The Cost: How Much Is Lebanon's Economy Being Hurt By Syria's Crisis](https://www.executive-magazine.com/economics-policy/lebanon-syria-crisis); Magazine Article, *Executive Magazine*, 2013
+2. [Coaching can make or break a team](https://ramzyalamine.medium.com/coaching-can-make-or-break-a-team-just-ask-doc-rivers-67ce3ed051c7); Medium, 2021
 
-3. I produce [recreational beats](https://soundcloud.com/ramsesmakesbeats/sets/albominati) on Soundcloud.  
+3. [Quantifying the Contribution of NBA Coaches Using Fixed Effects](https://towardsdatascience.com/quantifying-the-contribution-of-nba-coaches-using-fixed-effects-56f77f22153a); Medium, 2020
 
+4. [Counting The Cost: How Much Is Lebanon's Economy Being Hurt By Syria's Crisis](https://www.executive-magazine.com/economics-policy/lebanon-syria-crisis); Magazine Article, *Executive Magazine*, 2013
+
+5. [Expanding Trade Across the Maghreb](https://blogs.imf.org/2019/04/23/expanding-trade-across-the-maghreb/); Magazine Article, *Executive Magazine*, 2014
 <!-- ---
 
 ## Awards
