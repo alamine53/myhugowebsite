@@ -6,8 +6,10 @@ I build AI models for improving performance at the Dallas Mavericks. Prior to jo
 
 I have a BA in Economics from the American University of Beirut and a MA in Applied Economics from Georgetown University. Before college, I was a member of Lebanon's U18 Basketball NT that won 5th in [FIBA Asia 2010](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964) . 
 
-I am also the creator of [HelpLebanon.carrd.co](https://helplebanon.carrd.co), a website that saw 2.6 Million visitors in the wake of the 2020 Beirut explosion.
-
+I am also the creator of:
+  * [HelpLebanon.carrd.co](https://helplebanon.carrd.co): A donations website that saw 2.6 Million visitors in the wake of the 2020 Beirut explosion.
+  * [CoFEE](http://nbacoacheffects.com/): A metric for the added wins of NBA coaches above roster characteristics.
+  * [Fantalytics](https://fantalytics.app): A subscription service that sends you advanced analytics for your fantasy team twice a week.
 ## Publications
 
   1. R.Al-Amine, T.Willems: [Investor Sentiment, Sovereign Debt Mispricing, and Economic Outcomes](https://doi.org/10.1093/ej/ueac067)); _The Economic Journal_ (10 Septmber 2022)
