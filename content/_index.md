@@ -8,8 +8,9 @@ I have a BA in Economics from the American University of Beirut and a MA in Appl
 
 I am also the creator of:
   * [HelpLebanon.carrd.co](https://helplebanon.carrd.co): A donations website that saw 2.6 Million visitors in the wake of the 2020 Beirut port explosion.
-  * [CoFEE](http://nbacoacheffects.com/): A metric for the added wins of NBA coaches above roster characteristics (currently under maintenance).
+  * [CoFEE](http://nbacoacheffects.com/): A metric for the added wins of NBA coaches above roster characteristics (site is currently under maintenance, see [Medium article](https://towardsdatascience.com/quantifying-the-contribution-of-nba-coaches-using-fixed-effects-56f77f22153a)).
   * [Fantalytics](https://fantalytics.app): A subscription service that sends you advanced analytics for your fantasy team twice a week.
+
 ## Publications
 
   1. R.Al-Amine, T.Willems: [Investor Sentiment, Sovereign Debt Mispricing, and Economic Outcomes](https://doi.org/10.1093/ej/ueac067)); _The Economic Journal_ (10 Septmber 2022)
@@ -19,21 +20,12 @@ I am also the creator of:
   3. R.Al-Amine, A.Auclair, Y.Cai, J.Dauphin, A.Kireyev, B.Nandwa, L.Ocampos, B.Sarr [Economic Integration in the Maghreb](https://www.imf.org/en/Publications/Departmental-Papers-Policy-Papers/Issues/2019/02/08/Economic-Integration-in-the-Maghreb-An-Untapped-Source-of-Growth-46273), *IMF Policy Paper*, 2019
 
 
-## Sports Research
 
-1. [Quantifying the Contribution of NBA Coaches Using Fixed Effects](https://towardsdatascience.com/quantifying-the-contribution-of-nba-coaches-using-fixed-effects-56f77f22153a)
+### Help Lebanon Carrd
 
-2. [A metric for the degree to which NBA players are playing up to their talent (Part I)](/posts/nba-distance-to-potential)
+Site: [HelpLebanon.carrd.co](https://helplebanon.carrd.co/) 
 
-3. [Coaching can make or break a team](https://ramzyalamine.medium.com/coaching-can-make-or-break-a-team-just-ask-doc-rivers-67ce3ed051c7)
-
-4. [Live NBA Coach Metrics](https://nbacoacheffects.herokuapp.com/)
-
-## Help Lebanon Carrd
-
-Link: ["HelpLebanon.carrd.co"](https://helplebanon.carrd.co/) 
-
-In 2020, I launched the above site as a landing page for resources on helping local Lebanese communities survive the economic crisis. Weeks later, it became the epicenter for disaster relief initatives as donations rushed in to support the victims of the August 4th Beirut port explosion. Following the blast, which killed 218 and left numerous without shelter, traffic on the site surged instantly, and I quickly repurposed it to cater for those looking for ways to help. New initatives were being submitted a via the suggestion button, of which I added those who passed the eye test. A swarm of solidarity messages came pouring in from all over the world as well. Celebrities and public figures like Dua Lipa and Victoria Beckham shared the site on their social media. Between August 4th and August 7th, the total number of visitors to the site reached 2.6 Million.
+In 2020, I launched this site as a landing page for resources on helping local Lebanese communities survive the economic crisis. Weeks later, it became the epicenter for disaster relief initatives as donations rushed in to support the victims of the August 4th Beirut port explosion. Following the blast, which killed 218 and left numerous without shelter, traffic on the site surged instantly, and I quickly repurposed it to cater for those looking for ways to help. New initatives were being submitted a via the suggestion button, of which I added those who passed the eye test. A swarm of solidarity messages came pouring in from all over the world as well. Celebrities and public figures like Dua Lipa and Victoria Beckham shared the site on their social media. Between August 4th and August 7th, the total number of visitors to the site reached 2.6 Million.
 
 Full story [here](https://docs.google.com/presentation/d/175wsn-18PNyWML7TmsUDiRTSIEaD7EgCVGfOKM4Kihc/edit?usp=sharing). 
 
