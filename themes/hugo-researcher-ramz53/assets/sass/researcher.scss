@@ -4,7 +4,7 @@ $max-width: {{ .Param "style.pageWidth" | default "750px;" }};
 $avatar-size: {{ .Param "style.avatarSize" | default "90px;" }};
 
 // Colors
-$black: {{ .Param "style.colorBlack" | default "#222222" }};
+$black: {{ .Param "style.colorBlack" | default "#2C3840" }};
 $red: {{ .Param "style.colorRed" | default "#dc3545" }};
 
 // Font
@@ -54,12 +54,15 @@ $y-medium: 1.0rem;
 
 }
 
+
 h2 {
-    font-family: "Spectral";
+    font-family: "Inconsolata";
     font-size: 22px;
+    font-weight: bold;
     font-color: grey;
     padding-top: 0.8em;
-    line-height: 0.8em;
+    padding-bottom: 0.4em;
+    line-height: 1.0em;
     letter-spacing: 0.1rem;
 }
 
@@ -68,8 +71,9 @@ h2 {
 }
 .navbar-brand {
     @extend %link-dark;
-    font-size: 26px;
-    font-family: "Spectral";
+    font-size: 22px;
+    font-family: "Inconsolata";
+    text-transform: uppercase;
     font-weight: regular;
     letter-spacing: 0.2rem;
 }

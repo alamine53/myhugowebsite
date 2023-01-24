@@ -6,7 +6,9 @@ I build AI models for improving performance at the Dallas Mavericks. Prior to jo
 
 I have a BA in Economics from the American University of Beirut and a MA in Applied Economics from Georgetown University. Before college, I was a member of Lebanon's U18 Basketball NT that won 5th in [FIBA Asia 2010](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964) . 
 
-I am also the creator of:
+--
+
+**I am the creator of:**
   * [HelpLebanon.carrd.co](https://helplebanon.carrd.co): A donations website that saw 2.6 Million visitors in the wake of the 2020 Beirut port explosion.
   * [CoFEE](http://nbacoacheffects.com/): A metric for the added wins of NBA coaches above roster characteristics (site is currently under maintenance, see [Medium article](https://towardsdatascience.com/quantifying-the-contribution-of-nba-coaches-using-fixed-effects-56f77f22153a)).
   * [Fantalytics](https://fantalytics.app): A subscription service that sends you advanced analytics for your fantasy team twice a week.
