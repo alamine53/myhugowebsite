@@ -17,9 +17,12 @@ $y-medium: 1.0rem;
 
 // Placeholders
 %link-default {
-    color: $red;
+    color: $black;
     font-weight: bold;
-    text-decoration: none;
+    font-family: "Inconsolata";
+    font-size: 18px;
+    text-decoration: underline;
+    text-decoration-color: $red;
     & * {
         color: $red;
     }

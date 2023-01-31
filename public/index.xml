@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ramzy Al Amine</title>
+    <link>https://ramzyalamine.com/</link>
+    <description>Recent content on Ramzy Al Amine</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ramzyalamine.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A metric for the degree to which players are playing up to their talent (Part I)</title>
+      <link>https://ramzyalamine.com/posts/nba-distance-to-potential/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ramzyalamine.com/posts/nba-distance-to-potential/</guid>
+      <description>A metric for the degree to which players are playing up to their talent Rolling average of VORP over the last 10 games divided by the highest 10-game rolling VORP average over the course of this player’s 3 most recent seasons.
+How would this be useful? This metric would capture just how much a given player is performing relative to their own potential. This metric is intended to measure the degree to which a team is making use of a given player.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://ramzyalamine.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ramzyalamine.com/about/</guid>
+      <description>About Me This is a Hugo based resume template. You can find the full source code on GitHub.
+Basketball Research Quantifying the Contribution of NBA Coaches Using Fixed Effects
+Website for Live NBA Coach Metrics
+The Case for Flow Over Talent in the NBA
+Short Articles Quantifying the Contribution of NBA Coaches Using Fixed Effects
+Expanding Trade Across the Maghreb
+Counting The Cost: How Much Is Lebanon&amp;rsquo;s Economy Being Hurt By Syria&amp;rsquo;s Crisis</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://ramzyalamine.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ramzyalamine.com/contact/</guid>
+      <description> Email: ramzyalamine@gmail.com Phone: +(202) 848-7683 Social Facebook Twitter Google+ </description>
+    </item>
+    
+    <item>
+      <title>Flow over talent</title>
+      <link>https://ramzyalamine.com/posts/nba-flow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ramzyalamine.com/posts/nba-flow/</guid>
+      <description>&amp;ldquo;Flow&amp;rdquo; over talent Only a handful a players possess the talent level that is unaffected by the team environment (e.g. LeBron, KD, probably Embiid). The majority of players depend on the opportunity that is provided.
+The analytics community vastly over-emphasizes individual ability as a determinant of success. Rightly so, teams hire analysts to help them identify undercover talent.
+For the majority players, individual performance depends much more on role, fit, and opportunity, than it does on their own ability level.</description>
+    </item>
+    
+  </channel>
+</rss>

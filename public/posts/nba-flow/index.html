@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@970&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Spectral:wght@300;400&display=swap');
+</style>
+<html lang=""><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Flow over talent</title>
+    <meta name="description" content="A professional CV for the web.">
+    <meta name="author" content='Ramzy Al-Amine'>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+        <link rel="icon" type="image/ico" href="https://ramzyalamine.com/favicon.ico">
+    
+
+    
+        
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-172041562-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+    
+</head>
+
+    <body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
+        <a class="navbar-brand mx-0 mr-sm-auto" href="https://ramzyalamine.com" title="Ramzy Al Amine">
+          
+          Ramzy Al Amine
+        </a>
+        <div class="navbar-nav flex-row flex-wrap justify-content-center">
+            
+                
+                
+                    <a class="nav-item nav-link" href="https://github.com/alamine53" title=" Github">
+                         Github
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="https://soundcloud.com/ramsesmakesbeats" title=" Soundcloud">
+                         Soundcloud
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="https://twitter.com/ramz_53" title=" Twitter">
+                         Twitter
+                    </a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h1 id="flow-over-talent">&ldquo;Flow&rdquo; over talent</h1>
+<p>Only a handful a players possess the talent level that is unaffected by the team environment (e.g. LeBron, KD, probably Embiid). The majority of players depend on the opportunity that is provided.</p>
+<p>The analytics community vastly over-emphasizes individual ability as a determinant of success. Rightly so, teams hire analysts to help them identify undercover talent.</p>
+<p>For the majority players, individual performance depends much more on role, fit, and opportunity, than it does on their own ability level. It is safe to assume that most players possess the ability level to at least be relevant for team success simply by virtue of being drafted into the NBA. From there, success depends much more being in the &lsquo;right&rsquo; place.</p>
+<p>From this perspective, player assessment is over-valued when considered in isolation of how the subject of the assessment fits in the current system and the role they would play in the future.</p>
+<h3 id="diminishing-returns-to-talent">Diminishing returns to talent</h3>
+<h3 id="optimal-flow">Optimal Flow</h3>
+<p>Teams make players just as much as players make teams.</p>
+<h2 id="introduction">Introduction</h2>
+<p>This post is another stop in my lifelong attempt to find what makes good teams good. The prevailing view that talent is a precursor for success makes for a nice hindsight story: team X won because team X has better players. But this is a vast over-simplification. Many layers go into forming a winning team and reducing performance to &ldquo;talent&rdquo; overlooks many crucial elements. In a previous <a href="https://towardsdatascience.com/quantifying-the-contribution-of-nba-coaches-using-fixed-effects-56f77f22153a">article</a>, I showed why coaching is the key ingredient no one likes to talk about. To back this up, I also advanced <a href="https://nbacoacheffects.herokuapp.com/">a metric that measures coaching effectiveness in the NBA</a>. In this post, I peel yet another layer in the success equation: Flow.</p>
+<p>I subscribe to the idea that most NBA players possess a baseline of talent that allows them to be relevant for team success. With the right opportunity and timing, most players are good enough to contribute simply by virtue of being drafted into the league. From there, it&rsquo;s all about  the factors that enable its realization. Over the next few paragraphs, I describe why &lsquo;Flow&rsquo; is the ultimate talent enabler, and why I think teams should pursue it as the main success criteria. I also discuss a proposal to quantify it. My thesis is that when teams reach an optimal state of &lsquo;Flow,&rsquo; they become unstoppable.</p>
+<h2 id="what-is-flow">What is Flow?</h2>
+<p>Wikipedia defines Flow as the mental state in which a person fully immersed in an activity, with a feeling of energized focus, full involvement, and enjoyment in the process of the activity. Translating this to a team environment, a state of Flow would be characterizied by players being bought into a system where all elements are Flowing seamlessly. The team is said to be &lsquo;dialed-in&rsquo; or &lsquo;in the zone&rsquo;.</p>
+<p>Flow can be defined by a combination of talent, chemsitry, and coaching. It&rsquo;s what you see when you watch a team that is clicking on all cylinders. The 73-win Warriors is one example of peak Flow. The style is unique, transpiring a greater sense of beauty and enjoyment. Even average players seem to elevate their performance. All of these are signs of great Flow.</p>
+<p>A good indicator for Flow is how close are players performing relative to potential. Looking at a team, if most of the main players are playing their best of recent years, it can be said that the team is deriving high value from their talent. Conversely, when some players are under-performing, that is a sign of low Flow. Any situation where talent is left unexplored is a sub-optimal Flow situation.</p>
+<p>Flow is not talent. Rather, it is what enables talent to achieve its potential. A certain level of talent is needed to achieve the kind of Flow that translates into dominance, but having too much of it could create havoc. Fans have a tendancy to explain a team&rsquo;s dominance, say Liverpool, by the quality of its players, say Mo Salah and Sadio Mane. But the idea is that only by enabling Flow do these players become the juggernauts they are now. Further, my hypothesis is that high-potential talent is more abundant than we think. However, it is much harder for it to be realized because teams do not systematically build towards Flow.</p>
+<p>To further illustrate this idea, here&rsquo;s a graphical representation of the approximate relationship between Talent and Flow. I&rsquo;ve placed a random selection of current sports teams where I think they would fall on the curve. This chart is fully anecdotal and fulfills illustrative purposes only.</p>
+<p><img src="/images/posts/flowgraph.jpg" alt="graph"></p>
+<p>To borrow a pair of Talebian concepts, teams on the left-side of the curve are &ldquo;anti-fragile,&rdquo; in the sense that they stand to gain from stressors. Bad losses, especially those in a high-stake environment like the Playoffs, would build experience and resilience. Conversely, teams on the downward-sloping side of the chart, i.e. those with too much talent, become fragile. Bad losses tend to cause locker room tensions and threaten the very existence of the team in its current form. Therefore, it is better to on the left side, building up towards optimal flow.</p>
+<h2 id="what-contributes-to-flow">What contributes to Flow?</h2>
+<p>I am no psychology expert, but I have spent a fair amount of time on the basketball court. Throughout my 15-year career as professional player, including a stint on the Under-18 Lebanese National Team, I have experienced both complete disfunction and sheer dominance. Whether in high school, professional leagues, or  streetball parks, the patterns are strikingly consistent. Here are four recurring elements that underline &lsquo;high Flow&rsquo; situations.</p>
+<ul>
+<li>
+<p><em>A group of core players:</em> Establishing who the leaders are is crucial for Flow. When the core is secured, everything else falls in place almost organically. In a basketball setting, core groups typically comprise of three players possessing complimentary skillset, one of whom usually occupies the backseat to the other two. Players who have sucessfully accomplished this role in the past include Draymond Green (GSW), Ray Allen (BOS), Manu Ginobili (SAS), Chris Bosh (MIA), and Dennis Rodman (CHI). Look at every great dynasty and you will find a version of these glue players.</p>
+</li>
+<li>
+<p><em>Strategic additions:</em> Once the core group has been established, it&rsquo;s time to address the support group. Talent that could challenge the core must be avoided, but strategic additions that fill specific gaps should be encouraged. These typically include three point shooters, lockdown defenders, and instant offense guys off-the-bench. Differentiating between core and support is crucial for achieving Flow.</p>
+</li>
+<li>
+<p><em>Coaching:</em> You might&rsquo;ve heard me babble on the importance of coaching before (you can hear it again <a href="">here</a>). To me, franchise building starts and ends with coaching. Coaches motivate and establish a culture. They design a playbook that exploits the strengths of their core players, then instill motivation and culture among their roster. Coaches are also responsible for player development.</p>
+</li>
+<li>
+<p><em>Continuity and culture-building:</em> A strong identity speaks volume about the way a franchise approaches winning. Asking the questions &ldquo;what do we stand for as team?&rdquo; and &ldquo;what will be our unique edge?&rdquo; helps clearly communicate the set of values that present and future players would have to align with. A particularly unspoken-of element is the GM-head coach relationship. FThey  need to be on the same page for successful franchises to be build.</p>
+</li>
+</ul>
+<h2 id="why-not-just-pursue-talent">Why not just pursue talent?</h2>
+<p>Teams must avoid the temptation to accumulate talent at every corner. Adding talent without strategic thought as to how specific moves might affect the four pillars discussed above. This was the Los Angeles Lakers approach this off-season. The Lakers were &lsquo;Talent Maxis&rsquo; by racking up assets and hoping for the best. It is astonishing how many teams pursue this straegy, and how many fans fall for it, as it is accompanied by the following perils.</p>
+<ul>
+<li>
+<p><em>Difficulty of building chemistry</em>: Teams fail to build up chemistry when it isn&rsquo;t clear who the core and support players are. Flow is further damaged when star players are asked to fulfill roles that require them to make compromises for a sustained period of time. This translates into players failing to reach their full potential and therefore the team failing to click.</p>
+</li>
+<li>
+<p><em>Unreasonably high expectations:</em> The hype generated around star players joining forces often backfires into a tense locker room. When the stakes are high, losses hit harder and cause deep frictions among the core players. This was certainly the Celtics experience when they aquired Kyrie and Gordon Hayward. Anything short of a championship would have been considered a failure. That is simply too much pressure on a newly-formed group of players. The Kyrie-led Celtics also struggled in identifying the core from the support group. Things are aligning much more favorably for them in terms of Flow now that they are building around Tatum and Brown.</p>
+</li>
+<li>
+<p><em>Diminishing returns to talent:</em> More talent doesn&rsquo;t necessarily mean better performance. People tend to under-estimate the impact of the sacrifices that players need to make when the talent is beyond its optimal threshold. For the big three to work in Miami, Chris Bosh had to compromise a significant amount of ball touches. Most players may accept the &lsquo;backseat&rsquo; for a season or two, but very few over a sustained period of time. The Heat were lucky Bosh elected to stay course. Put simply, there isn&rsquo;t enough &ldquo;ball&rdquo; to use up increasing amount of talent.</p>
+</li>
+<li>
+<p><em>Long-term instability:</em> Excess talent is not only redundant, but it is likely to cause structural damage, as unhappy locker rooms tend to lead players deciding to leave abruptly. Any player performing lower than potential, even when the team is winning, will eventually want to seek better opportunity elsewhere, causing the franchise to take a step backwards.</p>
+</li>
+</ul>
+<h2 id="so-youre-telling-me-if-the-miami-heat-could-sign-kevin-durant-right-now-they-shouldnt-do-it">&ldquo;So, you&rsquo;re telling me if the Miami Heat could sign Kevin Durant right now, they shouldn&rsquo;t do it?&rdquo;</h2>
+<p>Yes, this is exactly what I&rsquo;m saying. If the Miami Heat truly cares about being a successful franchise for the next decade, they shouldn&rsquo;t go after Kevin Durant even if they could. At first glance, adding one of the greatest offensive players in the world might seem like a good idea to &lsquo;secure&rsquo; a championship. But the Heat have something great going on, and with ample scoring available, it would be a mistake to add another volume scorer. The risk is simply too great.</p>
+<p>But wouldn&rsquo;t it be good to have options? Options are good in a video game. In real life, motivation directly affects performance. When adding a Kevin Durant in this scenario, the Heat would be severely limiting other promising players&rsquo; potential. As a team, you want to avoid having players, especially of your core group, performing below potential. Once again, as you increase talent, there is simply not enough ball for everyone to achieve full potential. This is where structural damage can happen and franchises fall apart.</p>
+<h2 id="introducing-flow-a-metric-that-measures-flow">Introducing FLOW, a metric that measures Flow.</h2>
+<p>The reason I think the distinction between talent and what I&rsquo;m calling &lsquo;Flow&rsquo; is important is because teams with higher Flow are on a more direct path towards success. Every team should be asking themselves where they stand in terms of Flow. If Flow is close to the peak, then it doesn&rsquo;t make sense to shake up the core, but rather opt for strategic gap-filling moves. The first step is therefore to measure it.</p>
+<p>As I&rsquo;ve said at the beginning, Flow is a measure of team chemistry. Yet it can be viewed in terms of distance to full potential. This makes it more solvable from a quantitative perspective. My proposal comprises of the following steps.</p>
+<p>For a given team in a given game:</p>
+<p>(1) Calculate player <strong>i</strong>&rsquo;s distance to full potential.</p>
+<p>This can be done by observating player <strong>i</strong>&rsquo;s game-by-game performance metric in recent history. The metric of choice could be VORP or Win Share or whatever, let&rsquo;s call it Y for now. Full potential is, then, identified as <em>the highest performance achieved over a span of 10 to 15 games in the previous 3 to 5 seasons</em>. Let&rsquo;s call this Y<sup>P</sup>. From there, the distance can be computed as the difference between current performance and full potential (Y<sub>t</sub> - Y<sup>P</sup>). Note that Y<sup>P</sup> would need to control for age.</p>
+<p>(2) Compute a minute-weighted mean across the roster&rsquo;s 6 to 8 top players</p>
+<p>Once the distances are computed at the player level, it&rsquo;s easy to aggregate to the roster level. Not all players should be included, and those who are included would need to have weights proportional to minutes played. This metric can be computed in real time, as performance would be captured game-by-game.</p>
+<p>A useful reference here is the &lsquo;output gap&rsquo; in macroeconomics. The output gap represents the difference between the economy&rsquo;s current output level  and its hypothetical level of all factors of production were operating at full capacity. The output gap is useful for economists to gauge in which direction inflation and unemployment could be heading over the next few years. For a basketball team, the smaller the output gap (Y<sub>t</sub> - Y<sup>P</sup>), the higher the Flow. If all players are performan</p>
+<p>That&rsquo;s it, those are my thoughts on flow. Thanks for making it all the way to the end. Let me know if you find this concept helpful and whether you think a metric would be useful.</p>
+
+</div>
+
+        </div><div id="footer" class="mb-5">
+    <hr>
+    <div class="container text-center">
+        
+            <a href="https://twitter.com/ramz-53" class="fab fa-twitter fa-1x" title="Twitter"></a>
+        
+            <a href="mailto:mail@example.com" class="fas fa-envelope fa-1x" title="E-mail"></a>
+        
+    </div>
+    
+        <div class="container text-center">
+            <a href="https://github.com/alamine53" title="Ramzy Al Amine"><small>Ramzy Al Amine</small></a>
+        </div>
+    
+</div>
+</body>
+</html>
