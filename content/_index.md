@@ -10,7 +10,7 @@ I have a BA in Economics from the American University of Beirut and a MA in Appl
 
 **I am the creator of:**
   * [HelpLebanon.carrd.co](https://helplebanon.carrd.co): A donations website that saw 2.6 Million visitors in the wake of the 2020 Beirut port explosion.
-  * [CoFEE](http://nbacoacheffects.com/): A metric for the added wins of NBA coaches above roster characteristics (site is currently under maintenance, see [Medium article](https://towardsdatascience.com/quantifying-the-contribution-of-nba-coaches-using-fixed-effects-56f77f22153a)).
+  * [CoFEE](https://coach-fixed-effects.herokuapp.com/): A metric for the added wins of NBA coaches above roster characteristics.
   * [Fantalytics](https://fantalytics.app): A subscription service that sends you advanced analytics for your fantasy team twice a week.
 ## Publications
 
