@@ -8,7 +8,7 @@ $black: {{ .Param "style.colorBlack" | default "#2C3840" }};
 $red: {{ .Param "style.colorRed" | default "#dc3545" }};
 
 // Font
-$font-family: {{ .Param "style.fontFamily" | default "Inconsolata" }};
+$font-family: {{ .Param "style.fontFamily" | default "Helvetica Neue" }};
 $font-family-headers: {{ .Param "style.fontFamily" | default "Inconsolata" }};
 
 // Margins
@@ -18,9 +18,9 @@ $y-medium: 1.0rem;
 // Placeholders
 %link-default {
     color: $black;
-    font-weight: bold;
-    font-family: "Barlow";
+    font-family: "Helvetica Neue";
     font-size: 16px;
+    font-weight: 400;
     text-decoration: underline;
     text-decoration-color: $red;
     text-underline-offset: 0.2em;
@@ -53,20 +53,26 @@ $y-medium: 1.0rem;
 // Style
 * {
     color: $black;
-    font-family: $font-family;
+    font-family: "Helvetica Neue";
     line-height: 1.4;
     letter-spacing: 0.02rem;
+    font-size: 16px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
 
 }
 
 
 h2 {
-    font-family: "Helvetica Neue";
+    font-family: "Barlow";
+    // text-decoration: underline;
+    // text-decoration-color: $black;
+    // text-underline-offset: 0.2em;
     font-size: 22px;
-    font-weight: regular;
+    font-weight: bold;
     font-color: grey;
-    padding-top: 0.8em;
-    padding-bottom: 0.4em;
+    padding-top: 2em;
+    padding-bottom: 0em;
     line-height: 1.0em;
 }
 
@@ -75,10 +81,11 @@ h2 {
 }
 .navbar-brand {
     @extend %link-dark;
-    font-size: 22px;
+    font-size: 20px;
+    font-color: $black;
     font-family: "Inconsolata";
     text-transform: uppercase;
-    font-weight: regular;
+    font-weight: 300px;
     letter-spacing: 0.2rem;
 }
 
