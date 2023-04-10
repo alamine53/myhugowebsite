@@ -2,16 +2,17 @@
 
 {{< figure class="avatar" src="/avatar.png" alt="avatar">}}
 
-I build AI models for improving performance at the Dallas Mavericks. Prior to joining the Mavs, I worked at the International Monetary Fund, where I developed crisis prediction models for risk management and contingency planning.
+I build AI and Machine Learning models at the Dallas Mavericks. Prior to joining the Mavs, I worked at the International Monetary Fund, developing crisis prediction models for risk management and contingency planning.
 
-I have a BA in Economics from the American University of Beirut and a MA in Applied Economics from Georgetown University. Before college, I was a member of Lebanon's U18 Basketball NT that won 5th in [FIBA Asia 2010](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964) . 
+I have a BA in Economics from the American University of Beirut and a MA in Applied Economics from Georgetown University. 
+I am a member of the Lebanese Under-18 national team in [FIBA Asia 2010](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964) . 
 
 --
 
 **I am the creator of:**
-  * [HelpLebanon.carrd.co](https://helplebanon.carrd.co): A donations website that saw 2.6 Million visitors in the wake of the 2020 Beirut port explosion.
+  * [Help Lebanon Carrd](https://helplebanon.carrd.co): A donations website that saw 2.6 Million visitors in the wake of the 2020 Beirut port explosion.
   * [CoFEE](https://coach-fixed-effects.herokuapp.com/): A metric for the added wins of NBA coaches above roster characteristics.
-  * [Fantalytics](https://fantalytics.app): A subscription service that sends you advanced analytics for your fantasy team twice a week.
+  * [Fantalytics](https://fantalytics.app): A subscription service that sends custom analytics for your fantasy team to your inbox.
 ## Publications
 
   1. R.Al-Amine, T.Willems: [Investor Sentiment, Sovereign Debt Mispricing, and Economic Outcomes](https://doi.org/10.1093/ej/ueac067)); _The Economic Journal_ (10 Septmber 2022)

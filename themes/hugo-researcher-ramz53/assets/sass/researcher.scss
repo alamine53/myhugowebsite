@@ -19,10 +19,12 @@ $y-medium: 1.0rem;
 %link-default {
     color: $black;
     font-weight: bold;
-    font-family: "Inconsolata";
-    font-size: 18px;
+    font-family: "Barlow";
+    font-size: 16px;
     text-decoration: underline;
     text-decoration-color: $red;
+    text-underline-offset: 0.2em;
+    
     & * {
         color: $red;
     }
@@ -59,14 +61,13 @@ $y-medium: 1.0rem;
 
 
 h2 {
-    font-family: "Inconsolata";
+    font-family: "Helvetica Neue";
     font-size: 22px;
-    font-weight: bold;
+    font-weight: regular;
     font-color: grey;
     padding-top: 0.8em;
     padding-bottom: 0.4em;
     line-height: 1.0em;
-    letter-spacing: 0.1rem;
 }
 
 .container {
