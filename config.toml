@@ -15,11 +15,9 @@ googleAnalytics = "UA-172041562-1"  # add your tracking id
     text = "Ramzy Al Amine"
     url = "https://github.com/alamine53"
   [params.style]  # appearance options (can be omitted)
-    fontFamily = "Barlow"
-    fontHeaders = "Poppins"
-    pageWidth = "750px"
+    pageWidth = "600px"
     avatarSize = "140px"
-    colorBlack = "#2C3840"
+    colorBlack = "#23282b"
     colorURLs = "#FF8243"
     colorRed = "#FF8243"
   [[params.socialIcons]]
