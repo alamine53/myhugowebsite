@@ -7,12 +7,12 @@ I build AI models at the Dallas Mavericks and Mark Cuban Companies. Prior to joi
 I have a BA in Economics from the American University of Beirut and a MA in Applied Economics from Georgetown University. 
 I was also a member of the Lebanese Under-18 national team in [FIBA Asia 2010](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964). 
 
---
+<!-- --
 
 **I am the creator of:**
   * [Help Lebanon Carrd](https://helplebanon.carrd.co): A donations website that saw 2.6 Million visitors in the wake of the 2020 Beirut port explosion.
   * [Coach Win Margins](https://moonlit-rolypoly-329a5d.netlify.app/): An estimate of a coach's on-court impact on a team's winning margin above roster characteristics, measured in talent-adjusted net point differential per game
-  * [Fantalytics](https://fantalytics.app): A subscription service that sends custom analytics for your fantasy team to your inbox [Site Under Maintenance]
+  * [Fantalytics](https://fantalytics.app): A subscription service that sends custom analytics for your fantasy team to your inbox [Site Under Maintenance] -->
 ## Publications
 
   1. R.Al-Amine, T.Willems: [Investor Sentiment, Sovereign Debt Mispricing, and Economic Outcomes](https://doi.org/10.1093/ej/ueac067)); _The Economic Journal_ (10 Septmber 2022)
