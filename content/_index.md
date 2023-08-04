@@ -2,7 +2,7 @@
 
 {{< figure class="avatar" src="/IMG_3827.jpg" alt="avatar">}}
 
-I build AI models at the Dallas Mavericks and Mark Cuban Companies. Prior to joining the Mavs, I worked at the International Monetary Fund, where I developed crisis prediction models for macro risk management and contingency planning.
+I build basketball models at the Dallas Mavericks and Mark Cuban Companies. Prior to joining the Mavs, I worked at the International Monetary Fund, where I developed crisis prediction models for macro risk management and contingency planning.
 
 I have a BA in Economics from the American University of Beirut and a MA in Applied Economics from Georgetown University. 
 I was also a member of the Lebanese Under-18 national team in [FIBA Asia 2010](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964). 
