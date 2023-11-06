@@ -4,12 +4,9 @@ $max-width: {{ .Param "style.pageWidth" | default "750px;" }};
 $avatar-size: {{ .Param "style.avatarSize" | default "90px;" }};
 
 // Colors
-$black: {{ .Param "style.colorBlack" | default "#23282b" }};
-$red: {{ .Param "style.colorRed" | default "#27cf62" }};
-
-// Font
-$font-family: {{ .Param "style.fontFamily" | default "Helvetica Neue" }};
-$font-family-headers: {{ .Param "style.fontFamily" | default "Inconsolata" }};
+$gray: {{ .Param "style.colorGray" | default "#a1a1a1" }};
+$primary-color: {{ .Param "style.colorBlue" | default "#0047ab" }};
+$secondary-color: {{ .Param "style.colorRed" | default "#27cf62" }};
 
 // Margins
 $y-small: 0.6rem;
@@ -17,29 +14,27 @@ $y-medium: 1.0rem;
 
 // Placeholders
 %link-default {
-    color: $black;
-    font-size: 16px;
-    font-weight: 400;
+    color: $primary-color;
     text-decoration: underline;
-    text-decoration-color: $red;
+    text-decoration-color: $primary-color;
     text-underline-offset: 0.2em;
     
     & * {
-        color: $red;
+        color: $secondary-color;
     }
     &:hover {
-        color: $red;
+        color: $secondary-color;
         text-decoration: underline;
     }
 }
 %link-dark {
-    color: $black;
+    color: $primary-color;
     text-decoration: none;
     & * {
-        color: $black;
+        color: $primary-color;
     }
     &:hover {
-        color: $black;
+        color: $secondary-color;
         text-decoration: underline;
     }
 }
@@ -51,12 +46,12 @@ $y-medium: 1.0rem;
 
 // Style
 * {
-    color: $black;
+    color: $primary-color;
     font-family: "Inconsolata";
-    line-height: 1.4;
-    letter-spacing: 0.01rem;
-    font-size: 16px;
-    font-weight: 300;
+    line-height: 1.25;
+    letter-spacing: 0.05rem;
+    font-size: 14px;
+    font-weight: 200;
     text-rendering: optimizeLegibility;
 
 }
@@ -66,9 +61,8 @@ h2 {
     // text-decoration: underline;
     // text-decoration-color: $black;
     // text-underline-offset: 0.2em;
-    font-size: 22px;
-    font-weight: bold;
-    font-color: grey;
+    font-family: "Roboto Slab";
+    font-size: 20px;
     padding-top: 2em;
     padding-bottom: 0em;
     line-height: 1.0em;
@@ -80,7 +74,7 @@ h2 {
 .navbar-brand {
     @extend %link-dark;
     font-size: 20px;
-    font-color: $black;
+    font-color: $primary-color;
     font-family: "Inconsolata";
     text-transform: uppercase;
     font-weight: 300px;
@@ -162,7 +156,7 @@ h2 {
         padding: 8px 8px;
     }
     code {
-        color: $black;
+        color: $primary-color;
         background-color: #eae5e0;
         border: 1px solid #cccccc;
         border-radius: 10%;
