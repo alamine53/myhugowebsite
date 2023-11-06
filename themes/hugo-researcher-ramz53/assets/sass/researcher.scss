@@ -5,8 +5,16 @@ $avatar-size: {{ .Param "style.avatarSize" | default "90px;" }};
 
 // Colors
 $gray: {{ .Param "style.colorGray" | default "#a1a1a1" }};
-$primary-color: {{ .Param "style.colorBlue" | default "#0047ab" }};
+$primary-color: {{ .Param "style.colorBlue" | default "#1c39bb" }};
 $secondary-color: {{ .Param "style.colorRed" | default "#27cf62" }};
+
+// fonts
+$primary-font-family: {{ .Param "style.fontFamily" | default "Inconsolata" }};
+$primary-font-weight: {{ .Param "style.fontWeight" | default "300" }};
+$primary-font-size: {{ .Param "style.fontSize" | default "14px" }};
+$title-font-family: {{ .Param "style.titleFontFamily" | default "Roboto Slab" }};
+$title-font-size: {{ .Param "style.titleFontSize" | default "20px" }};
+$title-font-weight: {{ .Param "style.titleFontWeight" | default "400" }};
 
 // Margins
 $y-small: 0.6rem;
@@ -47,11 +55,11 @@ $y-medium: 1.0rem;
 // Style
 * {
     color: $primary-color;
-    font-family: "Inconsolata";
+    font-family: $primary-font-family;
     line-height: 1.25;
     letter-spacing: 0.05rem;
-    font-size: 14px;
-    font-weight: 200;
+    font-size: $primary-font-size;
+    font-weight: $primary-font-weight;
     text-rendering: optimizeLegibility;
 
 }
@@ -61,8 +69,9 @@ h2 {
     // text-decoration: underline;
     // text-decoration-color: $black;
     // text-underline-offset: 0.2em;
-    font-family: "Roboto Slab";
-    font-size: 20px;
+    font-family: $title-font-family;
+    font-size: $title-font-size;
+    font-weight: $title-font-weight;
     padding-top: 2em;
     padding-bottom: 0em;
     line-height: 1.0em;
