@@ -4,7 +4,7 @@
 
 I am a Machine Learning Engineer at Mark Cuban Companies and the Dallas Mavericks. My work focuses on developing statistics, AI, and machine learning methods for high-dimensional data, with a focus on extracting insights on shooting mechanics from pose estimation in sports. 
 
-Previously, I worked at the International Monetary Fund, developing machine learning models for crisis prediction and macro risk management.
+Prior to joining the Mavs, I worked at the International Monetary Fund, developing machine learning models for crisis prediction and macro risk management.
 
 I have a Master's in Applied Economics from Georgetown University, and a BA in Economics from the American University of Beirut. I am an ex-professional basketball player and a member of Lebanon's Under-18 national team in [FIBA Asia 2010](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964). 
 
