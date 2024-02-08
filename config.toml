@@ -20,6 +20,7 @@ googleAnalytics = "UA-172041562-1"  # add your tracking id
     colorBlack = "#23282b"
     colorURLs = "#FF8243"
     colorRed = "#FF8243"
+    colorBlue = "#1c39bb" 
   [[params.socialIcons]]
     icon = "fab fa-twitter"
     title = "Twitter"
