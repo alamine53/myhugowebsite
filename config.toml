@@ -41,8 +41,8 @@ googleAnalytics = "UA-172041562-1"  # add your tracking id
 
 
   [[menu.main]]
-    name = " Soundcloud"
-    url = "https://soundcloud.com/ramsesmakesbeats"
+    name = " Linkedin"
+    url = "https://www.linkedin.com/in/ralamine/"
     weight = 2
  
   [[menu.main]]
