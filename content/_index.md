@@ -2,7 +2,7 @@
 
 {{< figure class="avatar" src="/IMG_3827.jpg" alt="avatar">}}
 
-I am a Machine Learning Engineer at Mark Cuban Companies. My work focuses on developing statistics, AI, and machine learning methods for high-dimensional data, with a focus on extracting insights from pose estimation in sports. Prior to joining MCC, I helped develop ML models for crisis prediction and macro risk management at the International Monetary Fund.
+I am a Machine Learning Engineer at Mark Cuban Companies. My work focuses on developing statistics, AI, and machine learning methods for high-dimensional data, with a focus on extracting insights from pose estimation in sports. Prior to joining MCC, I helped develop ML models for macro risk management at the International Monetary Fund.
 
 I have a Master's in Applied Economics from Georgetown University, and a BA in Economics from the American University of Beirut. I am an ex-basketball player and member of Lebanon's Under-18 national team in [FIBA Asia 2010](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964). 
 
