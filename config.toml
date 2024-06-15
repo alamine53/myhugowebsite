@@ -1,5 +1,5 @@
 title = "Ramzy Al Amine"
-baseURL = "https://ramzyalamine.com"
+# baseURL = "https://ramzyalamine.com"
 theme = "hugo-researcher-ramz53"
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
