@@ -7,4 +7,3 @@ title = "Articles"
 2. [Expanding Trade Across the Maghreb](https://blogs.imf.org/2019/04/23/expanding-trade-across-the-maghreb/); Magazine Article, *Executive Magazine*, 2014
 
 3. [Quantifying the Contribution of NBA Coaches Using Fixed Effects](https://towardsdatascience.com/quantifying-the-contribution-of-nba-coaches-using-fixed-effects-56f77f22153a); Medium, 2020
-

@@ -9,7 +9,7 @@
         <div class="navbar-nav flex-row flex-wrap justify-content-center">
             {{ $current := . }}
             {{ range .Site.Menus.main }}
-                <a class="nav-item nav-link" href="{{ .URL }}" title="{{ .Name }}">
+                <a class="nav-item nav-link mx-1 my-1" href="{{ .URL }}" title="{{ .Name }}">
                     {{ .Name }}
                 </a>
             {{ end }}

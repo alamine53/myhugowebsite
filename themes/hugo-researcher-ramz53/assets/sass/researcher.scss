@@ -105,7 +105,7 @@ body {
     ol {
         counter-reset: list;
         list-style: none;
-        padding-left: 2rem;
+        padding-left: 0rem;
         & > li {
             display: table-row;
         }
