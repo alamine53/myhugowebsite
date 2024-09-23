@@ -1,0 +1,7 @@
+{{ $section := .Get 0 }}
+<section id="{{ $section }}">
+  <h2>{{ title $section }}</h2>
+  {{ with .Site.GetPage $section }}
+    {{ .Content }}
+  {{ end }}
+</section>

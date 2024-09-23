@@ -1,0 +1,10 @@
+<ul class="blog-list">
+    {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
+    <li>
+        <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+</ul>
+
+<p><a href="/posts">Coming soon... maybe.</a></p>
