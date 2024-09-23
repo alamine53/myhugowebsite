@@ -14,6 +14,17 @@ $font-size: {{ .Param "style.fontSize" | default "12pt" }};
 $y-small: 0.6rem;
 $y-medium: 2rem;
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 // Placeholders
 %link-default {
     color: $red;
@@ -62,6 +73,7 @@ $y-medium: 2rem;
     @extend %link-default;
 }
 #content {
+    flex: 1 0 auto;
     a {
         @extend %link-default;
     }
@@ -156,8 +168,9 @@ $y-medium: 2rem;
         }
     }
 }
+
 #footer {
-    a {
-        @extend %link-dark;
-    }
+    flex-shrink: 0;
+    @extend %link-default;
+
 }

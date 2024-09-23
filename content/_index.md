@@ -1,10 +1,12 @@
-## About
+## 
 
 {{< figure class="avatar" src="/IMG_3827.jpg" alt="avatar">}}
 
-I am a Machine Learning Engineer at Mark Cuban Companies. My work focuses on developing statistics, AI, and machine learning methods for high-dimensional data, with a focus on extracting insights from pose estimation in sports. Prior to joining MCC, I helped develop ML models for macro risk management at the International Monetary Fund.
+I'm an economist by training and a programmer by practice. My main interests are in developing statistics and machine learning methods for high-dimensional data. I have a background as a professional athlete; and am a recreational guitarist and beat maker. 
 
-I have a Master's in Applied Economics from Georgetown University, and a BA in Economics from the American University of Beirut. I am an ex-basketball player and member of Lebanon's Under-18 national team in [FIBA Asia 2010](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964). 
+Professionally, I am an ML Engineer at Mark Cuban Companies. My work has focused on using computer vision to extract insights on shooting biomechanics in basketball, creating educational AI activities for high school students, and developing pricing benchmarks for healthcare services in the United States. Prior to joining MCC, I helped develop ML models for macro risk management at the International Monetary Fund.
+
+I completed my Master's of Arts in Applied Economics from Georgetown University in 2016, and my Bachelor's in Economics from the American University of Beirut in 2013. I was a starter on [Lebanon's Under-18 Men's National Team](https://basketball.asia-basket.com/player/Ramzy-Al-Amine/Lebanon/Lebanese-U18-National-Team/204964) at FIBA Asia in 2010. 
 
 
 
@@ -14,9 +16,10 @@ I have a Master's in Applied Economics from Georgetown University, and a BA in E
   * [Help Lebanon Carrd](https://helplebanon.carrd.co): A donations website that saw 2.6 Million visitors in the wake of the 2020 Beirut port explosion.
   * [Coach Win Margins](https://moonlit-rolypoly-329a5d.netlify.app/): An estimate of a coach's on-court impact on a team's winning margin above roster characteristics, measured in talent-adjusted net point differential per game
   * [Fantalytics](https://fantalytics.app): A subscription service that sends custom analytics for your fantasy team to your inbox [Site Under Maintenance] -->
+
 ## Publications
 
-  1. R.Al-Amine, T.Willems: [Investor Sentiment, Sovereign Debt Mispricing, and Economic Outcomes](https://doi.org/10.1093/ej/ueac067)); _The Economic Journal_ (10 Septmber 2022)
+  1. R.Al-Amine, T.Willems: [Investor Sentiment, Sovereign Debt Mispricing, and Economic Outcomes](https://doi.org/10.1093/ej/ueac067); _The Economic Journal_ (10 Septmber 2022)
 
   2. R.Al-Amine, M.Griffiths, P.De Imus, K.Ismail, R.Tchaidze, G.Ramirez [Macroeconomic Policy Challenges in Conflict and Post-Conflict Countries: Experience and Lessons from the Middle East](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198853091.001.0001/oso-9780198853091-chapter-19), _Book Chapter_
 
@@ -31,7 +34,7 @@ Link: ["HelpLebanon.carrd.co"](https://helplebanon.carrd.co/)  -->
 
 <!-- Full story [here](https://docs.google.com/presentation/d/175wsn-18PNyWML7TmsUDiRTSIEaD7EgCVGfOKM4Kihc/edit?usp=sharing).  -->
 
-## Writing
+## Articles
 
 <!-- 1. [A metric for the degree to which NBA players are playing up to their talent (Part I)](/posts/nba-distance-to-potential); Blog post, 2021 -->
 <!-- 
@@ -44,7 +47,12 @@ Link: ["HelpLebanon.carrd.co"](https://helplebanon.carrd.co/)  -->
 
 3. [Quantifying the Contribution of NBA Coaches Using Fixed Effects](https://towardsdatascience.com/quantifying-the-contribution-of-nba-coaches-using-fixed-effects-56f77f22153a); Medium, 2020
 
+
+
+
+
 <!-- ---
+
 
 ## Awards
 

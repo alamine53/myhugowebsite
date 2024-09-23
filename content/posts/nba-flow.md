@@ -1,5 +1,7 @@
 +++
 title = "Flow over talent"
+date = 2024-09-20
+draft = true
 +++
 
 # "Flow" over talent

@@ -1,5 +1,8 @@
 +++
 title = "A metric for the degree to which players are playing up to their talent (Part I)"
+description = ""
+date = 2024-09-23
+draft = true
 +++
 
 ## A metric for the degree to which players are playing up to their talent
