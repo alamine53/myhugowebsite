@@ -2,7 +2,7 @@
 title = "About"
 +++
 
-I'm an economist by training and a programmer by practice. My main interests are in developing statistics and machine learning methods for high-dimensional data. I have a background as a professional athlete; and am a recreational guitarist and beat maker. 
+I'm an economist by education and a self-taught programmer. I am most interested in human behavior and statistical models that are rooted in real-world applications. Sports happen to be a great playground for that. I have a background as a professional athlete; and am a recreational guitarist and beat maker. 
 
 Professionally, I am an ML Engineer at Mark Cuban Companies. My work has focused on using computer vision to extract insights on shooting biomechanics in basketball, creating educational AI activities for high school students, and developing pricing benchmarks for healthcare services in the United States. Prior to joining MCC, I helped develop ML models for macro risk management at the International Monetary Fund.
 
