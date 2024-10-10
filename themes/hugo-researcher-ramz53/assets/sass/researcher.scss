@@ -68,8 +68,8 @@ body {
 }
 .navbar-brand {
     @extend %link-dark;
-    font-size: 1.5rem;
-    font-weight: 300;
+    // font-size: 1.5rem;
+    font-weight: 400;
 }
 .nav-link {
     @extend %link-default;
