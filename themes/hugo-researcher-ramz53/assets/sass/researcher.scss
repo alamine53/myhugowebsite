@@ -4,7 +4,7 @@ $avatar-size: {{ .Param "style.avatarSize" | default "90px;" }};
 
 // Colors
 $black: {{ .Param "style.colorBlack" | default "#252423" }};
-$red: {{ .Param "style.colorRed" | default "#dc3545" }};
+$red: {{ .Param "style.colorRed" | default "#F8661B" }};
 
 // Font
 $font-family: {{ .Param "style.fontFamily" | default "Inconsolata" }};
@@ -79,6 +79,7 @@ body {
     flex: 1 0 auto;
     a {
         @extend %link-default;
+        font-weight: 400;
     }
     p {
         margin-bottom: $y-small;
