@@ -3,7 +3,7 @@ $max-width: {{ .Param "style.pageWidth" | default "750px;" }};
 $avatar-size: {{ .Param "style.avatarSize" | default "90px;" }};
 
 // Colors
-$black: {{ .Param "style.colorBlack" | default "#222222" }};
+$black: {{ .Param "style.colorBlack" | default "#252423" }};
 $red: {{ .Param "style.colorRed" | default "#dc3545" }};
 
 // Font
@@ -23,6 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #F5F2ED;
 }
 
 // Placeholders
@@ -68,9 +69,11 @@ body {
 .navbar-brand {
     @extend %link-dark;
     font-size: 1.5rem;
+    font-weight: 300;
 }
 .nav-link {
     @extend %link-default;
+    font-weight: 400;
 }
 #content {
     flex: 1 0 auto;
@@ -79,6 +82,7 @@ body {
     }
     p {
         margin-bottom: $y-small;
+        font-weight: 300;
     }
     h1, h2, h3, h4, h5, h6 {
         font-size: medium;
