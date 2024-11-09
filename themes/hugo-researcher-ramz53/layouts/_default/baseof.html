@@ -1,14 +1,9 @@
-<!DOCTYPE html>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@970&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Spectral:wght@300;400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Geist:wght@100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400');
 </style>
+
+<!DOCTYPE html>
 <html lang="{{ .Site.Params.lang }}">
     {{- partial "head.html" . -}}
     {{ if or (.Params.math) (.Site.Params.math) }}
@@ -20,16 +15,9 @@
         {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
+
+        {{ if and (not hugo.IsServer) .Site.Data.consent }}
+        {{- partial "consent.html" . -}}
+        {{ end }}
     </body>
 </html>
-<script>
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-    
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    });
-</script>

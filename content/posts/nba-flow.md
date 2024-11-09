@@ -1,10 +1,13 @@
 +++
 title = "Flow over talent"
 date = 2024-09-20
+tags = ["basketball", "statistics"]
 draft = true
-+++
+weight = 10
 
-# "Flow" over talent
+[params]
+  author = 'Ramzy Al-Amine'
++++
 
 Only a handful a players possess the talent level that is unaffected by the team environment (e.g. LeBron, KD, probably Embiid). The majority of players depend on the opportunity that is provided. 
 

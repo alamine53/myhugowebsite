@@ -3,6 +3,7 @@ title = "A metric for the degree to which players are playing up to their talent
 description = ""
 date = 2024-09-23
 draft = true
+tags = ["sports", "statistics"]
 +++
 
 ## A metric for the degree to which players are playing up to their talent

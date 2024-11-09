@@ -1,7 +1,6 @@
 title = "Ramzy Al-Amine"
 # baseURL = "https://ramzyalamine.com"
 theme = "hugo-researcher-ramz53"
-disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 math = false          # enable KaTeX (https://katex.org/) globally
 googleAnalytics = "UA-172041562-1"  # add your tracking id
@@ -63,3 +62,7 @@ googleAnalytics = "UA-172041562-1"  # add your tracking id
 
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML in markdown files
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'

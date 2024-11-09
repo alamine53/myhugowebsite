@@ -75,6 +75,30 @@ body {
     @extend %link-default;
     font-weight: 400;
 }
+.post-metadata {
+    display: block;
+    margin: 0.1rem;
+    padding: 0.01rem;
+    color: #666666;
+}
+
+.date {
+    font-weight: 200;
+}
+.tags {
+    display: flex;
+    flex-direction: row;
+    gap: 0.04rem;
+}
+.tag {
+    background-color: $red;
+    border-radius: 4px;
+    padding: 0.1rem 0.4rem;
+    color: white !important; /* Added !important to override any inherited styles */
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
 #content {
     flex: 1 0 auto;
     a {
@@ -86,6 +110,7 @@ body {
         font-weight: 300;
     }
     h1, h2, h3, h4, h5, h6 {
+        font-family: 'Geist', sans-serif;
         font-size: medium;
         font-weight: bold;
         margin: $y-medium 0 $y-small 0;
@@ -177,5 +202,9 @@ body {
 #footer {
     flex-shrink: 0;
     @extend %link-default;
-
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }

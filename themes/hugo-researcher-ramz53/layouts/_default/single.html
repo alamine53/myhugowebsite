@@ -1,7 +1,22 @@
 {{ define "main" }}
 <div class="container">
     <h1>{{ .Title }}</h1>
-    <p>{{ .Date.Format "January 2, 2006" }}</p>
+    <div class="post-metadata">
+        <p class="date">{{ .Date.Format "Jan 2, 2006" }} | {{ .WordCount }} words | {{ .ReadingTime }} min read </p>
+        {{ with .GetTerms "tags" }}
+            <div class="tags">
+                    {{ range .}}
+                        <a href="{{ .RelPermalink }}" class="tag">{{ .LinkTitle }}</a>&nbsp; 
+                    {{ end }}
+            </div>
+        {{ end }}
+        {{ partial "socialshare.html" . }}
+    
+    </div>
+
+    <hr>
     {{ .Content }}
+    {{ partial "socialshare.html" . }}
 </div>
+
 {{ end }}

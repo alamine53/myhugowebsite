@@ -2,7 +2,7 @@
     <hr>
     <div class="container text-center">
         {{ range $item := .Site.Params.socialIcons }}
-            <a href="{{ $item.url }}" class="{{ $item.icon }} fa-1x" title="{{ $item.title }}"></a>
+            <a href="{{ $item.url }}" class="{{ $item.icon }} fa-1x" title="{{ $item.title }}"></a> &nbsp;
         {{ end }}
     </div>
     {{ with .Site.Params.footer }}
@@ -10,4 +10,5 @@
             <a href="{{ .url | absURL }}" title="{{ .text }}"><small>{{ .text }}</small></a>
         </div>
     {{ end }}
+    
 </div>
