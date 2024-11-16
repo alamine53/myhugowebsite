@@ -3,8 +3,9 @@ $max-width: {{ .Param "style.pageWidth" | default "750px;" }};
 $avatar-size: {{ .Param "style.avatarSize" | default "90px;" }};
 
 // Colors
-$black: {{ .Param "style.colorBlack" | default "#252423" }};
-$red: {{ .Param "style.colorRed" | default "#F8661B" }};
+$black: #252423;
+$accent-color: #F61519;
+$background-color: #F4f4f4;
 
 // Font
 $font-family: {{ .Param "style.fontFamily" | default "Inconsolata" }};
@@ -23,18 +24,18 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #F5F2ED;
+    background-color: $background-color;
 }
 
 // Placeholders
 %link-default {
-    color: $red;
+    color: $accent-color;
     text-decoration: none;
     & * {
-        color: $red;
+        color: $accent-color;
     }
     &:hover {
-        color: $red;
+        color: $accent-color;
         text-decoration: underline;
     }
 }
@@ -68,13 +69,16 @@ body {
 }
 .navbar-brand {
     @extend %link-dark;
-    font-weight: 300;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
     // font-family: 'Geist', sans-serif;
-    padding-bottom: 0.55rem;
-    color: #999999;
+    padding-bottom: 0.4rem;
+    color: $accent-color;
 }
 .nav-link {
     @extend %link-default;
+    color: #444444;
     font-weight: 400;
     font-family: 'Geist', sans-serif;
 }
@@ -94,7 +98,7 @@ body {
     gap: 0.04rem;
 }
 .tag {
-    background-color: $red;
+    background-color: $accent-color;
     border-radius: 4px;
     padding: 0.1rem 0.4rem;
     color: white !important; /* Added !important to override any inherited styles */
@@ -113,9 +117,10 @@ body {
         font-weight: 300;
     }
     h1, h2, h3, h4, h5, h6 {
-        font-family: 'Geist', sans-serif;
+        font-family: 'Geist', sans-serif;        
         font-size: medium;
         font-weight: bold;
+        color: #444444;
         margin: $y-medium 0 $y-small 0;
     }
     @for $i from 1 through 4 {
@@ -127,6 +132,14 @@ body {
         display: block;
         margin: $y-medium auto;
         max-width: 100%;
+    }
+    img + em {
+        display: block;
+        text-align: left;
+        font-size: 0.8rem;
+        color: #666;
+        margin-top: -1.8rem;
+        margin-bottom: 1.8rem;
     }
     .avatar > img {
         border-radius: 50%;

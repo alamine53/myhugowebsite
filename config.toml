@@ -15,11 +15,8 @@ googleAnalytics = "UA-172041562-1"  # add your tracking id
     url = "https://github.com/alamine53"
   [params.style]  # appearance options (can be omitted)
     pageWidth = "600px"
-    avatarSize = "140px"
-    colorBlack = "#23282b"
-    colorURLs = "#FF8243"
-    colorRed = "#FF8243"
-    colorBlue = "#1c39bb" 
+    avatarSize = "120px"
+    colorRed = ""
   [[params.socialIcons]]
     icon = "fab fa-twitter"
     title = "Twitter"
