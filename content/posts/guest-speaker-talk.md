@@ -1,5 +1,5 @@
 +++
-title = "Combine your passion with AI"
+title = "Guest Speaker Talk: Combine your passion with AI"
 date = 2024-11-02
 tags = ["basketball", "AI"]
 categories = ["Talk"]
@@ -11,9 +11,9 @@ description = "Talk to high school students about AI"
   author = 'Ramzy Al-Amine'
 +++
 
-The following is a talk I gave to high school students at the Mark Cuban Foundation AI bootcamp. It has been edited to fit into a blog form. You can watch the zoom [here](https://youtu.be/llUF-HQcioM?si=ABPS_iYe7dfuSQ0l). 
+The following is a talk I gave to high school students at the Mark Cuban Foundation AI bootcamp. It has been lightly edited to fit into a blog post. You can watch the live zoom presentation [here](https://youtu.be/llUF-HQcioM?si=ABPS_iYe7dfuSQ0l). 
 
-The goal of the talk is to convince students that even non-computer-science majors can learn AI, and that the most effective way to do so is by combining it with a hobby or area they are passionate about. The first section takes the audience on a personal journey and the second discusses key takeaways they can implement. 
+The goal of the talk is to convince students that even non-computer-science majors can learn AI, and that the most effective way to launch a career in AI is by combining it with a hobby or area they are passionate about. 
 
 ## Part A: The backstory 
 
@@ -22,7 +22,7 @@ Growing up, all I wanted to be was a basketball player. My dream was to play in 
 ![](/me-my-brother-and-ai.png)
 *My go-to move has always been AI's crossover dribble*
 
-With time I got better and better, and eventually got recruited on the Lebanese Under-18 National Team. My favorite memory is scoring 14 points against China in the quarter finals. It was a huge achievement given the stakes, even though we lost the game by 31 points. 
+With time I got better and better, and eventually got recruited on the Lebanese Under-18 National Team. My favorite memory is scoring [14 points against China](https://www.eurobasket.com/boxScores/Asian%20Championships%20U18/2010/0929_CHN_LEB.aspx) in the quarter finals. It was a huge achievement given the stakes, even though we lost that game by 31 points. 
 
 ![](/lebanon-u18-nt.png)
 *Team Lebanon at FIBA Asia U18 in 2010*
@@ -36,17 +36,17 @@ One day I woke up feeling like maybe a basketball career just wasn't in the book
 
 ![](/nba-rain.png)
 
-It was a fresh start. Economics felt open for multiple career paths, and technical enough to acquire real skills. I learned about data and statistics, and how to write basic computer programs. But basketball didn't go away, and I became interested in applying my research skills onto sports. 
+Economics was a fresh start. It felt open for multiple career paths and technical enough to acquire real skills. I learned about data and statistics, and how to write basic computer programs. But basketball didn't go away, and I became interested in applying research skills onto sports. 
 
 ![](/georgetown-campus.png)
 *Georgetown University campus in Washington DC*
 
-The movie Moneyball had just come out. It told the story of a young economics grad who helped the Oakland A's achieve great success despite being on a tight budget. Peter's innovative use of statistics, which went against the team's traditional scouting methods, helped them identify hidden talent and use it strategically. I was inspired to do something similar for basketball. 
+The movie 'Moneyball', which had just come out, told the story of a young economics grad who helped the Oakland A's achieve great success despite being on a tight budget. Peter's innovative use of statistics, which went against the team's traditional scouting methods, helped them identify hidden talent and use it strategically. I was inspired to do something similar for basketball. 
 
 ![](/moneyball.jpeg)
 *Peter Brand unleashing his statistical prowess on a much intrigued Oakland A's GM Billy Beane*
 
-NBA teams had already started using data to inform strategy. One of the ways is through shot charts, which display the most frequent and accurate shot locations. By tracking shot coordinates, teams can put their players in a position to success and limit the opposition from getting to their spots. On the left, we can see that the vast majority of Luka Doncic's attempts come from around the basket or straight away threes. Although he likes the left side of the court (yellow), he is more accurate from the right at 43% (in red). Conversely, Derrick Jones Jr. lives in the corners, where he isn't particularly dangerous from. 
+NBA teams had already started using data to inform strategy. One of the ways is through shot charts, which display the most frequent and accurate shot locations. In this example, we see that Luka Doncic attempts most of his shots from around the basket or straight away three. He is more accurate from the right side of the court at 43% although most of his threes come from the left (in yellow). Derrick Jones Jr, on the other hand, tends to only shoot from the corners. By tracking shot coordinates, teams can put their players in a position to success and limit the opposition from getting to their spots. 
 
 ![](/shot-charts.png)
 *Shot charts remain one of the main ways NBA teams make use of location data*
@@ -56,12 +56,12 @@ Advancements in AI have unlocked new possibilities. In addition to tracking the 
 ![](/ai-basketball-game.png)
 *With AI we can now track mody movements*
 
-I was personally most intrigued in the ability to provide insight into shooting mechanics. I'd considered myself a good shooter and had developed principles on proper shooting technique. Teams could help players find their optimal shooting form, for example, by comparing their mechanics across makes and misses. What if we could break down what makes great shooters, and teach that to aspiring athletes. What if we could identify discrepancies between game and practice, and improve players’ shooting percentages in games. So, I started researching this project more deeply. 
+I was most intrigued in providing insight into shooting mechanics. I'd considered myself a good shooter and had developed principles on proper shooting technique. Teams could help players find their optimal shooting form, for example, by comparing their mechanics across makes and misses. What if we could break down what makes great shooters, and teach that to aspiring athletes. What if we could identify discrepancies between game and practice, and improve players’ shooting percentages in games. So, I started researching this project more deeply. 
 
 ![](/ai-shooting-mechanics.png)
 *I am most interested in shooting mechanics*
 
-Here’s a quick overview of what goes into a project like this. This will be slightly technical so bear with me. If some of these concepts are new to you, don’t worry. You will likely become familiar with them by the end of the bootcamp. The result of us being able to do this is … 
+Turning a video into quantifiable data isn't easy. The main concepts are object detection, pose detection, and action regonition. These modules serve to put a square around the ball, detect the people and identify the shooter, and guess the action being undertaken at every frame in the sequence. 
 
 ![](/project-steps.png)
 *Analyzing shooting mechanics involves object detection, pose estimation, and action recognition*
@@ -70,9 +70,15 @@ The idea is that we can start to measure shooting mechanics. Start to see how th
 
 ![](/ai-shooting-stages.png 'I dreamt of becoming the next Allen Iverson')
 
+What started off as a research project eventually led to being hired by Mark Cuban. We connected over email and eventually, once I felt confident enough, I asked for a job. 
+
+
 ![](/mark-cuban.png)
 
-## Part B: How does this apply to you? 
+## Part B: How does this apply to you?
+
+The reason I'm telling you this story is that if I can have a career in AI, you can do it too. 
+
 
 ### 1. Combine two skill sets
 
