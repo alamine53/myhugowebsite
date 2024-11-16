@@ -70,15 +70,18 @@ The goal from measuring key metrics across segments is to investigate correlatio
 
 ![](/ai-shooting-stages.png 'I dreamt of becoming the next Allen Iverson')
 
-So I reached out to Mark Cuban hoping explore this project with the Mavs. He was interested in the idea, and quickly put me in touch with some of his people. One of them is Brian who taught me so much about AI, software engineering, and physics. Once we'd made enough progress, I simply asked for a job. And here I am today sharing this story with you. 
+So I reached out to Mark Cuban hoping explore this project with the Mavs. He was interested in the idea and put me in touch with some of his people. One of them is Brian who taught me so much about AI, software engineering, and physics. Once we'd made enough progress, I simply asked Mark for a job. And here I am sharing this story with you, because if I can have a career in AI, you can do it too.
 
 
 ![](/mark-cuban.png)
 
 ## Part B: How does this apply to you?
 
-The reason I'm telling you this story is that if I can have a career in AI, you can do it too. 
+I've come up with four steps that were instrumental in my journey and that you could easily apply to yourself. 
 
+But before we go on, I want you to know that AI isn't rocket science. And every industry is ripe for disruption, not just sports. You can be part of the movement no matter your chosen path. If you’re passionate about healthcare, you can work on early disease detection, personalized treatment plans, or drug discovery acceleration. If you’re passionate about climate science, you can be working on extreme event forecasting, renewable energy systems, or using satellite imagery to track deforestation. Or maybe you are passionate about education, transportation, manufacturing, and creative work like art, music, and writing. Regardless of your career path, knowledge of AI will be extremely valuable. 
+
+![](/not-rocket-science.png)
 
 ### 1. Combine two skill sets
 
