@@ -22,12 +22,12 @@ Growing up, all I wanted to be was a basketball player. My dream was to play in 
 ![](/me-my-brother-and-ai.png)
 *My go-to move has always been AI's crossover dribble*
 
-With time I got better and better, and eventually got recruited on the Lebanese Under-18 National Team. My favorite memory is scoring [14 points against China](https://www.eurobasket.com/boxScores/Asian%20Championships%20U18/2010/0929_CHN_LEB.aspx) in the quarter finals. It was a huge achievement given the stakes, even though we lost that game by 31 points. 
+With time I got better and better, and eventually got recruited on the Lebanese Under-18 National Team. My favorite memory is scoring [14 points against China](https://www.eurobasket.com/boxScores/Asian%20Championships%20U18/2010/0929_CHN_LEB.aspx) in the quarter finals. It was a huge accomplishment given the stakes, even though we lost that game by 31 points. 
 
 ![](/lebanon-u18-nt.png)
 *Team Lebanon at FIBA Asia U18 in 2010*
 
-I was never one of the tallest or the fastest on the court, if that isn't obvious from the picture, but I could drain a lot of threes. 
+I was never one of the tallest or the fastest on the court, if that isn't obvious from the picture, so I focused on becoming a great outside shooter. I discovered that the lower body is just as important for shooting than the upper body, and that the secret is efficient and repetitive movements. 
 
 ![](/lebanon-nt-vs-korea.png)
 *Slicing up the Korean defense*
@@ -41,36 +41,36 @@ Economics was a fresh start. It felt open for multiple career paths and technica
 ![](/georgetown-campus.png)
 *Georgetown University campus in Washington DC*
 
-The movie 'Moneyball', which had just come out, told the story of a young economics grad who helped the Oakland A's achieve great success despite being on a tight budget. Peter's innovative use of statistics, which went against the team's traditional scouting methods, helped them identify hidden talent and use it strategically. I was inspired to do something similar for basketball. 
+The movie 'Moneyball' had just come out. It told the story of a graduate student in economics who helped a baseball team uncover hidden talent using data. The student's innovative use of statistics, which went against the team's traditional scouting methods, led to tremendous success with tight budgets. I was inspired to do something similar for basketball. 
 
 ![](/moneyball.jpeg)
 *Peter Brand unleashing his statistical prowess on a much intrigued Oakland A's GM Billy Beane*
 
-NBA teams had already started using data to inform strategy. One of the ways is through shot charts, which display the most frequent and accurate shot locations. In this example, we see that Luka Doncic attempts most of his shots from around the basket or straight away three. He is more accurate from the right side of the court at 43% although most of his threes come from the left (in yellow). Derrick Jones Jr, on the other hand, tends to only shoot from the corners. By tracking shot coordinates, teams can put their players in a position to success and limit the opposition from getting to their spots. 
+Analytics had also started making its way into basketball. Shot charts show where players like to shoot from and how successful they are from each location. In this example, Luka Doncic attempts most of his shots from around the basket or straight away three. He is more accurate from the right side of the court at 43% although most of his threes come from the left (in yellow). Derrick Jones Jr, on the other hand, tends to only shoot from the corners. By tracking shot coordinates, teams can put their players in a position to success and limit the opposition from getting to their spots. 
 
 ![](/shot-charts.png)
 *Shot charts remain one of the main ways NBA teams make use of location data*
 
-Advancements in AI have unlocked new possibilities. In addition to tracking the X and Y, we could now also track the Z axis by tracking the movement patterns for every joint in the body. This could open up tremendous applications for player evaluation, for instance in assessing ability to dribble with the off-hand. By assessing movement efficiency, teams could now preserve athletes for longer by reducing unnecessary actions. Finally, AI could help teams gain an edge in technique development and injury prevention. for example addressing weaknesses in shooting or running form, and catching injuries before they happen. 
+Advancements in AI have unlocked more interesting possibilities. In addition to tracking location, we could now track the movement patterns of every joint in the body. This could have  tremendous applications for player evaluation, for instance in assessing ability to dribble with the off-hand. Teams could preserve athletes for longer by reducing unnecessary actions. They could also gain an edge in technique development and injury prevention, for example by detecting awkward motions. 
 
 ![](/ai-basketball-game.png)
 *With AI we can now track mody movements*
 
-I was most intrigued in providing insight into shooting mechanics. I'd considered myself a good shooter and had developed principles on proper shooting technique. Teams could help players find their optimal shooting form, for example, by comparing their mechanics across makes and misses. What if we could break down what makes great shooters, and teach that to aspiring athletes. What if we could identify discrepancies between game and practice, and improve players’ shooting percentages in games. So, I started researching this project more deeply. 
+Shooting mechanics became very relevant as teams began attempting a lot more threes over time. With if AI Team could help players find their optimal shooting form? For instance, teams could compare makes and misses to indentify a player's winning tendencies. Perhaps they could identify discrepencies across games and practice to nudge players toward better outcomes on the big stage. And what if we could systematically break down what makes great shooters, so we can teach it to aspiring athletes. 
 
 ![](/ai-shooting-mechanics.png)
 *I am most interested in shooting mechanics*
 
-Turning a video into quantifiable data isn't easy. The main concepts are object detection, pose detection, and action regonition. These modules serve to put a square around the ball, detect the people and identify the shooter, and guess the action being undertaken at every frame in the sequence. 
+I started researching this project more deeply and found that the main concepts to use are object detection, pose detection, and action regonition. Ultimately, the goal would be track the ball from frame to frame, identify the shooter's movements, and decompose the shot into segments in order to analyze it. 
 
 ![](/project-steps.png)
 *Analyzing shooting mechanics involves object detection, pose estimation, and action recognition*
 
-The idea is that we can start to measure shooting mechanics. Start to see how these measurements correlate with success. Also speed!So we can nudge players towards their optimal form. 
+The goal from measuring key metrics across segments is to investigate correlations with shot success. What matters for one player could be totally different for another. For instance, some players like to start from a wider stance, others may want to squat deeper, be quicker in their setup, or adopt a higher release point. It depends on the player's morphology and physical attributes. I needed access to a lot more video data. 
 
 ![](/ai-shooting-stages.png 'I dreamt of becoming the next Allen Iverson')
 
-What started off as a research project eventually led to being hired by Mark Cuban. We connected over email and eventually, once I felt confident enough, I asked for a job. 
+So I reached out to Mark Cuban hoping explore this project with the Mavs. He was interested in the idea, and quickly put me in touch with some of his people. One of them is Brian who taught me so much about AI, software engineering, and physics. Once we'd made enough progress, I simply asked for a job. And here I am today sharing this story with you. 
 
 
 ![](/mark-cuban.png)
