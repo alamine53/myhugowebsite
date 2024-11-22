@@ -69,17 +69,17 @@ body {
 }
 .navbar-brand {
     @extend %link-dark;
-    font-weight: 400;
+    font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.3em;
     // font-family: 'Geist', sans-serif;
-    padding-bottom: 0.4rem;
-    color: $accent-color;
+    padding-bottom: 0.5rem;
+    color: $black;
 }
 .nav-link {
-    @extend %link-default;
-    color: #444444;
-    font-weight: 400;
+    @extend %link-dark;
+    color: $black;
+    font-weight: 300;
     font-family: 'Geist', sans-serif;
 }
 .post-metadata {

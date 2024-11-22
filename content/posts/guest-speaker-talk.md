@@ -66,7 +66,7 @@ I started researching this project more deeply and found that the main concepts 
 ![](/project-steps.png)
 *Analyzing shooting mechanics involves object detection, pose estimation, and action recognition*
 
-The goal from measuring key metrics across segments is to investigate correlations with shot success. What matters for one player could be totally different for another. For instance, some players like to start from a wider stance, others may want to squat deeper, be quicker in their setup, or adopt a higher release point. It depends on the player's morphology and physical attributes. I needed access to a lot more video data. 
+The goal from measuring key metrics across segments is to see what correlates with shot success. What matters for one player could be totally different for another. For instance, some players like to start from a wider stance, others may want to squat deeper, be quicker in their setup, or adopt a higher release point. It depends on the player's morphology and physical attributes. I needed access to a lot more video data. 
 
 ![](/ai-shooting-stages.png 'I dreamt of becoming the next Allen Iverson')
 
