@@ -17,7 +17,7 @@ The goal of the talk is to convince students that even non-computer-science majo
 
 ## Part A: The backstory 
 
-Growing up, all I wanted to be was a basketball player. My dream was to play in the NBA. It was a completely unreasonable dream, given that only one Lebanese-born player had ever made the NBA before. But I was convinced that with enough hard work, I could become the next Allen Iverson.
+Growing up, all I wanted to be was a basketball player. My dream was to play in the NBA. It wasn't just a childhood dream, it was destiny. I saw no other outcome thanIt was a completely unreasonable dream, given that only one Lebanese-born player had ever made the NBA before. But I was convinced that with enough hard work, I could become the next Allen Iverson.
 
 ![](/me-my-brother-and-ai.png)
 *My go-to move has always been AI's crossover dribble*
