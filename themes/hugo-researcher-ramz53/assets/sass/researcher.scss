@@ -75,7 +75,7 @@ body {
     @extend %link-dark;
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
     // font-family: 'Geist', sans-serif;
     padding-bottom: 0.5rem;
     color: $black;
@@ -84,6 +84,7 @@ body {
     @extend %link-dark;
     color: $black;
     font-weight: 300;
+    font-size: medium;
     font-family: 'Geist', sans-serif;
 }
 .post-metadata {
@@ -122,14 +123,14 @@ body {
     }
     h1, h2, h3, h4, h5, h6 {
         font-family: 'Geist', sans-serif;        
-        font-size: medium;
+        font-size: small;
         font-weight: bold;
-        color: #444444;
+        color: $black;
         margin: $y-medium 0 $y-small 0;
     }
     @for $i from 1 through 4 {
         h#{$i} {
-            font-size: 1rem + 0.2 * (4 - $i);
+            font-size: 1rem + 0.1 * (4 - $i);
         }
     }
     img {
